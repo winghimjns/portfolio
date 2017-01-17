@@ -1,0 +1,251 @@
+// 
+// @Created 2016-12-29
+// @Author  Wing Him Liu
+// 
+
+// ================================================================================
+//    FONTS
+// ================================================================================
+
+.montserrat {
+	font-family: Montserrat, Arial, Calibri;
+}
+
+.slabo {
+	font-family: 'Raleway', 'Slabo 27px', 'Sans Serif', Arial, Calibri;
+}
+
+// ================================================================================
+//    COLORS
+// ================================================================================
+
+.color-1 { color: $color-1; }
+.color-2 { color: $color-2; }
+.color-3 { color: $color-3; }
+.color-4 { color: $color-4; }
+.color-5 { color: $color-5; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	@extend .montserrat;
+	font-weight: 700; /** bold **/
+	padding: .67em 0;
+	margin: 0;
+}
+
+p {
+	@extend .slabo;
+}
+
+big {
+	font-size: 1.3em;
+}
+
+
+.mt0 {
+	margin-top: 0;
+}
+.pt0 {
+	padding-top: 0;
+}
+
+ul.list-disc {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+
+
+a.link-unstyled,
+a.link-unstyled:link,
+a.link-unstyled:hover {
+	color: inherit;
+	text-decoration: inherit;
+	font-family: inherit;
+}
+
+.fill-height {
+	height: 100%;
+}
+
+.float-square {
+	position: absolute;
+	background-color: rgba(40,40,40,.4); /* default value */
+	
+	/** transition **/
+	-webkit-transition: top 2s, left 2s, bottom 2s, right 2s, width 2s, height 2s;
+	   -moz-transition: top 2s, left 2s, bottom 2s, right 2s, width 2s, height 2s;
+	     -o-transition: top 2s, left 2s, bottom 2s, right 2s, width 2s, height 2s;
+	        transition: top 2s, left 2s, bottom 2s, right 2s, width 2s, height 2s;
+}
+
+.preload {
+	display: none !important;
+}
+
+.block-16-9-wrap {
+	background-color: #000000; // absolutely black
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.block-16-9-wrap:after {
+	display: block;
+	padding-top: 56.25%; // 9 / 16 in percentage expression
+	content: '';
+}
+
+.block-16-9 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.middle-wrap {
+	display: table;
+	width: 100%;
+	height: 100%;
+
+	.middle {
+		display: table-cell;
+		width: 100%;
+		height: 100%;
+		vertical-align: middle;
+	}
+
+}
+.cd-section {
+	position: relative;
+}
+
+/** for the anchor .cd-scroll-down, leave an empty space for it **/
+.cd-scroll-down-clear:after {
+	content: '';
+	display: block;
+	height: 84px;
+}
+
+/** for bootstrap's grid system **/
+.no-gutter {
+	
+	margin-left: 0;
+	margin-right: 0;
+	
+	> [class^="col-"] {
+		padding-left:0;
+		padding-right:0;
+	}
+}
+
+.no-overflow {
+	overflow: hidden;
+}
+
+
+.pre-like {
+	display: block;
+	unicode-bidi: embed;
+	font-family: monospace;
+	white-space: pre;
+}
+
+.default-cursor {
+	cursor: default;
+}
+.pointer-cursor {
+	cursor: pointer;
+}
+
+// ================================================================================
+//    FUNCTIONS
+// ================================================================================
+@mixin transition($value) {
+	-webkit-transition: $value;
+	   -moz-transition: $value;
+	     -o-transition: $value;
+	        transition: $value;
+}
+
+@mixin transform($value) {
+	-webkit-transform: $value;
+	   -moz-transform: $value;
+	     -o-transform: $value;
+	        transform: $value;
+}
+
+// ================================================================================
+//    BACKGROUND
+// ================================================================================
+
+#interactive-background-1 {
+
+	position: fixed;
+	top: -66%;
+	left: -66%;
+	width: 200%;
+	height: 200%;
+	
+}
+
+#interactive-background-2 {
+
+	position: absolute;
+	top: -66%;
+	left: -66%;
+	width: 200%;
+	height: 200%;
+	
+}
+	
+//#interactive-background-1,
+//#interactive-background-2 {
+//	
+//	.background-image {
+//		
+//		top: 0;
+//		left: 0;
+//		width: 100%;
+//		height: 100%;
+//		
+//		position: absolute;
+//		top: -66%;
+//		left: -66%;
+//		width: 200%;
+//		height: 200%;
+//		
+//		background-image: url(../img/background-pattern-2.png);
+//		background-repeat: repeat;
+//		background-position: 50% 50%;
+//		
+//		opacity: .5;
+//		
+//		/** transition **/
+//		transition: transform .2s;
+//		
+//		&#interactive-background-1 { background-size: 9%; }
+//		
+//	}
+//	
+//}
+
+#particles-js {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+// ================================================================================
+//    SPECIAL FOR EXCLUDE MOBILE
+// ================================================================================
+
+@media (min-width: 768px) {
+	.sm-text-right {
+		text-align: right;
+	}
+}
+

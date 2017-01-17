@@ -1,0 +1,46 @@
+{
+	"date": "2017-01-07",
+	"language": "en",
+	"texts": {
+		
+		"home_title": "Home",
+		
+		"about_title": "About",
+		"about_paragraph_1": "Liu Wing Him. Web developer. Originally come from Hong Kong and live in England since 2015. Have a strong passion and vision to build my job career live in Information Technology industry. ",
+		"about_paragraph_2": "After I have graduated, I joined a software house in Hong Kong for three months which provides business software and web hosting services. I was employed as a programmer which my daily job is to maintained and built the software.",
+		"about_paragraph_3": "After that I have been UK for my new life but still hoping put my self in to IT industry especially coding / developing role.",
+		
+		"techniques_title": "Technqiues",
+		"techniques_paragraph_1": "As a web developer, I focus on HTML5 developing and PHP for server-side scripting. Basically, I use PHP, HTML, CSS and JavaScript for my projects. Please check out more details below.",
+		"techniques_paragraph_2": "Except the techniques' basic, I learnt some of extensions like jQuery. For more information. Please click on the names of the techniques below.",
+		
+		"techniques_php_title": "PHP",
+		"techniques_php_paragraph_1": "I learnt PHP for years and most of the syntax and coding style are inspired by my Java technique, which is the first programming language I can use pretty well.",
+		"techniques_php_paragraph_2": "I just learnt the basic PHP techniques from schools and I have been spending time to keep improve my PHP techniques.",
+		"techniques_php_paragraph_3": "Through some of the online opensource project I interested in, I learnt Object-oriented techniques, namespace, PDO and most of the modern techniques in PHP.",
+		
+		"techniques_html_title": "HTML",
+		"techniques_html_paragraph_1": "In HTML5, we should use CSS for styling instead of the attributes in the tags (although sometimes they are necessary in e-mail styling). As most of the codings from the websites aren't use HTML 4.x standard, I will always use HTML5 standard for web developing. I just need to make sure the website is compatible with older browser, otherwise I need to keep fixing the problem about that.",
+		"techniques_html_paragraph_2": "For more information about my web developing techniques, please check the page CSS and JavaScript.",
+		
+		"techniques_css_title": "CSS",
+		"techniques_css_paragraph_1": "As CSS is one of the most important techniques in HTML5, it's necessary to be able to build a complicated website with it, both from scratch or with any popular frameworks.",
+		"techniques_css_paragraph_2": "When I was just graduated, I just learnt some of basic syntax and I didn't even know how to use the \"position\" attribute. ",
+		"techniques_css_paragraph_3": "To be inspired by the others is the most important thing for a passionate programmer. I am very lucky to have some people to inspire me, so I can use different Front-end techniques now.",
+		"techniques_css_paragraph_4": "\"as light as I may\" was my principle to build a website. So I didn't use any libraries, no jQuery, no Bootstrap. But finally I think it was stupid after several website was built becasue those website can't be highly responsive and it's easy to cause some bugs in it.",
+		"techniques_css_paragraph_5": "But those failures are still experiences, so I may use differnt CSS libraries now such as the listed: ",
+		
+		"techniques_js_title": "JS",
+		"techniques_js_title_full": "JavaScript",
+		"techniques_js_paragraph_1": "Except CSS, sometimes we need JavaScript as well for our web developing. I learnt all the JavaScript techniques by myself but it was not too hard because I have very good Java technqiue as well.",
+		"techniques_js_paragraph_2": "Web developer nowadays should learn different library as well besides HTML DOM, and should use smartly with CSS and HTML id / class attributes.",
+		"techniques_js_paragraph_3": "Moreover, for front-end developing, there are many different kind of libraries produce some awesome graphical effects. So \"be quick to get started\" when we use a JavaScript tools is necessary too.",
+		
+		"interested_title": "Interested Topics",
+		"interested_cryptography_title": "Cryptography",
+		"interested_cryptography_paragraph_1": "This is cryptography.",
+		
+		"contact_title": "Contact"
+		
+	}
+}

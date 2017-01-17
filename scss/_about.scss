@@ -1,0 +1,49 @@
+// 
+// @Created 2016-12-29
+// @Author  Wing Him Liu
+// 
+
+#about {
+	
+	position: relative;
+	background-color: transparent;
+	
+	h1.about-title {
+		font-size: 3em;
+	}
+	
+	.content-wrapper {
+		height: 100%;
+		width: 100%;
+	}
+	
+	#programmer-svg-wrap {
+		position: absolute;
+		right: 0;
+		bottom: 100%;
+		width: 100%;
+		background-image: url(../img/programmer.svg);
+		
+		&:hover {
+			background-image: url(../img/programmer_stop.svg);
+			
+			#exclamation_mark-svg {
+				visibility: visible;
+			}
+		}
+	}
+	
+	#programmer-svg {
+		width: 100%;
+		visibility: hidden;
+	}
+	
+	#exclamation_mark-svg {
+		position: absolute;
+		width: 20%;
+		left: 14%;
+		bottom: 102%;
+		visibility: hidden;
+	}
+	
+}

@@ -1,0 +1,45 @@
+// 
+// @Created 2016-12-29
+// @Author  Wing Him Liu
+// 
+
+#interested {
+	
+	z-index: 1;
+	background-color: transparent;
+	
+	.topic-image {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		
+		background-position: 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+		word-wrap: break-word;
+		overflow: hidden;
+		
+		&:after {
+			position: abstract;
+			display: block;
+			padding-top: 100%; // so will be a square
+			content: '';
+		}
+		
+		#interested-cryptography {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #333833;
+			color: white;
+		}
+		
+	}
+	
+	
+	
+	
+}
