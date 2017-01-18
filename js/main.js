@@ -18,44 +18,56 @@ $(document).ready(function() {
 	
 	$("#techniques .techniques-block").click(function() {
 		
-		// get the details
-		var detailsHTML = $(this).parent().parent().find(".techniques-details").html();
+		if($(this).hasClass("active")) {
+			
+			// close display area
+			closeDisplayArea();
+			
+		}else {
+			
+			// remove all the active class
+			$("#techniques .techniques-block").removeClass("active");
+			
+			// add the active class
+			$(this).addClass("active");
+			
+			// get the details
+			var detailsHTML = $(this).parent().parent().find(".techniques-details").html();
+			
+			// 1. slide up the details display area
+			// 2. paste the details html into the displaying area
+			// 3. slide down the details display area
+			
+			var xlDisplayArea = $(".techniques-display-area-xl");
+			var smDisplayArea = $(this).parent().parent().parent().find(".techniques-display-area-sm");
+			var xsDisplayArea = $(this).parent().parent().find(".techniques-display-area-xs");
+			
+			// 1
+			$(".techniques-display-area-xl").slideUp(400, function() {
+				xlDisplayArea.html(detailsHTML).slideDown();
+			});
+			
+			// 2
+			$(".techniques-display-area-sm").slideUp(400, function() {
+				if(smDisplayArea.index(this) !== -1) {
+					smDisplayArea.html(detailsHTML).slideDown();
+				}
+			});
+			
+			// 3
+			$(".techniques-display-area-xs").slideUp(400, function() {
+				if(xsDisplayArea.index(this) !== -1) {
+					xsDisplayArea.slideDown().scroll();
+				}
+			});
 		
-		// 1. slide up the details display area
-		// 2. paste the details html into the displaying area
-		// 3. slide down the details display area
-		
-		var xlDisplayArea = $(".techniques-display-area-xl");
-		var smDisplayArea = $(this).parent().parent().parent().find(".techniques-display-area-sm");
-		var xsDisplayArea = $(this).parent().parent().find(".techniques-display-area-xs");
-		
-		// 1
-		$(".techniques-display-area-xl").slideUp(400, function() {
-			xlDisplayArea.html(detailsHTML).slideDown();
-		});
-		
-		// 2
-		$(".techniques-display-area-sm").slideUp(400, function() {
-			if(smDisplayArea.index(this) !== -1) {
-				smDisplayArea.html(detailsHTML).slideDown();
-			}
-		});
-		
-		// 4
-		$(".techniques-display-area-xs").slideUp(400, function() {
-			if(xsDisplayArea.index(this) !== -1) {
-				xsDisplayArea.slideDown().scroll();
-			}
-		});
+		} // end if
 		
 	});
 	
-	$("#techniques .techniques-display-area").on("click", ".techniques-display-area-close", function() {
-		
-		// slide up the details display area
-		$(".techniques-display-area").slideUp();
-		
-	});
+	$("#techniques .techniques-display-area").on("click", ".techniques-display-area-close", closeDisplayArea);
+	
+	
 	
 	
 	// load text
@@ -99,3 +111,11 @@ var injectText = function(texts) {
 	
 }; // end injectText(var)
 
+var closeDisplayArea = function() {
+	
+	// slide up the details display area
+	$(".techniques-display-area").slideUp();
+	
+	// remove all the active class
+	$("#techniques .techniques-block").removeClass("active");
+}; // end closeDisplayArea()

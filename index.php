@@ -408,11 +408,45 @@ function text($name) {
 							<div class="visible-xs">
 								<div class="techniques-details techniques-display-area-xs techniques-display-area">
 									<div class="techniques-display-area-js">
-										<div class="container">techniques_js_paragraph_1
+										<div class="container">
 											<h1 wg-text="techniques_js_title_full"><?php text("techniques_js_title_full"); ?></h1>
-											<p wg-text="techniques_js_paragraph_1"><?php text("techniques_js_paragraph_1"); ?></p>
-											<p wg-text="techniques_js_paragraph_2"><?php text("techniques_js_paragraph_2"); ?></p>
-											<p wg-text="techniques_js_paragraph_3"><?php text("techniques_js_paragraph_3"); ?></p>
+											<div class="row">
+												<div class="col-md-6">
+													<p wg-text="techniques_js_paragraph_1" class="text-justify"><?php text("techniques_js_paragraph_1"); ?></p>
+													<p wg-text="techniques_js_paragraph_2" class="text-justify"><?php text("techniques_js_paragraph_2"); ?></p>
+													<p wg-text="techniques_js_paragraph_3" class="text-justify"><?php text("techniques_js_paragraph_3"); ?></p>
+												</div>
+												<div class="col-md-6">
+													<div class="row">
+														<div class="col-md-5 col-md-offset-1 techniques-js-code-background">
+															<h3 class="pt0">Frameworks</h3>
+															<ul class="list-disc">
+																<li>jQuery</li>
+																<li>AngularJS</li>
+															</ul>
+														</div>
+														<div class="col-md-5 techniques-js-book-background">
+															<h3 class="pt0">Some Front-End Libraries</h3>
+															<ul class="list-disc">
+																<li>Matter.js</li>
+																<li>Particle.js</li>
+																<li>crypto-js</li>
+																<li>parallex</li>
+																<li>etc.</li>
+															</ul>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-md-10 col-md-offset-1">
+															<p wg-text="techniques_js_libraries_paragraph_1" class="text-justify">As there are different kind of JavaScript libraries and all of them have different purpose, we don't need to compare them. But those are all good and helpful for development. </p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											
+											<br />
+											<p><a class="techniques-display-area-close btn btn-default btn-sm" href="javascript:void(0);">&laquo; back</a></p>
 										</div>
 									</div>
 								</div>

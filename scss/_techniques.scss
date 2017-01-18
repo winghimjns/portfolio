@@ -460,7 +460,6 @@
 	//    TECHNIQUE: JavaScript
 	// ================================================================================
 	
-	// .... TODO
 	#techniques-js {
 		
 		overflow: hidden;
@@ -567,6 +566,20 @@
 		
 		&:before { content: 'javaScript = (isFuture) => {'; }
 		&:after { content: '}; // end javaScript()'; }
+		
+		.techniques-js-code-background {
+			background-image: url(../img/code.svg);
+			background-size: 70%;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
+		
+		.techniques-js-book-background {
+			background-image: url(../img/book.svg);
+			background-size: contain;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
 		
 	}
 	
