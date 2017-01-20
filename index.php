@@ -487,14 +487,45 @@ function text($name) {
 					<p></p>
 					
 					<div class="row">
-						<div class="col-md-3 col-md-offset-1 sm-text-right">
 						<div class="col-md-3 col-md-offset-1 md-text-right">
-							<h2 class="slabo pt0" wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></h2>
+							<h2 class="slabo pt0" wg-text="interested_web_security_title"><?php text("interested_web_security_title"); ?></h2>
 						</div>
 						<div class="col-md-7">
-							<p wg-text="interested_cryptography_paragraph_1"><?php text("interested_cryptography_paragraph_1"); ?></p>
+							<p wg-text="interested_web_security_paragraph_1" class="text-justify"><?php text("interested_web_security_paragraph_1"); ?></p>
+							<p wg-text="interested_web_security_paragraph_2" class="text-justify"><?php text("interested_web_security_paragraph_2"); ?></p>
+							<p wg-text="interested_web_security_paragraph_3" class="text-justify"><?php text("interested_web_security_paragraph_3"); ?></p>
 						</div>
 					</div>
+					
+					<hr />
+					
+					<div class="row">
+						<div class="col-md-3 col-md-push-7 col-md-offset-1">
+							<h2 class="slabo pt0" wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></h2>
+						</div>
+						<div class="col-md-7 col-md-pull-3">
+							<p wg-text="interested_cryptography_paragraph_1" class="text-justify"><?php text("interested_cryptography_paragraph_1"); ?></p>
+							<p wg-text="interested_cryptography_paragraph_2" class="text-justify"><?php text("interested_cryptography_paragraph_2"); ?></p>
+						</div>
+					</div>
+					
+					<hr />
+					
+					<div class="row">
+						<div class="col-md-3 col-md-offset-1 md-text-right">
+							<h2 class="slabo pt0" wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></h2>
+						</div>
+						<div class="col-md-7">
+							<p wg-text="interested_web_design_paragraph_1" class="text-justify"><?php text("interested_web_designy_paragraph_1"); ?></p>
+							<p wg-text="interested_web_design_paragraph_2" class="text-justify"><?php text("interested_web_designy_paragraph_2"); ?></p>
+							<p wg-text="interested_web_design_paragraph_3" class="text-justify"><?php text("interested_web_designy_paragraph_3"); ?></p>
+						</div>
+					</div>
+					
+					<hr />
+					<br />
+					<br />
+					<br />
 					
 				</div>
 				<a href="#contact" class="cd-scroll-down cd-image-replace">scroll down</a>

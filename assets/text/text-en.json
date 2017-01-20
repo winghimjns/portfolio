@@ -37,8 +37,20 @@
 		"techniques_js_paragraph_3": "Moreover, for front-end developing, there are many different kind of libraries produce some awesome graphical effects. So \"be quick to get started\" when we use a JavaScript tools is necessary too.",
 		
 		"interested_title": "Interested Topics",
+		
+		"interested_web_security_title": "Web Security",
+		"interested_web_security_paragraph_1": "Whenever I am developimg a website, one of the most important things during any \"commit\" is make sure there is no security bugs there in the new codings.",
+		"interested_web_security_paragraph_2": "The most important thing to inspired me about this is when I was building a web based system when I was a stuent. I tried to use a technique of web hacking called \"SQL injection\" (SQLi) in my assignment, and my system had been hacked. So after that I take extra care whenever I developing website at back-end side.",
+		"interested_web_security_paragraph_3": "Nowadays, there are some websites on internet who provide some hacking tasks requested to user and the user can just play it as a game. I learnt quite a lot from this kind of websites.",
+		
 		"interested_cryptography_title": "Cryptography",
-		"interested_cryptography_paragraph_1": "This is cryptography.",
+		"interested_cryptography_paragraph_1": "As web security is one of my favourite topics about web development, I also interest in the Cryptography topics. ",
+		"interested_cryptography_paragraph_2": "I'd like the learn about the theory about how to protect the message from the crackers, how's the password encrypted using Mathematics formula, how strong is each algorithms etc. But also like to learn to implement them. So I had some projects about encryption and decription with some code libraries",
+		
+		"interested_web_design_title": "Web Design",
+		"interested_web_design_paragraph_1": "I can sure I am good at developing in both front-end side and back-end as well. But sometimes when I have an idea and really want to implement it, the most difficult thing to me is web page design. And because of that, I always need to edit the interface to make it looks more great as a professional website by designers.",
+		"interested_web_design_paragraph_2": "Except keep practicing, I keep browsing and viewing some websites which introduce modern designed websites. ",
+		"interested_web_design_paragraph_3": "Sometimes I can find some web plugins which can provide me some awesome graphical effects (such as metter.js, partical.js, bootstrap etc.) , and use them in my website. I am still exciting to learn to design because I can always have new ideas from the examples. ",
 		
 		"contact_title": "Contact"
 		
