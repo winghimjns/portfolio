@@ -18,12 +18,17 @@ $(document).ready(function() {
 	
 	$("#techniques .techniques-block").click(function() {
 		
+		
+		// if the clicked .techniques-block is activating
 		if($(this).hasClass("active")) {
 			
 			// close display area
 			closeDisplayArea();
 			
-		}else {
+		}
+		
+		// if the clicked .techniques-block is not activating
+		else {
 			
 			// remove all the active class
 			$("#techniques .techniques-block").removeClass("active");
