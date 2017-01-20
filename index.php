@@ -516,9 +516,9 @@ function text($name) {
 							<h2 class="slabo pt0" wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></h2>
 						</div>
 						<div class="col-md-7">
-							<p wg-text="interested_web_design_paragraph_1" class="text-justify"><?php text("interested_web_designy_paragraph_1"); ?></p>
-							<p wg-text="interested_web_design_paragraph_2" class="text-justify"><?php text("interested_web_designy_paragraph_2"); ?></p>
-							<p wg-text="interested_web_design_paragraph_3" class="text-justify"><?php text("interested_web_designy_paragraph_3"); ?></p>
+							<p wg-text="interested_web_design_paragraph_1" class="text-justify"><?php text("interested_web_design_paragraph_1"); ?></p>
+							<p wg-text="interested_web_design_paragraph_2" class="text-justify"><?php text("interested_web_design_paragraph_2"); ?></p>
+							<p wg-text="interested_web_design_paragraph_3" class="text-justify"><?php text("interested_web_design_paragraph_3"); ?></p>
 						</div>
 					</div>
 					
