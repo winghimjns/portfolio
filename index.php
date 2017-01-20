@@ -488,6 +488,7 @@ function text($name) {
 					
 					<div class="row">
 						<div class="col-md-3 col-md-offset-1 sm-text-right">
+						<div class="col-md-3 col-md-offset-1 md-text-right">
 							<h2 class="slabo pt0" wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></h2>
 						</div>
 						<div class="col-md-7">
