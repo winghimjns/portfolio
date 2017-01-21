@@ -540,20 +540,56 @@ function text($name) {
 			
 			<div class="content-wrapper">
 				
-				<div class="container">
-					<h1 wg-text="contact_title"><?php text("contact_title"); ?></h1>
-					
-					<p></p>
-					
-					<div class="row">
-						<div class="col-md-3 col-md-offset-1 sm-text-right">
-							<h2 class="slabo pt0">Cryptography</h2>
-						</div>
-						<div class="col-md-7">
-							<p>Cryptography is one of my most interested topics about computings. </p>
+				<div id="contact-middle-wrap" class="middle-wrap">
+					<div id="contact-middle" class="middle">
+						<div id="contact-content">
+							
+							
+							<div class="container">
+								
+								<br />
+								<br />
+								<br />
+							
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2">
+										<!-- contact title -->
+										<h1 wg-text="contact_title"><?php text("contact_title"); ?></h1>
+									</div>
+								</div>
+									
+								<div class="row">
+									<div class="col-md-4 col-md-offset-2">
+										<p wg-text="contact_paragraph_1" class="text-justify"><?php text("contact_paragraph_1"); ?></p>
+									</div>
+									<div class="col-md-4">
+							
+										<!-- items -->
+										<ul id="contact-items">
+											<li><strong>Wing Him Liu</strong></li>
+											<li><strong>winghim@outlook.com</strong></li>
+											<li><strong>(+44) 0786 469 8759</strong></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2">
+										<hr />
+									</div>
+								</div>
+								
+								<br />
+								<br />
+								
+								<br />
+								<br />
+								<br />
+								
+							</div>
+							
 						</div>
 					</div>
-					
 				</div>
 				
 			</div>
