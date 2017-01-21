@@ -18,7 +18,6 @@ $(document).ready(function() {
 	
 	$("#techniques .techniques-block").click(function() {
 		
-		
 		// if the clicked .techniques-block is activating
 		if($(this).hasClass("active")) {
 			
@@ -43,6 +42,7 @@ $(document).ready(function() {
 			// 2. paste the details html into the displaying area
 			// 3. slide down the details display area
 			
+			var _this = this;
 			var xlDisplayArea = $(".techniques-display-area-xl");
 			var smDisplayArea = $(this).parent().parent().parent().find(".techniques-display-area-sm");
 			var xsDisplayArea = $(this).parent().parent().find(".techniques-display-area-xs");
@@ -62,7 +62,11 @@ $(document).ready(function() {
 			// 3
 			$(".techniques-display-area-xs").slideUp(400, function() {
 				if(xsDisplayArea.index(this) !== -1) {
-					xsDisplayArea.slideDown().scroll();
+					xsDisplayArea.slideDown(function() {
+						$("html, body").animate({
+							scrollTop: $(_this).offset().top + $(_this).height() - 20
+						});
+					});
 				}
 			});
 		
