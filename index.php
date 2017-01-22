@@ -57,22 +57,133 @@ function text($name) {
 		<!-- title -->
 		<title>Wing Him Liu - My Portfolio</title>
 		
+		<!-- styles for loading background -->
+		<style type="text/css">
+			
+			html {
+				overflow-x: hidden;
+			}
+			
+			@-webkit-keyframes loading-icon {
+				0% {
+					-webkit-transform: rotate(0deg);
+					   -moz-transform: rotate(0deg);
+						 -o-transform: rotate(0deg);
+							transform: rotate(0deg);
+				}
+				50% {
+					-webkit-transform: rotate(400deg);
+					   -moz-transform: rotate(400deg);
+						 -o-transform: rotate(400deg);
+							transform: rotate(400deg);
+				}
+				100% {
+					-webkit-transform: rotate(0deg);
+					   -moz-transform: rotate(0deg);
+						 -o-transform: rotate(0deg);
+							transform: rotate(0deg);
+				}
+			}
+			
+			@keyframes loading-icon {
+				0% {
+					-webkit-transform: rotate(0deg);
+					   -moz-transform: rotate(0deg);
+						 -o-transform: rotate(0deg);
+							transform: rotate(0deg);
+				}
+				50% {
+					-webkit-transform: rotate(400deg);
+					   -moz-transform: rotate(400deg);
+						 -o-transform: rotate(400deg);
+							transform: rotate(400deg);
+				}
+				100% {
+					-webkit-transform: rotate(0deg);
+					   -moz-transform: rotate(0deg);
+						 -o-transform: rotate(0deg);
+							transform: rotate(0deg);
+				}
+			}
+			
+			#loading-background {
+				position: fixed;
+				z-index: 9999; /** the most top **/
+				top: 0; left: 0;
+				width: 100%; height: 100%;
+				background-color: rgba(45,45,45,1);
+				text-align: right;
+				-webkit-transition: top .5s .5s, background-color .5s .5s;
+				   -moz-transition: top .5s .5s, background-color .5s .5s;
+				     -o-transition: top .5s .5s, background-color .5s .5s;
+				        transition: top .5s .5s, background-color .5s .5s;
+				
+				-webkit-animation: loading-bg .5s linear;
+				   -moz-animation: loading-bg .5s linear;
+				     -o-animation: loading-bg .5s linear;
+				        animation: loading-bg .5s linear;
+			}
+			
+			#loading-background:before {
+				font-family: Calibri, Arial;
+				content: 'Portfolio - Wing Him Liu  ';
+				color: #FFF;
+				font-size: 6rem;
+				text-align: right;
+				font-weight: bold;
+				margin-right: 2rem;
+				width: 100%;
+			}
+			
+			#loading-background:after {
+				position: absolute;
+				bottom: 1rem;
+				left: 1rem;
+				height: 6rem;
+				width: 6rem;
+				content: '';
+				background-image: url('data:image/png;base64,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');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				
+				-webkit-transform: rotate(0deg);
+				   -moz-transform: rotate(0deg);
+				     -o-transform: rotate(0deg);
+				        transform: rotate(0deg);
+				
+				-webkit-animation: loading-icon 3s infinite;
+				   -moz-animation: loading-icon 3s infinite;
+					 -o-animation: loading-icon 3s infinite;
+						animation: loading-icon 3s infinite;
+				
+				-webkit-transition: -webkit-transform .5s .5s;
+				   -moz-transition:    -moz-transform .5s .5s;
+				     -o-transition: 	 -o-transform .5s .5s;
+				        transition: 		transform .5s .5s;
+			}
+			
+			html.load-done #loading-background {
+				top: -100%;
+				background-color: rgba(255,255,255,1);
+			}
+			
+			html.load-done #loading-background:after {
+				-webkit-transform: rotate(400deg);
+				   -moz-transform: rotate(400deg);
+					 -o-transform: rotate(400deg);
+						transform: rotate(400deg);
+			}
+			
+		</style>
+		
 	</head>
 	<body>
 		
-		<!-- #interactive-background-1 -->
-		<!--
-		<div id="interactive-background-1" class="interactive-background">
-			<div id="interactive-background-1-image" class="background-image layer" data-depth="0.20"></div>
-		</div>
-		-->
+		<!-- loading background -->
+		<div id="loading-background"></div>
 		
-		<!-- #interactive-background -->
-		<!--
-		<div id="interactive-background-2" class="interactive-background">
-			<div id="interactive-background-2-image" class="background-image layer" data-depth="1.00"></div>
-		</div>
-		<!-- -->
+		<!-- particles-js background -->
 		<div id="particles-js"></div>
 		
 		<!-- cv-nav -->
