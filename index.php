@@ -2,6 +2,9 @@
 
 $debug = !isset($_GET["nodebug"]);
 //$debug = isset($_GET["debug"]);
+
+$script_dir = str_replace([realpath($_SERVER["DOCUMENT_ROOT"]), "\\"], ["","/"],realpath(__DIR__));
+$base = "//{$_SERVER["SERVER_NAME"]}{$script_dir}/";
 $time = time();
 $texts = json_decode(file_get_contents(__DIR__."/assets/text/text-en.json"), true);
 $text_json = json_encode(json_encode($texts));
@@ -40,6 +43,9 @@ function text($name) {
 		<!-- meta -->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!-- base url directory -->
+        <base href="<?php echo($base); ?>" />
 		
 <?php
 	if($debug) {
