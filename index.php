@@ -57,22 +57,32 @@ function text($name) {
 		<!-- title -->
 		<title>Wing Him Liu - My Portfolio</title>
 		
+		<!-- style for loading cover -->
+		<style type="text/css">
+			
+			#loading-cover {
+				position: fixed;
+				z-index: 9999; /** always the top **/
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				background-color: #FFF;
+			}
+			
+			html.load-done #loading-cover {
+				display: none;
+			}
+			
+		</style>
+		
 	</head>
 	<body>
 		
-		<!-- #interactive-background-1 -->
-		<!--
-		<div id="interactive-background-1" class="interactive-background">
-			<div id="interactive-background-1-image" class="background-image layer" data-depth="0.20"></div>
-		</div>
-		-->
+		<!-- loading cover -->
+		<div id="loading-cover"></div>
 		
-		<!-- #interactive-background -->
-		<!--
-		<div id="interactive-background-2" class="interactive-background">
-			<div id="interactive-background-2-image" class="background-image layer" data-depth="1.00"></div>
-		</div>
-		<!-- -->
+		<!-- particles-js backgrougnd -->
 		<div id="particles-js"></div>
 		
 		<!-- cv-nav -->
