@@ -77,7 +77,8 @@ $(document).ready(function() {
 	$("#techniques .techniques-display-area").on("click", ".techniques-display-area-close", closeDisplayArea);
 	
 	
-	
+	// add class "load-done" in html attribute
+	$("html").addClass("load-done");
 	
 	// load text
 	// currently the text displaying will be processed in backend
