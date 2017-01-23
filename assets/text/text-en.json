@@ -19,9 +19,33 @@
 		"techniques_php_paragraph_2": "I just learnt the basic PHP techniques from schools and I have been spending time to keep improve my PHP techniques.",
 		"techniques_php_paragraph_3": "Through some of the online opensource project I interested in, I learnt Object-oriented techniques, namespace, PDO and most of the modern techniques in PHP.",
 		
+		"techniques_php_learn_from_school_percentage": "school 20%",
+		"techniques_php_self_study_percentage": "self-study 60%",
+		
+		"techniques_php_learn_from_school_title": "Learn from school",
+		"techniques_php_learn_from_school_item_1": "Basic Syntax",
+		"techniques_php_learn_from_school_item_2": "MSQL",
+		"techniques_php_learn_from_school_item_3": "JSON",
+		"techniques_php_learn_from_school_item_4": "etc.",
+		
+		"techniques_php_self_study_title": "Learn from school",
+		"techniques_php_self_study_item_1": "Object-oriented (inc. namespace technique)s",
+		"techniques_php_self_study_item_2": "PDO extension",
+		"techniques_php_self_study_item_3": "mcrypt extension",
+		"techniques_php_self_study_item_4": "etc.",
+		
+		"techniques_php_libraries_title": "Libraries / Tools",
+		"techniques_php_libraries_item_1": "Phpseclib <small>(A PHP encryption library)</small>",
+		"techniques_php_libraries_item_2": "Wordpress",
+		"techniques_php_libraries_item_3": "Owncloud",
+		"techniques_php_libraries_item_4": "etc.",
+		
 		"techniques_html_title": "HTML",
 		"techniques_html_paragraph_1": "In HTML5, we should use CSS for styling instead of the attributes in the tags (although sometimes they are necessary in e-mail styling). As most of the codings from the websites aren't use HTML 4.x standard, I will always use HTML5 standard for web developing. I just need to make sure the website is compatible with older browser, otherwise I need to keep fixing the problem about that.",
 		"techniques_html_paragraph_2": "For more information about my web developing techniques, please check the page CSS and JavaScript.",
+		
+		"techniques_html_to_css_page": "Go to CSS page &raquo;",
+		"techniques_html_to_js_page": "Go to JS page &raquo;",
 		
 		"techniques_css_title": "CSS",
 		"techniques_css_paragraph_1": "As CSS is one of the most important techniques in HTML5, it's necessary to be able to build a complicated website with it, both from scratch or with any popular frameworks.",
@@ -30,11 +54,38 @@
 		"techniques_css_paragraph_4": "\"as light as I may\" was my principle to build a website. So I didn't use any libraries, no jQuery, no Bootstrap. But finally I think it was stupid after several website was built becasue those website can't be highly responsive and it's easy to cause some bugs in it.",
 		"techniques_css_paragraph_5": "But those failures are still experiences, so I may use differnt CSS libraries now such as the listed: ",
 		
+		"techniques_css_libraries_title": "CSS Libraries",
+		"techniques_css_libraries_item_1": "Bootstrap",
+		"techniques_css_libraries_item_2": "Milligram",
+		"techniques_css_libraries_item_3": "Pure.css",
+		
+		"techniques_css_other_techniques_title": "Other techniques",
+		"techniques_css_other_techniques_item_1": "Transition / Animation",
+		"techniques_css_other_techniques_item_2": "Transform",
+		"techniques_css_other_techniques_item_3": "SCSS",
+		"techniques_css_other_techniques_item_4": "LESS",
+		
+		"techniques_css_example_title": "Example for transition / animation",
+		
 		"techniques_js_title": "JS",
 		"techniques_js_title_full": "JavaScript",
 		"techniques_js_paragraph_1": "Except CSS, sometimes we need JavaScript as well for our web developing. I learnt all the JavaScript techniques by myself but it was not too hard because I have very good Java technqiue as well.",
 		"techniques_js_paragraph_2": "Web developer nowadays should learn different library as well besides HTML DOM, and should use smartly with CSS and HTML id / class attributes.",
 		"techniques_js_paragraph_3": "Moreover, for front-end developing, there are many different kind of libraries produce some awesome graphical effects. So \"be quick to get started\" when we use a JavaScript tools is necessary too.",
+		
+		"techniques_js_frameworks_title": "Frameworks",
+		"techniques_js_frameworks_item_1": "jQuery",
+		"techniques_js_frameworks_item_2": "AngularJS",
+		
+		"techniques_js_front_end_libraries_title": "Some Front-End Libraries",
+		"techniques_js_front_end_libraries_item_1": "jQuery",
+		"techniques_js_front_end_libraries_item_2": "Matter.js",
+		"techniques_js_front_end_libraries_item_3": "Particle.js",
+		"techniques_js_front_end_libraries_item_4": "crypto-js",
+		"techniques_js_front_end_libraries_item_5": "parallex",
+		"techniques_js_front_end_libraries_item_6": "etc.",
+		
+		"techniques_js_libraries_paragraph_1": "As there are different kind of JavaScript libraries and all of them have different purpose, we don't need to compare them. But those are all good and helpful for development. ",
 		
 		"interested_title": "Interested Topics",
 		
@@ -53,7 +104,12 @@
 		"interested_web_design_paragraph_3": "Sometimes I can find some web plugins which can provide me some awesome graphical effects (such as metter.js, partical.js, bootstrap etc.) , and use them in my website. I am still exciting to learn to design because I can always have new ideas from the examples. ",
 		
 		"contact_title": "Contact",
-		"contact_paragraph_1": "All enquires about any software projects will be always welcome. Please check these details."
+		"contact_paragraph_1": "All enquires about any software projects will be always welcome. Please check these details.",
+		"contact_item_1": "Wing Him Liu",
+		"contact_item_2": "winghim@outlook.com",
+		"contact_item_3": "(+44) 0786 469 8759"
+
+		
 		
 	}
 }

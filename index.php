@@ -129,12 +129,12 @@ function text($name) {
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 hidden-xs">
+						<div class="col-sm-3 col-sm-offset-1 col-lg-2 col-lg-offset-2 hidden-xs">
 							<div id="programmer-svg-wrap">
 								<img id="exclamation_mark-svg" src="./img/exclamation_mark.svg<?php v(); ?>" />
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-offset-1 text-justify">
+						<div class="col-sm-7 col-md-6 col-md-offset-1 text-justify">
 							<p wg-text="about_paragraph_1"><?php text("about_paragraph_1"); ?></p>
 							<p wg-text="about_paragraph_2"><?php text("about_paragraph_2"); ?></p>
 							<p wg-text="about_paragraph_3"><?php text("about_paragraph_3"); ?></p>
@@ -195,37 +195,37 @@ function text($name) {
 												<div class="col-md-6">
 													<div>
 														<div class="progress">
-															<div class="progress-bar progress-bar-danger" style="width: 20%;">school 20%</div>
-															<div class="progress-bar progress-bar-success" style="width: 60%;">self-study 60%</div>
+															<div class="progress-bar progress-bar-danger" style="width: 20%;" wg-text="techniques_php_learn_from_school_percentage"><?php text("techniques_php_learn_from_school_percentage"); ?></div>
+															<div class="progress-bar progress-bar-success" style="width: 60%;" wg-text="techniques_php_self_study_percentage"><?php text("techniques_php_self_study_percentage"); ?></div>
 														</div>
 													</div>
 													<div class="row no-gutter">
 														<div class="col-md-6 col-sm-4 techniques-php-baby-background">
-															<h3 class="pt0">Learn from school</h3>
+															<h3 class="pt0" wg-text="techniques_php_learn_from_school_title"><?php text("techniques_php_learn_from_school_title"); ?></h3>
 															<ul class="list-disc">
-																<li>Basic Syntax</li>
-																<li>MySQL</li>
-																<li>JSON</li>
-																<li>etc.</li>
+																<li wg-text="techniques_php_learn_from_school_item_1"><?php text("techniques_php_learn_from_school_item_1"); ?></li>
+																<li wg-text="techniques_php_learn_from_school_item_2"><?php text("techniques_php_learn_from_school_item_2"); ?></li>
+																<li wg-text="techniques_php_learn_from_school_item_3"><?php text("techniques_php_learn_from_school_item_3"); ?></li>
+																<li wg-text="techniques_php_learn_from_school_item_4"><?php text("techniques_php_learn_from_school_item_4"); ?></li>
 															</ul>
 														</div>
 														<div class="col-md-6 col-sm-4 techniques-php-suit-background">
-															<h3 class="pt0">Self-study</h3>
+															<h3 class="pt0" wg-text="techniques_php_self_study_title"><?php text("techniques_php_self_study_title"); ?></h3>
 															<ul class="list-disc">
-																<li>Object-oriented (inc. namespace)</li>
-																<li>PDO extension</li>
-																<li>mcrypt extension</li>
-																<li>etc.</li>
+																<li wg-text="techniques_php_self_study_item_1"><?php text("techniques_php_self_study_item_1"); ?></li>
+																<li wg-text="techniques_php_self_study_item_2"><?php text("techniques_php_self_study_item_2"); ?></li>
+																<li wg-text="techniques_php_self_study_item_3"><?php text("techniques_php_self_study_item_3"); ?></li>
+																<li wg-text="techniques_php_self_study_item_4"><?php text("techniques_php_self_study_item_4"); ?></li>
 															</ul>
 														</div>
 														<div class="col-md-6 col-md-push-3 col-sm-4 techniques-php-code-background">
 															<br class="hidden-sm hidden-xs" />
-															<h3 class="pt0">Libraries / Tools</h3>
+															<h3 class="pt0" wg-text="techniques_php_libraries_title"><?php text("techniques_php_libraries_title"); ?></h3>
 															<ul class="list-disc">
-																<li>Phpseclib <small>(A PHP encryption library)</small></li>
-																<li>Wordpress</li>
-																<li>Owncloud</li>
-																<li>etc.</li>
+																<li wg-text="techniques_php_libraries_item_1"><?php text("techniques_php_libraries_item_1"); ?></li>
+																<li wg-text="techniques_php_libraries_item_2"><?php text("techniques_php_libraries_item_2"); ?></li>
+																<li wg-text="techniques_php_libraries_item_3"><?php text("techniques_php_libraries_item_3"); ?></li>
+																<li wg-text="techniques_php_libraries_item_4"><?php text("techniques_php_libraries_item_4"); ?></li>
 															</ul>
 														</div>
 													</div>
@@ -266,12 +266,12 @@ function text($name) {
 												<div class="col-md-6">
 													<div class="row no-gutter">
 														<div class="col-xs-5">
-															<a class="techniques-html-switch-page btn btn-primary btn-lg" href="javascript:void(0);" onclick="$('#techniques-css').click()">Go to CSS page &raquo;</a>
+															<a class="techniques-html-switch-page btn btn-primary btn-lg" href="javascript:void(0);" onclick="$('#techniques-css').click()" wg-text="techniques_html_to_css_page"><?php text("techniques_html_to_css_page"); ?></a>
 															<br />
 															<br />
 														</div>
 														<div class="col-xs-5 col-xs-push-1">
-															<a class="techniques-html-switch-page btn btn-success btn-lg" href="javascript:void(0);" onclick="$('#techniques-js').click()">Go to JS page &raquo;</a>
+															<a class="techniques-html-switch-page btn btn-success btn-lg" href="javascript:void(0);" onclick="$('#techniques-js').click()" wg-text="techniques_html_to_js_page"><?php text("techniques_html_to_js_page"); ?></a>
 															<br />
 															<br />
 														</div>
@@ -351,20 +351,20 @@ function text($name) {
 														<div class="col-xs-12">
 															<div class="row no-gutter">
 																<div class="col-sm-5 col-sm-offset-1 techniques-css-book-background">
-																	<h3>CSS Libraries</h3>
+																	<h3 wg-text="techniques_css_libraries_title"><?php text("techniques_css_libraries_title"); ?></h3>
 																	<ul class="list-disc">
-																		<li>Bootstrap</li>
-																		<li>Milligram</li>
-																		<li>Pure.css</li>
+																		<li wg-text="techniques_css_libraries_item_1"><?php text("techniques_css_libraries_item_1"); ?></li>
+																		<li wg-text="techniques_css_libraries_item_2"><?php text("techniques_css_libraries_item_2"); ?></li>
+																		<li wg-text="techniques_css_libraries_item_3"><?php text("techniques_css_libraries_item_3"); ?></li>
 																	</ul>
 																</div>
 																<div class="col-sm-5 techniques-css-wrench-background">
-																	<h3>Other techniques</h3>
+																	<h3 wg-text="techniques_css_other_techniques_title"><?php text("techniques_css_other_techniques_title"); ?></h3>
 																	<ul class="list-disc">
-																		<li>Transition / Animation</li>
-																		<li>Transform</li>
-																		<li>SCSS</li>
-																		<li>LESS</li>
+																		<li wg-text="techniques_css_other_techniques_item_1"><?php text("techniques_css_other_techniques_item_1"); ?></li>
+																		<li wg-text="techniques_css_other_techniques_item_2"><?php text("techniques_css_other_techniques_item_2"); ?></li>
+																		<li wg-text="techniques_css_other_techniques_item_3"><?php text("techniques_css_other_techniques_item_3"); ?></li>
+																		<li wg-text="techniques_css_other_techniques_item_4"><?php text("techniques_css_other_techniques_item_4"); ?></li>
 																	</ul>
 																</div>
 															</div>
@@ -375,7 +375,7 @@ function text($name) {
 													<div class="container-fluid">
 														<div class="row">
 															<div class="col-md-8 col-md-push-2">
-																<h3>Example for transition / animation</h3>
+																<h3 wg-text="techniques_css_example_title"><?php text("techniques_css_example_title"); ?></h3>
 																<div class="middle-wrap">
 																	<div class="middle text-center">
 																		<div class="techniques-css-transition-wrap">
@@ -437,26 +437,27 @@ function text($name) {
 												<div class="col-md-6">
 													<div class="row">
 														<div class="col-md-5 col-md-offset-1 techniques-js-code-background">
-															<h3 class="pt0">Frameworks</h3>
+															<h3 class="pt0" wg-text="techniques_js_frameworks_title"><?php text("techniques_js_frameworks_title"); ?></h3>
 															<ul class="list-disc">
-																<li>jQuery</li>
-																<li>AngularJS</li>
+																<li wg-text="techniques_js_frameworks_item_1"><?php text("techniques_js_frameworks_item_1"); ?></li>
+																<li wg-text="techniques_js_frameworks_item_2"><?php text("techniques_js_frameworks_item_2"); ?></li>
 															</ul>
 														</div>
 														<div class="col-md-5 techniques-js-book-background">
-															<h3 class="pt0">Some Front-End Libraries</h3>
+															<h3 class="pt0" wg-text="techniques_js_front_end_libraries_title"><?php text("techniques_js_front_end_libraries_title"); ?></h3>
 															<ul class="list-disc">
-																<li>Matter.js</li>
-																<li>Particle.js</li>
-																<li>crypto-js</li>
-																<li>parallex</li>
-																<li>etc.</li>
+																<li wg-text="techniques_js_front_end_libraries_item_1"><?php text("techniques_js_front_end_libraries_item_1"); ?></li>
+																<li wg-text="techniques_js_front_end_libraries_item_2"><?php text("techniques_js_front_end_libraries_item_2"); ?></li>
+																<li wg-text="techniques_js_front_end_libraries_item_3"><?php text("techniques_js_front_end_libraries_item_3"); ?></li>
+																<li wg-text="techniques_js_front_end_libraries_item_4"><?php text("techniques_js_front_end_libraries_item_4"); ?></li>
+																<li wg-text="techniques_js_front_end_libraries_item_5"><?php text("techniques_js_front_end_libraries_item_5"); ?></li>
+																<li wg-text="techniques_js_front_end_libraries_item_6"><?php text("techniques_js_front_end_libraries_item_6"); ?></li>
 															</ul>
 														</div>
 													</div>
 													<div class="row">
 														<div class="col-md-10 col-md-offset-1">
-															<p wg-text="techniques_js_libraries_paragraph_1" class="text-justify">As there are different kind of JavaScript libraries and all of them have different purpose, we don't need to compare them. But those are all good and helpful for development. </p>
+															<p class="text-justify" wg-text="techniques_js_libraries_paragraph_1"><?php text("techniques_js_libraries_paragraph_1"); ?></p>
 														</div>
 													</div>
 												</div>
@@ -584,9 +585,9 @@ function text($name) {
 							
 										<!-- items -->
 										<ul id="contact-items">
-											<li><strong>Wing Him Liu</strong></li>
-											<li><strong>winghim@outlook.com</strong></li>
-											<li><strong>(+44) 0786 469 8759</strong></li>
+											<li><strong wg-text="contact_item_1"><?php text("contact_item_1"); ?></strong></li>
+											<li><strong wg-text="contact_item_2"><?php text("contact_item_1"); ?></strong></li>
+											<li><strong wg-text="contact_item_3"><?php text("contact_item_1"); ?></strong></li>
 										</ul>
 									</div>
 								</div>
