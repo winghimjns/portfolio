@@ -80,6 +80,11 @@ function text($name) {
 				display: none;
 			}
 			
+			/** no scroll bar when loading **/
+			html:not(.load-done) {
+				overflow: hidden;
+			}
+			
 		</style>
 		
 	</head>
