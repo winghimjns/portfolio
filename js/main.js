@@ -119,7 +119,6 @@ var processTextJson = function(json) {
 var injectText = function(texts) {
 	
 	for(var key in texts) {
-		
 		$("[wg-text='" + key + "']").html(texts[key]);
 	} // end for
 	
@@ -129,7 +128,7 @@ var closeDisplayArea = function(el) {
 	
 	// slide up the details display area
 	$(".techniques-display-area").each(function() {
-		if($(this).height()) {
+		if($(this).is(":visible")) {
 			$("html, body").animate({
 				scrollTop: $("body").scrollTop() - $(this).height()
 			});
