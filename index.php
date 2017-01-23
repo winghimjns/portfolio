@@ -625,6 +625,9 @@ function text($name) {
 		<!-- jquery -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
 		
+		<!-- detect mobile browser -->
+		<script type="text/javascript" src="./js/detectmobilebrowser.js" onload="$('html').addClass($.browser.mobile ? 'mobile-browser' : 'not-mobile-browser');"></script>
+		
 		<!-- modernizr -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
 		

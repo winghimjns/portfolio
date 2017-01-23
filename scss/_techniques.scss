@@ -627,6 +627,16 @@
 	
 }
 
+/** for mobile browser only **/
+html.mobile-browser #techniques-php {
+	background-image: url(../video/programming.gif);
+	background-size: cover;
+}
+html.mobile-browser #techniques-html {
+	background-image: url(../video/keyboard.gif);
+	background-size: cover;
+}
+
 @keyframes circuit_board-animation {
 	0% {
 		background-position-x: 0%
