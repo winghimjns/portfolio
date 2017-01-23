@@ -501,10 +501,14 @@ function text($name) {
 		<section id="interested" class="cd-section">
 			<div class="content-wrapper">
 				<div class="container">
-					<h1 wg-text="interested_title"><?php text("interested_title"); ?></h1>
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<h1 wg-text="interested_title"><?php text("interested_title"); ?></h1>
+						</div>
+					</div>
+				</div>
 					
-					<p></p>
-					
+				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-md-offset-1 md-text-right">
 							<h2 class="slabo pt0" wg-text="interested_web_security_title"><?php text("interested_web_security_title"); ?></h2>
@@ -518,6 +522,9 @@ function text($name) {
 					
 					<hr />
 					
+				</div>
+					
+				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-md-push-7 col-md-offset-1">
 							<h2 class="slabo pt0" wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></h2>
@@ -530,6 +537,9 @@ function text($name) {
 					
 					<hr />
 					
+				</div>
+					
+				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-md-offset-1 md-text-right">
 							<h2 class="slabo pt0" wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></h2>
@@ -542,11 +552,11 @@ function text($name) {
 					</div>
 					
 					<hr />
-					<br />
-					<br />
-					<br />
-					
 				</div>
+				<br />
+				<br />
+				<br />
+				
 				<a href="#contact" class="cd-scroll-down cd-image-replace">scroll down</a>
 			</div>
 		</section><!-- #interested.cd-section -->
