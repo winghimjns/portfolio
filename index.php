@@ -596,8 +596,8 @@ function text($name) {
 										<!-- items -->
 										<ul id="contact-items">
 											<li><strong wg-text="contact_item_1"><?php text("contact_item_1"); ?></strong></li>
-											<li><strong wg-text="contact_item_2"><?php text("contact_item_1"); ?></strong></li>
-											<li><strong wg-text="contact_item_3"><?php text("contact_item_1"); ?></strong></li>
+											<li><strong wg-text="contact_item_2"><?php text("contact_item_2"); ?></strong></li>
+											<li><strong wg-text="contact_item_3"><?php text("contact_item_3"); ?></strong></li>
 										</ul>
 									</div>
 								</div>
