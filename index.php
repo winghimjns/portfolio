@@ -1,7 +1,7 @@
 <?php
 
-$debug = !isset($_GET["nodebug"]);
-//$debug = isset($_GET["debug"]);
+//$debug = !isset($_GET["nodebug"]);
+$debug = isset($_GET["debug"]);
 
 $script_dir = str_replace([realpath($_SERVER["DOCUMENT_ROOT"]), "\\"], ["","/"],realpath(__DIR__));
 $base = "//{$_SERVER["SERVER_NAME"]}{$script_dir}/";
