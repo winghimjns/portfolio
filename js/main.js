@@ -22,7 +22,7 @@ $(document).ready(function() {
 		if($(this).hasClass("active")) {
 			
 			// close display area
-			closeDisplayArea();
+			//closeDisplayArea(this);
 			
 		}
 		
@@ -41,6 +41,7 @@ $(document).ready(function() {
 			// 1. slide up the details display area
 			// 2. paste the details html into the displaying area
 			// 3. slide down the details display area
+			// 4. slide down to the displaying area's top
 			
 			var _this = this;
 			var xlDisplayArea = $(".techniques-display-area-xl");
@@ -62,13 +63,16 @@ $(document).ready(function() {
 			// 3
 			$(".techniques-display-area-xs").slideUp(400, function() {
 				if(xsDisplayArea.index(this) !== -1) {
-					xsDisplayArea.slideDown(function() {
-						$("html, body").animate({
-							scrollTop: $(_this).offset().top + $(_this).height() - 20
-						});
-					});
+					xsDisplayArea.slideDown();
 				}
 			});
+			
+			// 4
+			setTimeout(function() {
+				$("html, body").animate({
+					scrollTop: $(_this).offset().top + $(_this).height() - 20
+				});
+			}, 400);
 		
 		} // end if
 		
@@ -121,10 +125,16 @@ var injectText = function(texts) {
 	
 }; // end injectText(var)
 
-var closeDisplayArea = function() {
+var closeDisplayArea = function(el) {
 	
 	// slide up the details display area
-	$(".techniques-display-area").slideUp();
+	$(".techniques-display-area").each(function() {
+		if($(this).height()) {
+			$("html, body").animate({
+				scrollTop: $("body").scrollTop() - $(this).height()
+			});
+		} // end if
+	}).slideUp();
 	
 	// remove all the active class
 	$("#techniques .techniques-block").removeClass("active");
