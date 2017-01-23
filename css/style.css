@@ -1023,6 +1023,22 @@ html.mobile-browser #techniques-php {
   background-image: url(../video/programming.gif);
   background-size: cover;
 }
+html.mobile-browser #techniques-php #techniques-php-video {
+  visibility: hidden;
+}
+
+html.mobile-browser #techniques-html {
+  background-image: url(../video/keyboard.gif);
+  background-size: cover;
+}
+html.mobile-browser #techniques-html #techniques-html-video {
+  visibility: hidden;
+}
+
+html.mobile-browser #techniques-php {
+  background-image: url(../video/programming.gif);
+  background-size: cover;
+}
 
 html.mobile-browser #techniques-html {
   background-image: url(../video/keyboard.gif);

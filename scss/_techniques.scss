@@ -628,6 +628,24 @@
 }
 
 /** for mobile browser only **/
+html.mobile-browser {
+	#techniques-php {
+		background-image: url(../video/programming.gif);
+		background-size: cover;
+		#techniques-php-video {
+			visibility: hidden;
+		}
+	}
+}
+html.mobile-browser {
+	#techniques-html {
+		background-image: url(../video/keyboard.gif);
+		background-size: cover;
+		#techniques-html-video {
+			visibility: hidden;
+		}
+	}
+}
 html.mobile-browser #techniques-php {
 	background-image: url(../video/programming.gif);
 	background-size: cover;
