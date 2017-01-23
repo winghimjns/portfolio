@@ -124,18 +124,16 @@ function text($name) {
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-6 col-sm-offset-5 text-justify">
+						<div class="col-sm-2 col-sm-offset-2">
+							<div id="programmer-svg-wrap">
+								<img id="exclamation_mark-svg" src="./img/exclamation_mark.svg<?php v(); ?>" />
+							</div>
+								
+						</div>
+						<div class="col-sm-6 col-sm-offset-1 text-justify">
 							<p wg-text="about_paragraph_1"><?php text("about_paragraph_1"); ?></p>
 							<p wg-text="about_paragraph_2"><?php text("about_paragraph_2"); ?></p>
 							<p wg-text="about_paragraph_3"><?php text("about_paragraph_3"); ?></p>
-						</div>
-					</div>
-					<div class="row hidden-xs">
-						<div class="col-sm-2 col-sm-offset-2 fill-height text-justify">
-							<div id="programmer-svg-wrap">
-								<img id="programmer-svg" src="./img/programmer.svg<?php v(); ?>" />
-								<img id="exclamation_mark-svg" src="./img/exclamation_mark.svg<?php v(); ?>" />
-							</div>
 						</div>
 					</div>
 				</div>

@@ -18,11 +18,15 @@
 	}
 	
 	#programmer-svg-wrap {
-		position: absolute;
-		right: 0;
-		bottom: 100%;
-		width: 100%;
+		position: relative;
 		background-image: url(../img/programmer.svg);
+		
+		&:before {
+			position: relative;
+			display: block;
+			content: '';
+			padding-top: 109.28828%;
+		}
 		
 		&:hover {
 			background-image: url(../img/programmer_stop.svg);
