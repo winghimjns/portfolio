@@ -654,11 +654,6 @@ function text($name) {
 		<!-- custom css -->
 		<link rel="stylesheet" href="./css/style.css<?php v(); ?>" />
 		
-		<!-- text -->
-		<script type="text/javascript">
-			window.textsJson = <?php echo($text_json); ?>;
-		</script>
-		
 		<!-- custom script -->
 		<script type="text/javascript" language="javascript" src="./js/main.js<?php v(); ?>"></script>
 		
