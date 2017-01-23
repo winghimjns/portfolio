@@ -583,28 +583,31 @@ function text($name) {
 								<div class="row">
 									<div class="col-md-8 col-md-offset-2">
 										<!-- contact title -->
-										<h1 wg-text="contact_title"><?php text("contact_title"); ?></h1>
+										<h1 class="text-center" wg-text="contact_title"><?php text("contact_title"); ?></h1>
 									</div>
 								</div>
 									
 								<div class="row">
-									<div class="col-md-4 col-md-offset-2">
-										<p wg-text="contact_paragraph_1" class="text-justify"><?php text("contact_paragraph_1"); ?></p>
-									</div>
-									<div class="col-md-4">
-							
-										<!-- items -->
-										<ul id="contact-items">
-											<li><strong wg-text="contact_item_1"><?php text("contact_item_1"); ?></strong></li>
-											<li><strong wg-text="contact_item_2"><?php text("contact_item_2"); ?></strong></li>
-											<li><strong wg-text="contact_item_3"><?php text("contact_item_3"); ?></strong></li>
-										</ul>
+									<div class="col-md-4 col-md-offset-4">
+										<p wg-text="contact_paragraph_1" class="text-center"><?php text("contact_paragraph_1"); ?></p>
 									</div>
 								</div>
 								
 								<div class="row">
 									<div class="col-md-8 col-md-offset-2">
 										<hr />
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-4 col-md-offset-4">
+							
+										<!-- items -->
+										<ul id="contact-items">
+											<li class="text-center"><strong wg-text="contact_item_1"><?php text("contact_item_1"); ?></strong></li>
+											<li class="text-center"><strong wg-text="contact_item_2"><?php text("contact_item_2"); ?></strong></li>
+											<li class="text-center"><strong wg-text="contact_item_3"><?php text("contact_item_3"); ?></strong></li>
+										</ul>
 									</div>
 								</div>
 								
