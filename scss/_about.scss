@@ -20,6 +20,9 @@
 	#programmer-svg-wrap {
 		position: relative;
 		background-image: url(../img/programmer.svg);
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
 		
 		&:before {
 			position: relative;

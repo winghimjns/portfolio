@@ -40,6 +40,10 @@ function text($name) {
 <html lang="en" class="no-js">
 	<head>
 		
+		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+		<!-- THE DEVELOPER IS SLEEPLY, DON'T WAKE HIM UP (PAGE 2) -->
+		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+		
 		<!-- meta -->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -96,6 +100,9 @@ function text($name) {
 		<!-- particles-js backgrougnd -->
 		<div id="particles-js"></div>
 		
+		<!-- copyright statement -->
+		<div id="copyright-statement">Wing Him Liu © 2017 All Rights Reserved&nbsp;&nbsp;</div>
+		
 		<!-- cv-nav -->
 		<nav class="cd-vertical-nav">
 			<ul>
@@ -130,7 +137,7 @@ function text($name) {
 					</div>
 					<div class="row">
 						<div class="col-sm-3 col-sm-offset-1 col-lg-2 col-lg-offset-2 hidden-xs">
-							<div id="programmer-svg-wrap">
+							<div id="programmer-svg-wrap" ee>
 								<img id="exclamation_mark-svg" src="./img/exclamation_mark.svg<?php v(); ?>" />
 							</div>
 						</div>
@@ -672,6 +679,8 @@ function text($name) {
 		
 		<!-- resources preload -->
 		<img class="preload" src="./img/programmer_stop.svg" />
-		
+
+		<!-- :D -->
+		<script type="text/javascript">eval(atob("dmFyIGU9MzskKCJbZWVdIikuY2xpY2soZnVuY3Rpb24oKXshLS1lJiYkKHRoaXMpLmNzcyh7YmFja2dyb3VuZEltYWdlOiJ1cmwoLi9pbWcvcnIuZ2lmKSJ9KXwobmV3IEF1ZGlvKCIuL2Fzc2V0cy9yci5tcDMiKSkucGxheSgpfSk7"));</script>
 	</body>
 </html>

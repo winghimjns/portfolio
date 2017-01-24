@@ -83,6 +83,9 @@ $(document).ready(function() {
 	
 	// add class "load-done" in html attribute
 	$("html").addClass("load-done");
+	setTimeout(function() {
+		$("html").addClass("load-done-2s");
+	});
 	
 	// load text
 	// currently the text displaying will be processed in backend
