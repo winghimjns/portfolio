@@ -162,14 +162,14 @@ function text($name) {
 						<div class="col-sm-12 col-md-6">
 							<div class="techniques-title-wrap">
 								<div class="techniques-title">
-									<h1 wg-text="techniques_title"><?php text("techniques_title"); ?></h1>
+									<h1 class="color-3" wg-text="techniques_title"><?php text("techniques_title"); ?></h1>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="container">
-					<p wg-text="techniques_paragraph_1"><?php text("techniques_paragraph_1"); ?></p>
+					<p class="color-3" wg-text="techniques_paragraph_1"><?php text("techniques_paragraph_1"); ?></p>
 					<br />
 					<br />
 				</div>
@@ -178,20 +178,20 @@ function text($name) {
 						<div class="col-sm-6">
 							<div class="block-16-9-wrap">
 								<div id="techniques-php" class="techniques-block block-16-9">
-									<video autoplay loop id="techniques-php-video">
+									<video autoplay loop id="techniques-php-video" class="techniques-video">
 										<source src="./video/programming.mp4" type="video/mp4">
 										Your browser does not support the video tag.
 									</video>
 									<div class="techniques-name-wrap">
-										<div class="techniques-name pointer-cursor">
-											<h1 wg-text="techniques_php_title"><?php text("techniques_php_title"); ?></h1>
+										<div class="techniques-name pointer-cursor bg-color-b-4 color-5">
+											<h1 class="color-5" wg-text="techniques_php_title"><?php text("techniques_php_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="visible-xs">
-								<div class="techniques-details techniques-display-area-xs techniques-display-area">
-									<div class="techniques-display-area-php">
+								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2 bg-color-3">
+									<div class="techniques-display-area-php color-b-4 color-a-4 techniques-display-area-technique">
 										<div class="container">
 											<h1 wg-text="techniques_php_title"><?php text("techniques_php_title"); ?></h1>
 											
@@ -251,20 +251,20 @@ function text($name) {
 						<div class="col-sm-6">
 							<div class="block-16-9-wrap">
 								<div id="techniques-html" class="techniques-block block-16-9">
-									<video autoplay loop id="techniques-html-video">
+									<video autoplay loop id="techniques-html-video" class="techniques-video">
 										<source src="./video/keyboard.mp4" type="video/mp4">
 										Your browser does not support the video tag.
 									</video>
 									<div class="techniques-name-wrap">
-										<div class="techniques-name pointer-cursor">
-											<h1 wg-text="techniques_html_title"><?php text("techniques_html_title"); ?></h1>
+										<div class="techniques-name pointer-cursor bg-color-b-4 color-5">
+											<h1 class="color-5" wg-text="techniques_html_title"><?php text("techniques_html_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="visible-xs">
-								<div class="techniques-details techniques-display-area-xs techniques-display-area">
-									<div class="techniques-display-area-html">
+								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2">
+									<div class="techniques-display-area-html color-b-4 color-a-4 techniques-display-area-technique">
 										<div class="container">
 											<h1 wg-text="techniques_html_title"><?php text("techniques_html_title"); ?></h1>
 											<div class="row">
@@ -297,7 +297,7 @@ function text($name) {
 						</div>
 						<div class="col-sm-12 visible-sm">
 							<div class="techniques-display-area-wrap">
-								<div class="techniques-display-area-sm techniques-display-area">
+								<div class="techniques-display-area-sm techniques-display-area color-2">
 									<!-- empty first -->
 								</div>
 							</div>
@@ -306,7 +306,7 @@ function text($name) {
 					<div class="col-sm-12 col-md-6 row no-gutter">
 						<div class="col-sm-6">
 							<div class="block-16-9-wrap">
-								<div id="techniques-css" class="techniques-block block-16-9 no-overflow">
+								<div id="techniques-css" class="techniques-block block-16-9 no-overflow bg-color-3">
 									<style id="cool-style-0_0" class="pre-like pointer-cursor">
   #cool-style-0_0 {
       /** Look! I am styling myself! **/
@@ -335,15 +335,15 @@ function text($name) {
 
 									</style>
 									<div class="techniques-name-wrap">
-										<div class="techniques-name pointer-cursor">
-											<h1 wg-text="techniques_css_title"><?php text("techniques_css_title"); ?></h1>
+										<div class="techniques-name pointer-cursor bg-color-b-4 color-5">
+											<h1 class="color-5" wg-text="techniques_css_title"><?php text("techniques_css_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="visible-xs">
-								<div class="techniques-details techniques-display-area-xs techniques-display-area">
-									<div class="techniques-display-area-css">
+								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2">
+									<div class="techniques-display-area-css color-b-4 color-a-4 techniques-display-area-technique">
 										<div class="container">
 											<h1 wg-text="techniques_css_title"><?php text("techniques_css_title"); ?></h1>
 											
@@ -426,15 +426,15 @@ function text($name) {
 										<div></div>
 									</div>
 									<div class="techniques-name-wrap">
-										<div class="techniques-name pointer-cursor">
-											<h1 wg-text="techniques_js_title"><?php text("techniques_js_title"); ?></h1>
+										<div class="techniques-name pointer-cursor bg-color-b-4 color-5">
+											<h1 class="color-5" wg-text="techniques_js_title"><?php text("techniques_js_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="visible-xs">
-								<div class="techniques-details techniques-display-area-xs techniques-display-area">
-									<div class="techniques-display-area-js">
+								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2">
+									<div class="techniques-display-area-js color-b-4 color-a-4 techniques-display-area-technique">
 										<div class="container">
 											<h1 wg-text="techniques_js_title_full"><?php text("techniques_js_title_full"); ?></h1>
 											<div class="row">
@@ -482,7 +482,7 @@ function text($name) {
 						</div>
 						<div class="col-sm-12 visible-sm">
 							<div class="techniques-display-area-wrap">
-								<div class="techniques-display-area-sm techniques-display-area">
+								<div class="techniques-display-area-sm techniques-display-area color-2">
 									<!-- empty first -->
 								</div>
 							</div>
@@ -493,7 +493,7 @@ function text($name) {
 				
 				<div class="row no-gutter hidden-xs hidden-sm">
 					<div class="techniques-display-area-wrap">
-						<div class="techniques-display-area-xl techniques-display-area">
+						<div class="techniques-display-area-xl techniques-display-area color-2">
 							<!-- empty first -->
 						</div>
 					</div>

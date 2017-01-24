@@ -11,35 +11,47 @@
 //    COLOR SET 1
 // --------------------------------------------------------------------------------
 
-
-
-
-$color-sets: (
-	"1": (
-		$color-1,
-		$color-2,
-		$color-3,
-		$color-4,
-		$color-5
-	)
-);
-
-@each $set-name, $colors in $color-sets {
-
-	.color-set-#{$set-name} {
+@mixin make-color-set($color-set, $name) {
+	
+	/** color set: #{$name} **/
+	.color-set-#{$name} {
 		
-		@each $i, $color in $colors {
+		@each $i, $color in $color-set {
 			
-			/** font color **/
 			.color-#{$i} { color: $color; }
-			
-			/** background color **/
+			.color-b-#{$i}:before { color: $color; }
+			.color-a-#{$i}:after { color: $color; }
 			.bg-color-#{$i} { background-color: $color; }
+			.bg-color-b-#{$i}:before { background-color: $color; }
+			.bg-color-a-#{$i}:after { background-color: $color; }
 			
 		}
+	}
+}
+
+@mixin make-default-color-set($color-set) {
+	
+	/** default color set **/
+	@each $i, $color in $color-set {
 		
-		
+		.color-#{$i} { color: $color; }
+		.color-b-#{$i}:before { color: $color; }
+		.color-a-#{$i}:after { color: $color; }
+		.bg-color-#{$i} { background-color: $color; }
+		.bg-color-b-#{$i}:before { background-color: $color; }
+		.bg-color-a-#{$i}:after { background-color: $color; }
 		
 	}
 }
+
+
+$color-set-1: (
+	"1": $color-1,
+	"2": $color-2,
+	"3": $color-3,
+	"4": $color-4,
+	"5": $color-5
+);
+
+@include make-default-color-set($color-set-1);
 

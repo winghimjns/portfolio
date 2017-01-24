@@ -19,12 +19,6 @@
 //    COLORS
 // ================================================================================
 
-.color-1 { color: $color-1; }
-.color-2 { color: $color-2; }
-.color-3 { color: $color-3; }
-.color-4 { color: $color-4; }
-.color-5 { color: $color-5; }
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	@extend .montserrat;
