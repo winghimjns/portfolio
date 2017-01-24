@@ -41,7 +41,9 @@ function text($name) {
 	<head>
 		
 		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-		<!-- THE DEVELOPER IS SLEEPLY, DON'T WAKE HIM UP (PAGE 2) -->
+		<!--                                                      -->
+		<!-- DEVELOPER IS SLEEPLY, DON'T WAKE HIM UP (ABOUT PAGE) -->
+		<!--                                                      -->
 		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 		
 		<!-- meta -->
