@@ -1165,7 +1165,7 @@ html.mobile-browser #techniques-html {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url(../img/contact-background-l.jpg);
+  background-image: url(../img/contact-background-s.jpg);
   background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -1178,13 +1178,25 @@ html.mobile-browser #techniques-html {
   bottom: 0;
   right: 0;
   content: '';
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: white;
+  opacity: .6;
 }
 #contact .content-wrapper {
   min-height: inherit;
 }
 #contact .content-wrapper #contact-middle-wrap {
   min-height: inherit;
+}
+
+@media (min-width: 768px) {
+  #contact #contact-background {
+    background-image: url(../img/contact-background-m.jpg);
+  }
+}
+@media (min-width: 992px) {
+  #contact #contact-background {
+    background-image: url(../img/contact-background-l.jpg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

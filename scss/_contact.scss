@@ -15,7 +15,7 @@
 		left: 0;
 		bottom: 0;
 		right: 0;
-		background-image: url(../img/contact-background-l.jpg); // TODO : modify to background image's size depend on the screen size
+		background-image: url(../img/contact-background-s.jpg); // TODO : modify to background image's size depend on the screen size
 		background-position: 50%;
 		background-size: cover;
 		background-attachment: fixed;
@@ -46,4 +46,11 @@
 	}
 	
 	
+}
+
+@media (min-width: 768px) {
+	#contact #contact-background { background-image: url(../img/contact-background-m.jpg); }
+}
+@media (min-width: 992px) {
+	#contact #contact-background { background-image: url(../img/contact-background-l.jpg); }
 }
