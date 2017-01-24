@@ -183,8 +183,8 @@ function text($name) {
 										Your browser does not support the video tag.
 									</video>
 									<div class="techniques-name-wrap">
-										<div class="techniques-name pointer-cursor bg-color-b-4 color-5">
-											<h1 class="color-5" wg-text="techniques_php_title"><?php text("techniques_php_title"); ?></h1>
+										<div class="techniques-name pointer-cursor bg-color-b-4">
+											<h1 wg-text="techniques_php_title"><?php text("techniques_php_title"); ?></h1>
 										</div>
 									</div>
 								</div>
@@ -256,8 +256,8 @@ function text($name) {
 										Your browser does not support the video tag.
 									</video>
 									<div class="techniques-name-wrap">
-										<div class="techniques-name pointer-cursor bg-color-b-4 color-5">
-											<h1 class="color-5" wg-text="techniques_html_title"><?php text("techniques_html_title"); ?></h1>
+										<div class="techniques-name pointer-cursor bg-color-b-4">
+											<h1 wg-text="techniques_html_title"><?php text("techniques_html_title"); ?></h1>
 										</div>
 									</div>
 								</div>
@@ -306,7 +306,7 @@ function text($name) {
 					<div class="col-sm-12 col-md-6 row no-gutter">
 						<div class="col-sm-6">
 							<div class="block-16-9-wrap">
-								<div id="techniques-css" class="techniques-block block-16-9 no-overflow bg-color-3">
+								<div id="techniques-css" class="techniques-block block-16-9 no-overflow">
 									<style id="cool-style-0_0" class="pre-like pointer-cursor">
   #cool-style-0_0 {
       /** Look! I am styling myself! **/
@@ -335,13 +335,13 @@ function text($name) {
 
 									</style>
 									<div class="techniques-name-wrap">
-										<div class="techniques-name pointer-cursor bg-color-b-4 color-5">
-											<h1 class="color-5" wg-text="techniques_css_title"><?php text("techniques_css_title"); ?></h1>
+										<div class="techniques-name pointer-cursor bg-color-b-4">
+											<h1 wg-text="techniques_css_title"><?php text("techniques_css_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="visible-xs">
+							<div class="visible-xs">bg
 								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2">
 									<div class="techniques-display-area-css color-b-4 color-a-4 techniques-display-area-technique">
 										<div class="container">
@@ -426,8 +426,8 @@ function text($name) {
 										<div></div>
 									</div>
 									<div class="techniques-name-wrap">
-										<div class="techniques-name pointer-cursor bg-color-b-4 color-5">
-											<h1 class="color-5" wg-text="techniques_js_title"><?php text("techniques_js_title"); ?></h1>
+										<div class="techniques-name pointer-cursor bg-color-b-4">
+											<h1 wg-text="techniques_js_title"><?php text("techniques_js_title"); ?></h1>
 										</div>
 									</div>
 								</div>
