@@ -94,7 +94,7 @@ function text($name) {
 		</style>
 		
 	</head>
-	<body>
+	<body class="color-3 bg-color-5">
 		
 		<!-- loading cover -->
 		<div id="loading-cover"></div>
@@ -103,7 +103,7 @@ function text($name) {
 		<div id="particles-js"></div>
 		
 		<!-- copyright statement -->
-		<div id="copyright-statement">Wing Him Liu © 2017 All Rights Reserved&nbsp;&nbsp;</div>
+		<div id="copyright-statement" class="color-2 bg-color-a-1">Wing Him Liu © 2017 All Rights Reserved&nbsp;&nbsp;</div>
 		
 		<!-- cv-nav -->
 		<nav class="cd-vertical-nav">
@@ -574,7 +574,7 @@ function text($name) {
 		<section id="contact" class="cd-section">
 			
 			<!-- background-image -->
-			<div id="contact-background"></div>
+			<div id="contact-background" class="bg-color-a-5"></div>
 			
 			<div class="content-wrapper">
 				
