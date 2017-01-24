@@ -46,12 +46,13 @@
 
 
 $color-set-1: (
-	"1": $color-1,
-	"2": $color-2,
-	"3": $color-3,
-	"4": $color-4,
-	"5": $color-5
+	"1": $color-1, // #444444
+	"2": $color-2, // #EEEEEE
+	"3": $color-3, // #222222
+	"4": $color-4, // #BBBBBB
+	"5": $color-5  // #FFFFFF
 );
 
 @include make-default-color-set($color-set-1);
+@include make-color-set($color-set-1, "1");
 
