@@ -21,6 +21,7 @@
 			.color-#{$i} { color: $color; }
 			.color-b-#{$i}:before { color: $color; }
 			.color-a-#{$i}:after { color: $color; }
+			.color-h-#{$i}:hover { color: $color; }
 			.bg-color-#{$i} { background-color: $color; }
 			.bg-color-b-#{$i}:before { background-color: $color; }
 			.bg-color-a-#{$i}:after { background-color: $color; }
@@ -38,6 +39,7 @@
 		.color-#{$i} { color: $color; }
 		.color-b-#{$i}:before { color: $color; }
 		.color-a-#{$i}:after { color: $color; }
+		.color-h-#{$i}:hover { color: $color; }
 		.bg-color-#{$i} { background-color: $color; }
 		.bg-color-b-#{$i}:before { background-color: $color; }
 		.bg-color-a-#{$i}:after { background-color: $color; }

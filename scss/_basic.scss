@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5, h6,
 	padding: .67em 0;
 	margin: 0;
 }
-
 p {
 	@extend .slabo;
 }
@@ -35,9 +34,18 @@ big {
 	font-size: 1.3em;
 }
 
+img {
+	max-width: 100%;
+}
 
 .mt0 {
 	margin-top: 0;
+}
+.mt1 {
+	margin-top: 1rem;
+}
+.mb1 {
+	margin-bottom: 1rem;
 }
 .pt0 {
 	padding-top: 0;
@@ -48,6 +56,14 @@ ul.list-disc {
 	padding-left: 15px;
 }
 
+ol.list-decimal {
+	list-style-type: decimal;
+	padding-left: 15px;
+}
+
+.u {
+	text-decoration: underline;
+}
 
 a.link-unstyled,
 a.link-unstyled:link,
@@ -266,3 +282,15 @@ html.load-done-2s #copyright-statement:after {
 	}
 }
 
+
+// ================================================================================
+//    FOR BACKGROUND ANIMATION
+// ================================================================================
+@keyframes pattern-bg-animation {
+	0% {
+		background-position-x: 0%
+	}
+	100% {
+		background-position-x: 100%;
+	}
+}

@@ -141,3 +141,25 @@ var closeDisplayArea = function(el) {
 	// remove all the active class
 	$("#techniques .techniques-block").removeClass("active");
 }; // end closeDisplayArea()
+
+/**
+ * 
+ * show the project examples
+ * 
+ */
+var showProjectExample = function(id) {
+	return $("html, body").animate({
+		scrollTop: $("#" + id).slideDown().offset().top - 20
+	});
+}; // showProjectExample(var)
+
+/**
+ * 
+ * hide the project examples
+ * 
+ */
+var hideProjectExample = function(id) {
+	return $("html, body").animate({
+		scrollTop: $("body").scrollTop() - $("#" + id).slideUp().height()
+	});
+}; // end hideProjectExample(var)

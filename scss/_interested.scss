@@ -29,6 +29,25 @@
 		
 	}
 	
+	.interested-project-example {
+		background-image: url(../img/pattern-07.png);
+		overflow: hidden;
+		
+		/** animation **/
+		-webkit-animation: pattern-bg-animation 70s linear infinite;
+		   -moz-animation: pattern-bg-animation 70s linear infinite;
+			 -o-animation: pattern-bg-animation 70s linear infinite;
+				animation: pattern-bg-animation 70s linear infinite;
+	}
+	
+	.interested-project-img {
+		@include transition(transform .5s);
+		@include transform(scale(1));
+		&:hover {
+			@include transform(scale(1.2));
+		}
+	}
+	
 	
 	
 	

@@ -314,7 +314,7 @@ function text($name) {
 								</div>
 							</div>
 							<div class="visible-xs">
-								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2">
+								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2 bg-color-3">
 									<div class="techniques-display-area-html color-b-4 color-a-4 techniques-display-area-technique">
 										<div class="container">
 											<h1 wg-text="techniques_html_title"><?php text("techniques_html_title"); ?></h1>
@@ -348,7 +348,7 @@ function text($name) {
 						</div>
 						<div class="col-sm-12 visible-sm">
 							<div class="techniques-display-area-wrap">
-								<div class="techniques-display-area-sm techniques-display-area color-2">
+								<div class="techniques-display-area-sm techniques-display-area color-2 bg-color-3">
 									<!-- empty first -->
 								</div>
 							</div>
@@ -393,7 +393,7 @@ function text($name) {
 								</div>
 							</div>
 							<div class="visible-xs">
-								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2">
+								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2 bg-color-3">
 									<div class="techniques-display-area-css color-b-4 color-a-4 techniques-display-area-technique">
 										<div class="container">
 											<h1 wg-text="techniques_css_title"><?php text("techniques_css_title"); ?></h1>
@@ -484,7 +484,7 @@ function text($name) {
 								</div>
 							</div>
 							<div class="visible-xs">
-								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2">
+								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2 bg-color-3">
 									<div class="techniques-display-area-js color-b-4 color-a-4 techniques-display-area-technique">
 										<div class="container">
 											<h1 wg-text="techniques_js_title_full"><?php text("techniques_js_title_full"); ?></h1>
@@ -533,7 +533,7 @@ function text($name) {
 						</div>
 						<div class="col-sm-12 visible-sm">
 							<div class="techniques-display-area-wrap">
-								<div class="techniques-display-area-sm techniques-display-area color-2">
+								<div class="techniques-display-area-sm techniques-display-area color-2 bg-color-3">
 									<!-- empty first -->
 								</div>
 							</div>
@@ -544,7 +544,7 @@ function text($name) {
 				
 				<div class="row no-gutter hidden-xs hidden-sm">
 					<div class="techniques-display-area-wrap">
-						<div class="techniques-display-area-xl techniques-display-area color-2">
+						<div class="techniques-display-area-xl techniques-display-area color-2 bg-color-3">
 							<!-- empty first -->
 						</div>
 					</div>
@@ -595,11 +595,185 @@ function text($name) {
 						</div>
 					</div>
 					
-					<hr />
-					
+				</div>
+				
+				<!-- slide down button for project example 1 -->
+				<div class="container mt1 mb1">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10">
+							<a href="javascript:void(0);" class="btn btn-default" onclick="showProjectExample('interested-cryptography-example-1');">
+								<span wg-text="interested_project_example"><?php text("interested_project_example"); ?></span>
+								<span wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></span>:
+								<span><strong wg-text="interested_cryptography_example_1_title"><?php text("interested_cryptography_example_1_title"); ?></strong></span>
+								&raquo;
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- project example 1: php & javascript encrypter & decrypter -->
+				<div id="interested-cryptography-example-1" class="interested-project-example bg-color-3 color-5" style="display: none;">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12">
+								<h2 wg-text="interested_cryptography_example_1_title"><?php text("interested_cryptography_example_1_title"); ?></h2>
+								
+								<div>
+									<a href="https://portfolio.winghimjns.com/server_client_crypt/rsa.php" class="btn btn-link color-5 color-h-5 u" target="_blank">
+										<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_cryptography_example_1_screen_product_1_title"><?php text("interested_cryptography_example_1_screen_product_1_title"); ?></span>
+									</a>
+								</div>
+								<div>
+									<a href="https://portfolio.winghimjns.com/server_client_crypt/aes.php" class="btn btn-link color-5 color-h-5 u" target="_blank">
+										<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_cryptography_example_1_screen_product_2_title"><?php text("interested_cryptography_example_1_screen_product_2_title"); ?></span>
+									</a>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-6">
+										<h4 wg-text="interested_project_introduction"><?php text("interested_project_introduction"); ?></h4>
+										<p class="text-justify" wg-text="interested_cryptography_example_1_introduction_paragraph_1"><?php text("interested_cryptography_example_1_introduction_paragraph_1"); ?></p>
+										<p class="text-justify" wg-text="interested_cryptography_example_1_introduction_paragraph_2"><?php text("interested_cryptography_example_1_introduction_paragraph_2"); ?></p>
+										<p class="text-justify" wg-text="interested_cryptography_example_1_introduction_paragraph_3"><?php text("interested_cryptography_example_1_introduction_paragraph_3"); ?></p>
+										<p class="text-justify" wg-text="interested_cryptography_example_1_introduction_paragraph_4"><?php text("interested_cryptography_example_1_introduction_paragraph_4"); ?></p>
+										<ul class="list-disc">
+											<li>
+												<a href="https://code.google.com/archive/p/crypto-js/" class="btn btn-link btn-md color-5 color-h-5" target="_blank">
+													<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_cryptography_example_1_introduction_item_1"><?php text("interested_cryptography_example_1_introduction_item_1");?></span>
+												</a>
+											</li>
+											<li>
+												<a href="https://github.com/travist/jsencrypt" class="btn btn-link color-5 btn-md color-h-5" target="_blank">
+													<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_cryptography_example_1_introduction_item_2"><?php text("interested_cryptography_example_1_introduction_item_2");?></span>
+												</a>
+											</li>
+											<li>
+												<a href="http://phpseclib.sourceforge.net/" class="btn btn-link btn-md color-5 color-h-5" target="_blank">
+													<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_cryptography_example_1_introduction_item_3"><?php text("interested_cryptography_example_1_introduction_item_3");?></span>
+												</a>
+											</li>
+										</ul>
+										<p class="text-justify" wg-text="interested_cryptography_example_1_introduction_paragraph_5"><?php text("interested_cryptography_example_1_introduction_paragraph_5"); ?></p>
+									</div>
+									<div class="col-md-6">
+										
+										<h4 wg-text="interested_project_screen_shots"><?php text("interested_project_screen_shots"); ?></h4>
+										<div class="row">
+											<div class="col-sm-6">
+												<a href="./img/rsa_project_screen_shot.png" target="_blank">
+													<img class="interested-project-img" src="./img/rsa_project_screen_shot.png" />
+												</a>
+												<h6 wg-text="interested_cryptography_example_1_screen_shot_description_1"><?php text("interested_cryptography_example_1_screen_shot_description_1"); ?></h6>
+											</div>
+											<div class="col-sm-6">
+												<a href="./img/aes_project_screen_shot.png" target="_blank">
+													<img class="interested-project-img" src="./img/aes_project_screen_shot.png" />
+												</a>
+												<h6 wg-text="interested_cryptography_example_1_screen_shot_description_2"><?php text("interested_cryptography_example_1_screen_shot_description_2"); ?></h6>
+											</div>
+										</div>
+										
+										<h4 wg-text="interested_project_guide"><?php text("interested_project_guide"); ?></h4>
+										<ol class="list-decimal">
+											<li><p wg-text="interested_cryptography_example_1_guild_paragraph_1"><?php text("interested_cryptography_example_1_guild_paragraph_1"); ?></p></li>
+											<li><p wg-text="interested_cryptography_example_1_guild_paragraph_2"><?php text("interested_cryptography_example_1_guild_paragraph_2"); ?></p></li>
+											<li><p wg-text="interested_cryptography_example_1_guild_paragraph_3"><?php text("interested_cryptography_example_1_guild_paragraph_3"); ?></p></li>
+										</ol>
+										<br />
+										
+									</div>
+								</div>
+								<div class="text-right">
+									<a class="btn btn-default color-3 color-h-3" href="javascript:void(0);" onclick="hideProjectExample('interested-cryptography-example-1');">
+										<i class="fa fa-window-close" aria-hidden="true"></i>&nbsp;Close
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+				</div>
+				
+				<!-- slide down button for project example 2 -->
+				<div class="container mt1 mb1">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10">
+							<a href="javascript:void(0);" class="btn btn-default" onclick="showProjectExample('interested-cryptography-example-2');">
+								<span wg-text="interested_project_example"><?php text("interested_project_example"); ?></span>
+								<span wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></span>:
+								<span><strong wg-text="interested_cryptography_example_2_title"><?php text("interested_cryptography_example_2_title"); ?></strong></span>
+								&raquo;
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- project example 2: ciphertext decryption online -->
+				<div id="interested-cryptography-example-2" class="interested-project-example bg-color-3 color-5" style="display: none;">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12">
+								<h2 wg-text="interested_cryptography_example_2_title"><?php text("interested_cryptography_example_2_title"); ?></h2>
+								
+								<div>
+									<a href="https://portfolio.winghimjns.com/password_crypt/" class="btn btn-link color-5 color-h-5 u" target="_blank">
+										<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_cryptography_example_2_screen_product_title"><?php text("interested_cryptography_example_2_screen_product_title"); ?></span>
+									</a>
+									<br />
+								</div>
+								
+								<div>
+									<span wg-text="interested_cryptography_example_2_info_1"><?php text("interested_cryptography_example_2_info_1"); ?></span>: <code>Lyp9kHHHLB08qdIxI5bAcxIz1ie3On3r</code>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-6">
+										<h4 wg-text="interested_project_introduction"><?php text("interested_project_introduction"); ?></h4>
+										<p wg-text="interested_cryptography_example_2_introduction_paragraph_1"><?php text("interested_cryptography_example_2_introduction_paragraph_1"); ?></p>
+										<p wg-text="interested_cryptography_example_2_introduction_paragraph_2"><?php text("interested_cryptography_example_2_introduction_paragraph_2"); ?></p>
+										<p wg-text="interested_cryptography_example_2_introduction_paragraph_3"><?php text("interested_cryptography_example_2_introduction_paragraph_3"); ?></p>
+									</div>
+									<div class="col-md-6">
+										<h4 wg-text="interested_project_guide"><?php text("interested_project_guide"); ?></h4>
+										<ol class="list-decimal">
+											<li><span wg-text="interested_cryptography_example_2_guild_paragraph_1"><?php text("interested_cryptography_example_2_guild_paragraph_1"); ?></span></li>
+											<li><span wg-text="interested_cryptography_example_2_guild_paragraph_2"><?php text("interested_cryptography_example_2_guild_paragraph_2"); ?></span></li>
+										</ol>
+										<h4 wg-text="interested_project_screen_shots"><?php text("interested_project_screen_shots"); ?></h4>
+										<div class="row">
+											<div class="col-sm-push-2 col-sm-8">
+												<a href="./img/decryption_project_screen_shot.png" target="_blank">
+													<img class="interested-project-img" src="./img/decryption_project_screen_shot.png" />
+												</a>
+												<h6 wg-text="interested_cryptography_example_2_screen_shot_description_1"><?php text("interested_cryptography_example_2_screen_shot_description_1"); ?></p>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								<div class="text-right">
+									<a class="btn btn-default color-3 color-h-3" href="javascript:void(0);" onclick="hideProjectExample('interested-cryptography-example-2');">
+										<i class="fa fa-window-close" aria-hidden="true"></i>&nbsp;Close
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+				</div>
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10">
+							<hr />
+						</div>
+					</div>
 				</div>
 					
 				<div class="container">
+					<br />
 					<div class="row">
 						<div class="col-md-3 col-md-offset-1 md-text-right">
 							<h2 class="slabo pt0" wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></h2>
@@ -610,9 +784,131 @@ function text($name) {
 							<p wg-text="interested_web_design_paragraph_3" class="text-justify"><?php text("interested_web_design_paragraph_3"); ?></p>
 						</div>
 					</div>
-					
-					<hr />
 				</div>
+				
+				<!-- slide down button for project example 3 -->
+				<div class="container mt1 mb1">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10">
+							<a href="javascript:void(0);" class="btn btn-default" onclick="showProjectExample('interested-web_design-example-1');">
+								<span wg-text="interested_project_example"><?php text("interested_project_example"); ?></span>
+								<span wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></span>:
+								<span><strong wg-text="interested_web_design_example_1_title"><?php text("interested_web_design_example_1_title"); ?></strong></span>
+								&raquo;
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- project example 3: soot sprites interactive animation -->
+				<div id="interested-web_design-example-1" class="interested-project-example bg-color-3 color-5" style="display: none;">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12">
+								<h2 wg-text="interested_web_design_example_1_title"><?php text("interested_web_design_example_1_title"); ?></h2>
+								
+								<div>
+									<a href="https://portfolio.winghimjns.com/sootsprites/" class="btn btn-link color-5 color-h-5 u" target="_blank">
+										<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_web_design_example_1_screen_product_title"><?php text("interested_web_design_example_1_screen_product_title"); ?></span>
+									</a>
+									<br />
+								</div>
+								
+								<div class="row">
+									<div class="col-md-6">
+										<h4 wg-text="interested_project_introduction"><?php text("interested_project_introduction"); ?></h4>
+										<p wg-text="interested_web_design_example_1_introduction_paragraph_1"><?php text("interested_web_design_example_1_introduction_paragraph_1"); ?></p>
+										<a href="http://brm.io/matter-js/" class="btn btn-link color-5 color-h-5" target="_blank">
+											<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_web_design_example_1_info_1"><?php text("interested_web_design_example_1_info_1"); ?></span>
+										</a>
+										<p wg-text="interested_web_design_example_1_introduction_paragraph_2"><?php text("interested_web_design_example_1_introduction_paragraph_2"); ?></p>
+										<p wg-text="interested_web_design_example_1_introduction_paragraph_3"><?php text("interested_web_design_example_1_introduction_paragraph_3"); ?></p>
+									</div>
+									<div class="col-md-6">
+										<h4 wg-text="interested_project_screen_shots"><?php text("interested_project_screen_shots"); ?></h4>
+										<a href="./img/decryption_project_screen_shot.png" target="_blank">
+											<img class="interested-project-img" src="./img/sootsprites_project_screen_shot.png" />
+										</a>
+										<h6 wg-text="interested_web_design_example_1_screen_shot_description_1"><?php text("interested_web_design_example_1_screen_shot_description_1"); ?></p>
+									</div>
+								</div>
+								<div class="text-right">
+									<a class="btn btn-default color-3 color-h-3" href="javascript:void(0);" onclick="hideProjectExample('interested-web_design-example-1');">
+										<i class="fa fa-window-close" aria-hidden="true"></i>&nbsp;Close
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+				</div>
+				
+				<!-- slide down button for project example 4 -->
+				<div class="container mt1 mb1">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10">
+							<a href="javascript:void(0);" class="btn btn-default" onclick="showProjectExample('interested-web_design-example-2');">
+								<span wg-text="interested_project_example"><?php text("interested_project_example"); ?></span>
+								<span wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></span>:
+								<span><strong wg-text="interested_web_design_example_1_title"><?php text("interested_web_design_example_2_title"); ?></strong></span>
+								&raquo;
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- project example 4: soot sprites interactive animation -->
+				<div id="interested-web_design-example-2" class="interested-project-example bg-color-3 color-5" style="display: none;">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12">
+								<h2 wg-text="interested_web_design_example_2_title"><?php text("interested_web_design_example_2_title"); ?></h2>
+								
+								<div>
+									<a href="https://portfolio.winghimjns.com/index_v4.5.p.html" class="btn btn-link color-5 color-h-5 u" target="_blank">
+										<i class="fa fa-external-link" aria-hidden="true"></i> &nbsp;<span wg-text="interested_web_design_example_2_screen_product_title"><?php text("interested_web_design_example_2_screen_product_title"); ?></span>
+									</a>
+									<br />
+								</div>
+								
+								<div class="row">
+									<div class="col-md-7">
+										<h4 wg-text="interested_project_introduction"><?php text("interested_project_introduction"); ?></h4>
+										<p wg-text="interested_web_design_example_2_introduction_paragraph_1"><?php text("interested_web_design_example_2_introduction_paragraph_1"); ?></p>
+										<p wg-text="interested_web_design_example_2_introduction_paragraph_2"><?php text("interested_web_design_example_2_introduction_paragraph_2"); ?></p>
+										<p wg-text="interested_web_design_example_2_introduction_paragraph_3"><?php text("interested_web_design_example_2_introduction_paragraph_3"); ?></p>
+									</div>
+									<div class="col-md-5">
+										<h4 wg-text="interested_project_screen_shots"><?php text("interested_project_screen_shots"); ?></h4>
+										<a href="./img/decryption_project_screen_shot.png" target="_blank">
+											<img class="interested-project-img" src="./img/previous_portfolio_screen_shot.png" />
+										</a>
+										<h6 wg-text="interested_web_design_example_2_screen_shot_description_1"><?php text("interested_web_design_example_2_screen_shot_description_1"); ?></p>
+									</div>
+								</div>
+								<div class="text-right">
+									<a class="btn btn-default color-3 color-h-3" href="javascript:void(0);" onclick="hideProjectExample('interested-web_design-example-2');">
+										<i class="fa fa-window-close" aria-hidden="true"></i>&nbsp;Close
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<br />
+				</div>
+				
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10">
+							<hr />
+						</div>
+					</div>
+				</div>
+				
+				
 				<br />
 				<br />
 				<br />
@@ -708,7 +1004,6 @@ function text($name) {
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
 		
 		<!-- vertical-fixed-navigation-2 : a plugin for nav, please check it on https://github.com/CodyHouse/vertical-fixed-navigation-2 -->
-		<!--link href="./vertical-fixed-navigation-2/css/style.css" rel="stylesheet" />-->
 		<link rel="stylesheet" href="./vertical-fixed-navigation-2/css/style.css<?php v(); ?>" />
 		<script type="text/javascript" src="./vertical-fixed-navigation-2/js/main.js<?php v(); ?>"></script>
 		
@@ -718,11 +1013,11 @@ function text($name) {
 		<!-- particle background plugin -->
 		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" type="text/javascript" language="javascript"></script>
 		
-		<!-- parallax.js -->
-		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/jquery.parallax.min.js" integrity="sha256-4u4WqRB9kBJl3fq6NvRuyvScYg4BATiL6Smqh1bJB1s=" crossorigin="anonymous"></script>-->
-		
 		<!-- google fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Slabo+27px|Raleway" rel="stylesheet" />
+		
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 		
 		<!-- custom css -->
 		<link rel="stylesheet" href="./css/style.css<?php v(); ?>" />

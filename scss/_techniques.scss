@@ -534,16 +534,16 @@
 	.techniques-display-area {
 		
 		position: relative;
-		background-image: url(../img/pattern-03.png);
+		background-image: url(../img/pattern-07.png);
 		margin-top: 0;
 		overflow: hidden;
 		
 		
 		/** animation **/
-		-webkit-animation: circuit_board-animation 70s linear infinite;
-		   -moz-animation: circuit_board-animation 70s linear infinite;
-			 -o-animation: circuit_board-animation 70s linear infinite;
-				animation: circuit_board-animation 70s linear infinite;
+		-webkit-animation: pattern-bg-animation 70s linear infinite;
+		   -moz-animation: pattern-bg-animation 70s linear infinite;
+			 -o-animation: pattern-bg-animation 70s linear infinite;
+				animation: pattern-bg-animation 70s linear infinite;
 		
 		/** transition **/
 		-webkit-transition: max-height .5s;
@@ -589,15 +589,6 @@ html.mobile-browser #techniques-php {
 html.mobile-browser #techniques-html {
 	background-image: url(../video/keyboard.gif);
 	background-size: cover;
-}
-
-@keyframes circuit_board-animation {
-	0% {
-		background-position-x: 0%
-	}
-	100% {
-		background-position-x: 100%;
-	}
 }
 
 @keyframes techniques-js-animation {

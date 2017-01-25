@@ -19,8 +19,20 @@ big {
   font-size: 1.3em;
 }
 
+img {
+  max-width: 100%;
+}
+
 .mt0 {
   margin-top: 0;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
 }
 
 .pt0 {
@@ -30,6 +42,15 @@ big {
 ul.list-disc {
   list-style-type: disc;
   padding-left: 15px;
+}
+
+ol.list-decimal {
+  list-style-type: decimal;
+  padding-left: 15px;
+}
+
+.u {
+  text-decoration: underline;
 }
 
 a.link-unstyled,
@@ -186,6 +207,14 @@ html.load-done-2s #copyright-statement:after {
     text-align: right;
   }
 }
+@keyframes pattern-bg-animation {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
 /** default color set **/
 .color-1 {
   color: #444444;
@@ -196,6 +225,10 @@ html.load-done-2s #copyright-statement:after {
 }
 
 .color-a-1:after {
+  color: #444444;
+}
+
+.color-h-1:hover {
   color: #444444;
 }
 
@@ -228,6 +261,10 @@ html.load-done-2s #copyright-statement:after {
   color: #EEEEEE;
 }
 
+.color-h-2:hover {
+  color: #EEEEEE;
+}
+
 .bg-color-2 {
   background-color: #EEEEEE;
 }
@@ -254,6 +291,10 @@ html.load-done-2s #copyright-statement:after {
 }
 
 .color-a-3:after {
+  color: #222222;
+}
+
+.color-h-3:hover {
   color: #222222;
 }
 
@@ -286,6 +327,10 @@ html.load-done-2s #copyright-statement:after {
   color: #BBBBBB;
 }
 
+.color-h-4:hover {
+  color: #BBBBBB;
+}
+
 .bg-color-4 {
   background-color: #BBBBBB;
 }
@@ -312,6 +357,10 @@ html.load-done-2s #copyright-statement:after {
 }
 
 .color-a-5:after {
+  color: #FFFFFF;
+}
+
+.color-h-5:hover {
   color: #FFFFFF;
 }
 
@@ -342,6 +391,9 @@ html.load-done-2s #copyright-statement:after {
 .color-set-1 .color-a-1:after {
   color: #444444;
 }
+.color-set-1 .color-h-1:hover {
+  color: #444444;
+}
 .color-set-1 .bg-color-1 {
   background-color: #444444;
 }
@@ -362,6 +414,9 @@ html.load-done-2s #copyright-statement:after {
   color: #EEEEEE;
 }
 .color-set-1 .color-a-2:after {
+  color: #EEEEEE;
+}
+.color-set-1 .color-h-2:hover {
   color: #EEEEEE;
 }
 .color-set-1 .bg-color-2 {
@@ -386,6 +441,9 @@ html.load-done-2s #copyright-statement:after {
 .color-set-1 .color-a-3:after {
   color: #222222;
 }
+.color-set-1 .color-h-3:hover {
+  color: #222222;
+}
 .color-set-1 .bg-color-3 {
   background-color: #222222;
 }
@@ -408,6 +466,9 @@ html.load-done-2s #copyright-statement:after {
 .color-set-1 .color-a-4:after {
   color: #BBBBBB;
 }
+.color-set-1 .color-h-4:hover {
+  color: #BBBBBB;
+}
 .color-set-1 .bg-color-4 {
   background-color: #BBBBBB;
 }
@@ -428,6 +489,9 @@ html.load-done-2s #copyright-statement:after {
   color: #FFFFFF;
 }
 .color-set-1 .color-a-5:after {
+  color: #FFFFFF;
+}
+.color-set-1 .color-h-5:hover {
   color: #FFFFFF;
 }
 .color-set-1 .bg-color-5 {
@@ -1228,14 +1292,14 @@ html.load-done-2s #copyright-statement:after {
 }
 #techniques .techniques-display-area {
   position: relative;
-  background-image: url(../img/pattern-03.png);
+  background-image: url(../img/pattern-07.png);
   margin-top: 0;
   overflow: hidden;
   /** animation **/
-  -webkit-animation: circuit_board-animation 70s linear infinite;
-  -moz-animation: circuit_board-animation 70s linear infinite;
-  -o-animation: circuit_board-animation 70s linear infinite;
-  animation: circuit_board-animation 70s linear infinite;
+  -webkit-animation: pattern-bg-animation 70s linear infinite;
+  -moz-animation: pattern-bg-animation 70s linear infinite;
+  -o-animation: pattern-bg-animation 70s linear infinite;
+  animation: pattern-bg-animation 70s linear infinite;
   /** transition **/
   -webkit-transition: max-height .5s;
   -moz-transition: max-height .5s;
@@ -1270,14 +1334,6 @@ html.mobile-browser #techniques-html {
   background-size: cover;
 }
 
-@keyframes circuit_board-animation {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: 100%;
-  }
-}
 @keyframes techniques-js-animation {
   0% {
     left: 100%;
@@ -1333,6 +1389,31 @@ html.mobile-browser #techniques-html {
   display: block;
   padding-top: 100%;
   content: '';
+}
+#interested .interested-project-example {
+  background-image: url(../img/pattern-07.png);
+  overflow: hidden;
+  /** animation **/
+  -webkit-animation: pattern-bg-animation 70s linear infinite;
+  -moz-animation: pattern-bg-animation 70s linear infinite;
+  -o-animation: pattern-bg-animation 70s linear infinite;
+  animation: pattern-bg-animation 70s linear infinite;
+}
+#interested .interested-project-img {
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+#interested .interested-project-img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #contact {
