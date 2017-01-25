@@ -182,7 +182,16 @@ function text($name) {
 										</g>
 									</svg>
 								</div>
-								<img id="exclamation_mark-svg" src="./img/exclamation_mark.svg<?php v(); ?>" />
+								<div id="exclamation_mark-svg">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+										<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+										<g>
+											<path d="M500,10C229.4,10,10,229.3,10,499.9C10,770.6,229.4,990,500,990c270.6,0,490-219.4,490-490.1C990,229.3,770.7,10,500,10z M500,939.8c-243,0-439.8-197-439.8-440C60.2,257,257,60.1,500,60.1c242.9,0,439.8,196.9,439.8,439.8C939.8,742.9,742.9,939.8,500,939.8z"/>
+											<polygon points="556,611.3 577.4,170.5 423.7,170.5 445,611.3 "/>
+											<path d="M500.6,660c-51.6,0-87.6,36.1-87.6,88.5c0,50.6,35,88.6,85.7,88.6h2c52.5,0,86.5-38,86.5-88.6C586.2,696,552.1,660,500.6,660z"/>
+										</g>
+									</svg>
+								</div>
 							</div>
 						</div>
 						<div class="col-sm-7 col-md-7 col-lg-7 text-justify">
@@ -720,9 +729,6 @@ function text($name) {
 		
 		<!-- custom script -->
 		<script type="text/javascript" language="javascript" src="./js/main.js<?php v(); ?>"></script>
-		
-		<!-- resources preload -->
-		<img class="preload" src="./img/programmer_stop.svg" />
 
 		<!-- :D -->
 		<script type="text/javascript">eval(atob("dmFyIGU9MzskKCJbZWVdIikuY2xpY2soZnVuY3Rpb24oKXshLS1lJiYkKHRoaXMpLmNzcyh7YmFja2dyb3VuZEltYWdlOiJ1cmwoLi9pbWcvcnIuZ2lmKSJ9KXwobmV3IEF1ZGlvKCIuL2Fzc2V0cy9yci5tcDMiKSkucGxheSgpfSk7"));</script>
