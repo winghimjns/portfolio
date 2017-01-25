@@ -19,7 +19,6 @@
 	
 	#programmer-svg-wrap {
 		position: relative;
-		background-image: url(../img/programmer.svg);
 		background-size: cover;
 		background-position: 50% 50%;
 		background-repeat: no-repeat;
@@ -31,18 +30,31 @@
 			padding-top: 109.28828%;
 		}
 		
+		#programmer-svg,
+		#programmer_stop-svg {
+			width: 100%;
+			z-index: -1;
+			position: absolute;
+			top: 0; left: 0;
+			height: 100%; width: 100%;
+		}
+		
+		#programmer_stop-svg {
+			display: none;
+		}
+		
 		&:hover {
-			background-image: url(../img/programmer_stop.svg);
+			#programmer-svg {
+				display: none;
+			}
+			#programmer_stop-svg {
+				display: block;
+			}
 			
 			#exclamation_mark-svg {
 				visibility: visible;
 			}
 		}
-	}
-	
-	#programmer-svg {
-		width: 100%;
-		visibility: hidden;
 	}
 	
 	#exclamation_mark-svg {

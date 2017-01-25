@@ -211,6 +211,11 @@ html.load-done-2s #copyright-statement:after {
   background-color: #444444;
 }
 
+.color-svg-1 {
+  fill: #444444;
+  stroke: #444444;
+}
+
 .color-2 {
   color: #EEEEEE;
 }
@@ -233,6 +238,11 @@ html.load-done-2s #copyright-statement:after {
 
 .bg-color-a-2:after {
   background-color: #EEEEEE;
+}
+
+.color-svg-2 {
+  fill: #EEEEEE;
+  stroke: #EEEEEE;
 }
 
 .color-3 {
@@ -259,6 +269,11 @@ html.load-done-2s #copyright-statement:after {
   background-color: #222222;
 }
 
+.color-svg-3 {
+  fill: #222222;
+  stroke: #222222;
+}
+
 .color-4 {
   color: #BBBBBB;
 }
@@ -281,6 +296,11 @@ html.load-done-2s #copyright-statement:after {
 
 .bg-color-a-4:after {
   background-color: #BBBBBB;
+}
+
+.color-svg-4 {
+  fill: #BBBBBB;
+  stroke: #BBBBBB;
 }
 
 .color-5 {
@@ -307,6 +327,11 @@ html.load-done-2s #copyright-statement:after {
   background-color: #FFFFFF;
 }
 
+.color-svg-5 {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+}
+
 /** color set: 1 **/
 .color-set-1 .color-1 {
   color: #444444;
@@ -326,6 +351,10 @@ html.load-done-2s #copyright-statement:after {
 .color-set-1 .bg-color-a-1:after {
   background-color: #444444;
 }
+.color-set-1 .color-svg-1 {
+  fill: #444444;
+  stroke: #444444;
+}
 .color-set-1 .color-2 {
   color: #EEEEEE;
 }
@@ -343,6 +372,10 @@ html.load-done-2s #copyright-statement:after {
 }
 .color-set-1 .bg-color-a-2:after {
   background-color: #EEEEEE;
+}
+.color-set-1 .color-svg-2 {
+  fill: #EEEEEE;
+  stroke: #EEEEEE;
 }
 .color-set-1 .color-3 {
   color: #222222;
@@ -362,6 +395,10 @@ html.load-done-2s #copyright-statement:after {
 .color-set-1 .bg-color-a-3:after {
   background-color: #222222;
 }
+.color-set-1 .color-svg-3 {
+  fill: #222222;
+  stroke: #222222;
+}
 .color-set-1 .color-4 {
   color: #BBBBBB;
 }
@@ -380,6 +417,10 @@ html.load-done-2s #copyright-statement:after {
 .color-set-1 .bg-color-a-4:after {
   background-color: #BBBBBB;
 }
+.color-set-1 .color-svg-4 {
+  fill: #BBBBBB;
+  stroke: #BBBBBB;
+}
 .color-set-1 .color-5 {
   color: #FFFFFF;
 }
@@ -397,6 +438,10 @@ html.load-done-2s #copyright-statement:after {
 }
 .color-set-1 .bg-color-a-5:after {
   background-color: #FFFFFF;
+}
+.color-set-1 .color-svg-5 {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
 }
 
 #home {
@@ -487,7 +532,6 @@ html.load-done-2s #copyright-statement:after {
 }
 #about #programmer-svg-wrap {
   position: relative;
-  background-image: url(../img/programmer.svg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -498,15 +542,27 @@ html.load-done-2s #copyright-statement:after {
   content: '';
   padding-top: 109.28828%;
 }
-#about #programmer-svg-wrap:hover {
-  background-image: url(../img/programmer_stop.svg);
+#about #programmer-svg-wrap #programmer-svg,
+#about #programmer-svg-wrap #programmer_stop-svg {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#about #programmer-svg-wrap #programmer_stop-svg {
+  display: none;
+}
+#about #programmer-svg-wrap:hover #programmer-svg {
+  display: none;
+}
+#about #programmer-svg-wrap:hover #programmer_stop-svg {
+  display: block;
 }
 #about #programmer-svg-wrap:hover #exclamation_mark-svg {
   visibility: visible;
-}
-#about #programmer-svg {
-  width: 100%;
-  visibility: hidden;
 }
 #about #exclamation_mark-svg {
   position: absolute;

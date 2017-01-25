@@ -24,6 +24,7 @@
 			.bg-color-#{$i} { background-color: $color; }
 			.bg-color-b-#{$i}:before { background-color: $color; }
 			.bg-color-a-#{$i}:after { background-color: $color; }
+			.color-svg-#{$i} { fill: $color; stroke: $color; }
 			
 		}
 	}
@@ -40,6 +41,7 @@
 		.bg-color-#{$i} { background-color: $color; }
 		.bg-color-b-#{$i}:before { background-color: $color; }
 		.bg-color-a-#{$i}:after { background-color: $color; }
+		.color-svg-#{$i} { fill: $color; stroke: $color; }
 		
 	}
 }
