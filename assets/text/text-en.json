@@ -104,7 +104,7 @@
 		"interested_cryptography_paragraph_1": "As web security is one of my favourite topics about web development, I also interest in the Cryptography topics. ",
 		"interested_cryptography_paragraph_2": "I'd like the learn about the theory about how to protect the message from the crackers, how's the password encrypted using Mathematics formula, how strong is each algorithms etc. But also like to learn to implement them. So I had some projects about encryption and decription with some code libraries",
 		
-		"interested_cryptography_example_1_title": "PHP & JavaScript Encrypter & Decrypter",
+		"interested_cryptography_example_1_title": "PHP & JS Encrypter & Decrypter",
 		"interested_cryptography_example_1_introduction_paragraph_1": "Nowadays, network security becomes a important issue as no one in the society could get away from the internet.",
 		"interested_cryptography_example_1_introduction_paragraph_2": "In some of websites, end to end (E2E) encryption becomes a main selling point of their application e.g. Telegram, Mega.nz. because even the system admin, they can have no ideas about the user's message as those are encrypted ciphertext.",
 		"interested_cryptography_example_1_introduction_paragraph_3": "Even this technology seems great and amazing, most of the implementation are just to use the same algorithms because their security level have been proving for at lease 20 years: RSA & AES.",
