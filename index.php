@@ -603,7 +603,7 @@ function text($name) {
 						<div class="col-md-offset-1 col-md-10">
 							<a href="javascript:void(0);" class="btn btn-default" onclick="showProjectExample('interested-cryptography-example-1');">
 								<span wg-text="interested_project_example"><?php text("interested_project_example"); ?></span>
-								<span wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></span>:
+								<span wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></span>:<br />
 								<span><strong wg-text="interested_cryptography_example_1_title"><?php text("interested_cryptography_example_1_title"); ?></strong></span>
 								&raquo;
 							</a>
@@ -701,7 +701,7 @@ function text($name) {
 						<div class="col-md-offset-1 col-md-10">
 							<a href="javascript:void(0);" class="btn btn-default" onclick="showProjectExample('interested-cryptography-example-2');">
 								<span wg-text="interested_project_example"><?php text("interested_project_example"); ?></span>
-								<span wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></span>:
+								<span wg-text="interested_cryptography_title"><?php text("interested_cryptography_title"); ?></span>:<br />
 								<span><strong wg-text="interested_cryptography_example_2_title"><?php text("interested_cryptography_example_2_title"); ?></strong></span>
 								&raquo;
 							</a>
@@ -792,7 +792,7 @@ function text($name) {
 						<div class="col-md-offset-1 col-md-10">
 							<a href="javascript:void(0);" class="btn btn-default" onclick="showProjectExample('interested-web_design-example-1');">
 								<span wg-text="interested_project_example"><?php text("interested_project_example"); ?></span>
-								<span wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></span>:
+								<span wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></span>:<br />
 								<span><strong wg-text="interested_web_design_example_1_title"><?php text("interested_web_design_example_1_title"); ?></strong></span>
 								&raquo;
 							</a>
@@ -850,7 +850,7 @@ function text($name) {
 						<div class="col-md-offset-1 col-md-10">
 							<a href="javascript:void(0);" class="btn btn-default" onclick="showProjectExample('interested-web_design-example-2');">
 								<span wg-text="interested_project_example"><?php text("interested_project_example"); ?></span>
-								<span wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></span>:
+								<span wg-text="interested_web_design_title"><?php text("interested_web_design_title"); ?></span>:<br />
 								<span><strong wg-text="interested_web_design_example_1_title"><?php text("interested_web_design_example_2_title"); ?></strong></span>
 								&raquo;
 							</a>
