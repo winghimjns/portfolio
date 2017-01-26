@@ -46,6 +46,12 @@ function text($name) {
 		<!--                                                      -->
 		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 		
+		<!-- og data -->
+		<meta property="og:image" content="https://winghimjns.com/img/portfolio9-og-img.png" />
+		<meta property="og:title" content="Wing Him Liu - Web Developer" />
+		<meta property="og:description" content="Wing Him Liu - Web Developer" />
+		<meta property="og:url" content="https://winghimjns.com" />
+		
 		<!-- meta -->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
