@@ -46,6 +46,9 @@ function text($name) {
 		<!--                                                      -->
 		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 		
+		<!-- version -->
+		<meta name="version" content="1.0.0" />
+		
 		<!-- og data -->
 		<meta property="og:image" content="https://winghimjns.com/img/portfolio9-og-img.png" />
 		<meta property="og:title" content="Wing Him Liu - Web Developer" />
