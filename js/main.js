@@ -91,22 +91,10 @@ $(document).ready(function() {
 		$("html").addClass("load-done-2s");
 	});
 	
-	// load text
-	// currently the text displaying will be processed in backend
-	// TODO
-	//processTextJson(window.textsJson);
-	
-	// ================================================================================
-	//    ACTIVATING
-	// ================================================================================
-	//$('.interactive-background').parallax();
-
-
-
-	// particle background
-	particlesJS.load('particles-js', './assets/particles.json', function() {
-		console.log('callback - particles.js config loaded');
-	});
+	// show cookie notice
+	if(!window.localStorage.portfolioReadCookie) {
+		showCookieNotice();
+	} // end if
 	
 });
 
@@ -167,3 +155,23 @@ var hideProjectExample = function(id) {
 		scrollTop: $("body").scrollTop() - $("#" + id).slideUp().height()
 	});
 }; // end hideProjectExample(var)
+
+/**
+ * 
+ * show the cookie notice
+ * 
+ */
+var showCookieNotice = function() {
+	return $("#cookie_statement").slideDown();
+};
+
+/**
+ * 
+ * hide the cookie notice
+ * 
+ */
+var hideCookieNotice = function() {
+	return $("#cookie_statement").slideUp(function() {
+		window.localStorage.portfolioReadCookie = '1';
+	});
+};
