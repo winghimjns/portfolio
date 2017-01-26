@@ -55,6 +55,7 @@ function text($name) {
 		<!-- meta -->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/ico" href="./favicon.ico">
 		
 		<!-- base url directory -->
         <base href="<?php echo($base); ?>" />
