@@ -128,7 +128,7 @@ function text($name) {
 		<button class="cd-nav-trigger cd-image-replace">Open navigation<span aria-hidden="true"></span></button>
 		
 		<!-- cookie statement -->
-		<div id="cookie_statement" class="color-5 bg-color-3 text-center">
+		<div id="cookie_statement" class="color-5 bg-color-3 text-center" style="display: none;">
 			<h5><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;&nbsp;Wing Him uses Cookies on this website for analytical purposes.</h5>
 			<a class="btn btn-primary" href="javascript:void(0);" onclick="hideCookieNotice();"><i class="fa fa-smile-o" aria-hidden="true"></i>&nbsp;Accept and Close</a>&nbsp;<a class="btn btn-warning" href="./cookie-policy/" target="_blank"><i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp;More Info</a>
 		</div>
