@@ -215,6 +215,10 @@ html.load-done-2s #copyright-statement:after {
     background-position-x: 100%;
   }
 }
+#cookie_statement {
+  padding: 1rem;
+}
+
 /** default color set **/
 .color-1 {
   color: #444444;
