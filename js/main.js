@@ -80,6 +80,10 @@ $(document).ready(function() {
 	
 	$("#techniques .techniques-display-area").on("click", ".techniques-display-area-close", closeDisplayArea);
 	
+	// particle background
+	particlesJS.load('particles-js', './assets/particles.json', function() {
+		console.log('callback - particles.js config loaded');
+	});
 	
 	// add class "load-done" in html attribute
 	$("html").addClass("load-done");
