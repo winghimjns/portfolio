@@ -40,11 +40,11 @@ function text($name) {
 <html lang="en" class="no-js">
 	<head>
 		
-		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-		<!--                                                      -->
-		<!-- DEVELOPER IS SLEEPLY, DON'T WAKE HIM UP (ABOUT PAGE) -->
-		<!--                                                      -->
-		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+		<!--                                  -->
+		<!-- THE DEVELOPER HERE IS SLEEPLY :P -->
+		<!--                                  -->
+		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 		
 		<!-- version -->
 		<meta name="version" content="1.0.0" />
