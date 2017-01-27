@@ -1,5 +1,7 @@
 <?php
 
+define("VERSION", "1.0.1");
+
 //$debug = !isset($_GET["nodebug"]);
 $debug = isset($_GET["debug"]);
 
@@ -47,7 +49,7 @@ function text($name) {
 		<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 		
 		<!-- version -->
-		<meta name="version" content="1.0.0" />
+		<meta name="version" content="<?php echo(VERSION); ?>" />
 		
 		<!-- og data -->
 		<meta property="og:image" content="https://winghimjns.com/img/portfolio9-og-img.png" />
