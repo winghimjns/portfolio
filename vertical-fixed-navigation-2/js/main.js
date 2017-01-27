@@ -34,7 +34,7 @@ jQuery(document).ready(function($){
 		}
 	}
 
-	function updateSections() {
+	window.updateSections = function() {
 		var halfWindowHeight = $(window).height()/2,
 			scrollTop = $(window).scrollTop();
 		contentSections.each(function(){

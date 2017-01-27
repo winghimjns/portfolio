@@ -112,9 +112,6 @@ function text($name) {
 		<!-- particles-js backgrougnd -->
 		<div id="particles-js"></div>
 		
-		<!-- copyright statement -->
-		<div id="copyright-statement" class="color-2 bg-color-a-1">Wing Him Liu © 2017 All Rights Reserved&nbsp;&nbsp;</div>
-		
 		<!-- cv-nav -->
 		<nav class="cd-vertical-nav">
 			<ul>
@@ -999,6 +996,12 @@ function text($name) {
 				
 			</div>
 		</section><!-- #contact.cd-section -->
+		
+		<!-- copyright statement which is fixed on the window when the user is looking at the first page -->
+		<div id="copyright-statement-fixed" class="text-right color-2 bg-color-1">Wing Him Liu © 2017 All Rights Reserved&nbsp;&nbsp;</div>
+		
+		<!-- copyright statement which at the bottom of all sections, user would find it when they have scrolled to the bottom -->
+		<div id="copyright-statement-relative" class="text-right color-2 bg-color-1">Wing Him Liu © 2017 All Rights Reserved&nbsp;&nbsp;</div>
 		
 		<!-- html5 reset -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />

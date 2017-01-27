@@ -85,6 +85,9 @@ $(document).ready(function() {
 		console.log('callback - particles.js config loaded');
 	});
 	
+	// update section page name in body tag
+	window.updateSections();
+	
 	// add class "load-done" in html attribute
 	$("html").addClass("load-done");
 	setTimeout(function() {

@@ -167,34 +167,27 @@ a.link-unstyled:hover {
   z-index: -1;
 }
 
-#copyright-statement {
+#copyright-statement-fixed {
   position: fixed;
   font-size: 1rem;
   left: 0;
-  bottom: 0;
+  bottom: -1.4rem;
   width: 100%;
-  text-align: right;
   z-index: 8888;
   padding: .2rem 0;
+  -webkit-transition: bottom 1s;
+  -moz-transition: bottom 1s;
+  -o-transition: bottom 1s;
+  transition: bottom 1s;
 }
 
-#copyright-statement:after {
-  position: absolute;
-  top: 0;
-  left: -100%;
-  height: 100%;
-  width: 100%;
-  text-align: left;
-  content: '';
-  z-index: -1;
-  -webkit-transition: left 1.2s .5s;
-  -moz-transition: left 1.2s .5s;
-  -o-transition: left 1.2s .5s;
-  transition: left 1.2s .5s;
+[active-section=home] #copyright-statement-fixed {
+  bottom: 0;
 }
 
-html.load-done-2s #copyright-statement:after {
-  left: 0;
+#copyright-statement-relative {
+  font-size: 1rem;
+  padding: .2rem 0;
 }
 
 @media (min-width: 768px) {
