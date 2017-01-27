@@ -128,7 +128,7 @@ function text($name) {
 		<button class="cd-nav-trigger cd-image-replace">Open navigation<span aria-hidden="true"></span></button>
 		
 		<!-- cookie statement -->
-		<div id="cookie_statement" class="color-5 bg-color-3 text-center" style="display: none;">
+		<div id="cookie_statement" class="color-5 bg-color-3 text-center" hidden>
 			<h5><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;&nbsp;Wing Him uses Cookies on this website for analytical purposes.</h5>
 			<a class="btn btn-primary" href="javascript:void(0);" onclick="hideCookieNotice();"><i class="fa fa-smile-o" aria-hidden="true"></i>&nbsp;Accept and Close</a>&nbsp;<a class="btn btn-warning" href="./cookie-policy/" target="_blank"><i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp;More Info</a>
 		</div>
@@ -628,7 +628,7 @@ function text($name) {
 				</div>
 				
 				<!-- project example 1: php & javascript encrypter & decrypter -->
-				<div id="interested-cryptography-example-1" class="interested-project-example bg-color-3 color-5" style="display: none;">
+				<div id="interested-cryptography-example-1" class="interested-project-example bg-color-3 color-5" hidden>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12">
@@ -726,7 +726,7 @@ function text($name) {
 				</div>
 				
 				<!-- project example 2: ciphertext decryption online -->
-				<div id="interested-cryptography-example-2" class="interested-project-example bg-color-3 color-5" style="display: none;">
+				<div id="interested-cryptography-example-2" class="interested-project-example bg-color-3 color-5" hidden>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12">
@@ -817,7 +817,7 @@ function text($name) {
 				</div>
 				
 				<!-- project example 3: soot sprites interactive animation -->
-				<div id="interested-web_design-example-1" class="interested-project-example bg-color-3 color-5" style="display: none;">
+				<div id="interested-web_design-example-1" class="interested-project-example bg-color-3 color-5" hidden>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12">
@@ -875,7 +875,7 @@ function text($name) {
 				</div>
 				
 				<!-- project example 4: soot sprites interactive animation -->
-				<div id="interested-web_design-example-2" class="interested-project-example bg-color-3 color-5" style="display: none;">
+				<div id="interested-web_design-example-2" class="interested-project-example bg-color-3 color-5" hidden>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-offset-1 col-lg-10 col-md-offset-0 col-md-12">
