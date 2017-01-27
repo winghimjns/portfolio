@@ -977,8 +977,9 @@ function text($name) {
 										<!-- items -->
 										<ul id="contact-items">
 											<li class="text-center"><strong wg-text="contact_item_1"><?php text("contact_item_1"); ?></strong></li>
-											<li class="text-center"><strong wg-text="contact_item_2"><?php text("contact_item_2"); ?></strong></li>
-											<li class="text-center"><strong wg-text="contact_item_3"><?php text("contact_item_3"); ?></strong></li>
+											<li class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i> <strong wg-text="contact_item_2"><?php text("contact_item_2"); ?></strong></li>
+											<li class="text-center"><i class="fa fa-phone" aria-hidden="true"></i> <strong wg-text="contact_item_3"><?php text("contact_item_3"); ?></strong></li>
+											<li class="text-center"><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/winghimjns" class="color-3 color-h-3" target="_blank"><strong wg-text="contact_item_4"><?php text("contact_item_4"); ?></strong></a></li>
 										</ul>
 									</div>
 								</div>
