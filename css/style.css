@@ -185,6 +185,10 @@ a.link-unstyled:hover {
   bottom: 0;
 }
 
+[active-section=contact] #copyright-statement-fixed {
+  display: none;
+}
+
 #copyright-statement-relative {
   font-size: 1rem;
   padding: .2rem 0;
