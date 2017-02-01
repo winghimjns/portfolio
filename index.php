@@ -79,7 +79,7 @@ function text($name) {
 ?>
 		
 		<!-- title -->
-		<title>Wing Him Liu - My Portfolio</title>
+		<title>Wing Him Liu - Web Developer</title>
 		
 		<!-- style for loading cover -->
 		<style type="text/css">
