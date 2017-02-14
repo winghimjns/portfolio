@@ -976,9 +976,9 @@ function text($name) {
 										<!-- items -->
 										<ul id="contact-items">
 											<li class="text-center"><strong wg-text="contact_item_1"><?php text("contact_item_1"); ?></strong></li>
-											<li class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i> <strong wg-text="contact_item_2"><?php text("contact_item_2"); ?></strong></li>
-											<li class="text-center"><i class="fa fa-phone" aria-hidden="true"></i> <strong wg-text="contact_item_3"><?php text("contact_item_3"); ?></strong></li>
-											<li class="text-center"><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/winghimjns" class="color-3 color-h-3" target="_blank"><strong wg-text="contact_item_4"><?php text("contact_item_4"); ?></strong></a></li>
+											<li class="text-center"><i class="icon-mail-alt" aria-hidden="true"></i> <strong wg-text="contact_item_2"><?php text("contact_item_2"); ?></strong></li>
+											<li class="text-center"><i class="icon-phone" aria-hidden="true"></i> <strong wg-text="contact_item_3"><?php text("contact_item_3"); ?></strong></li>
+											<li class="text-center"><i class="icon-github-circled" aria-hidden="true"></i> <a href="https://github.com/winghimjns" class="color-3 color-h-3" target="_blank"><strong wg-text="contact_item_4"><?php text("contact_item_4"); ?></strong></a></li>
 										</ul>
 									</div>
 								</div>
@@ -1035,6 +1035,9 @@ function text($name) {
 		
 		<!-- font awesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+		
+		<!-- fontello font -->
+		<link rel="stylesheet" href="./assets/fontello-64d00938/css/fontello.css" />
 		
 		<!-- custom css -->
 		<link rel="stylesheet" href="./css/style.css<?php v(); ?>" />
