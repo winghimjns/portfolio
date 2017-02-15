@@ -216,6 +216,14 @@ a.link-unstyled:hover {
   padding: 1rem;
 }
 
+[wg-text-before-content]:before {
+  content: attr(wg-text-before-content);
+}
+
+[wg-text-after-content]:after {
+  content: attr(wg-text-after-content);
+}
+
 /** default color set **/
 .color-1 {
   color: #444444;
@@ -752,23 +760,15 @@ a.link-unstyled:hover {
   color: #cc3c3c;
 }
 #techniques #techniques-php h1:before {
-  content: '<?';
   top: 0;
   right: 100%;
 }
 #techniques #techniques-php h1:after {
-  content: '    echo("hello, world");';
   top: 100%;
   left: 0;
 }
 #techniques #techniques-php > :hover h1 {
   color: #FF9393 !important;
-}
-#techniques .techniques-display-area-php:before {
-  content: '<?php';
-}
-#techniques .techniques-display-area-php:after {
-  content: '?>';
 }
 #techniques .techniques-display-area-php .techniques-php-baby-background {
   background-image: url(../img/baby.svg);
@@ -795,23 +795,15 @@ a.link-unstyled:hover {
   color: orange;
 }
 #techniques #techniques-html h1:before {
-  content: '<';
   top: 0;
   right: 100%;
 }
 #techniques #techniques-html h1:after {
-  content: '>';
   top: 0;
   left: 100%;
 }
 #techniques #techniques-html > :hover h1 {
   color: #ffc65d !important;
-}
-#techniques .techniques-display-area-html:before {
-  content: '<div class="lets-talk-html">';
-}
-#techniques .techniques-display-area-html:after {
-  content: '</div>';
 }
 #techniques .techniques-display-area-html .techniques-html-switch-page {
   width: 100%;
@@ -823,12 +815,10 @@ a.link-unstyled:hover {
   color: #337ab7;
 }
 #techniques #techniques-css h1:before {
-  content: '.';
   top: 0;
   right: 100%;
 }
 #techniques #techniques-css h1:after {
-  content: '#isgood';
   top: 0;
   left: 100%;
 }
@@ -949,21 +939,13 @@ a.link-unstyled:hover {
   transition: opacity .5s;
 }
 #techniques .techniques-display-area-css .techniques-css-transition-wrap .techniques-css-transition:before {
-  content: 'point your mouse or';
   bottom: 50%;
 }
 #techniques .techniques-display-area-css .techniques-css-transition-wrap .techniques-css-transition:after {
-  content: 'touch and hold here';
   top: 50%;
 }
 #techniques .techniques-display-area-css .techniques-css-transition-wrap .techniques-css-transition:hover:before, #techniques .techniques-display-area-css .techniques-css-transition-wrap .techniques-css-transition:hover:after {
   opacity: 0;
-}
-#techniques .techniques-display-area-css:before {
-  content: '#css.is_awesome {';
-}
-#techniques .techniques-display-area-css:after {
-  content: '}';
 }
 #techniques #techniques-js {
   overflow: hidden;
@@ -1261,23 +1243,15 @@ a.link-unstyled:hover {
   color: #59bd5a;
 }
 #techniques #techniques-js h1:before {
-  content: '$("#';
   top: 0;
   right: 100%;
 }
 #techniques #techniques-js h1:after {
-  content: '").show();';
   top: 0;
   left: 100%;
 }
 #techniques #techniques-js > :hover h1 {
   color: #71d871;
-}
-#techniques .techniques-display-area-js:before {
-  content: 'javaScript = (isFuture) => {';
-}
-#techniques .techniques-display-area-js:after {
-  content: '}; // end javaScript()';
 }
 #techniques .techniques-display-area-js .techniques-js-code-background {
   background-image: url(../img/code.svg);

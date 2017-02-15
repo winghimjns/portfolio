@@ -15,6 +15,13 @@
 		"techniques_paragraph_2": "Except the techniques' basic, I learnt some of extensions like jQuery. For more information. Please click on the names of the techniques below.",
 		
 		"techniques_php_title": "PHP",
+		
+		"techniques_php_title_before": "<?",
+		"techniques_php_title_after": "    echo(&quot;hello, world&quot;);",
+		
+		"techniques_php_content_before": "<?php",
+		"techniques_php_content_after": "?>",
+		
 		"techniques_php_paragraph_1": "I learnt PHP for years and most of the syntax and coding style are inspired by my Java technique, which is the first programming language I can use pretty well.",
 		"techniques_php_paragraph_2": "I just learnt the basic PHP techniques from schools and I have been spending time to keep improve my PHP techniques.",
 		"techniques_php_paragraph_3": "Through some of the online opensource project I interested in, I learnt Object-oriented techniques, namespace, PDO and most of the modern techniques in PHP.",
@@ -41,6 +48,13 @@
 		"techniques_php_libraries_item_4": "etc.",
 		
 		"techniques_html_title": "HTML",
+		
+		"techniques_html_title_before": "<",
+		"techniques_html_title_after": ">",
+		
+		"techniques_html_content_before": "&lt;div class=&quot;lets-talk-html&quot;&gt;",
+		"techniques_html_content_after": "&lt;/div&gt;",
+		
 		"techniques_html_paragraph_1": "In HTML5, we should use CSS for styling instead of the attributes in the tags (although sometimes they are necessary in e-mail styling). As most of the codings from the websites aren't use HTML 4.x standard, I will always use HTML5 standard for web developing. I just need to make sure the website is compatible with older browser, otherwise I need to keep fixing the problem about that.",
 		"techniques_html_paragraph_2": "For more information about my web developing techniques, please check the page CSS and JavaScript.",
 		
@@ -48,6 +62,13 @@
 		"techniques_html_to_js_page": "Go to JS page &raquo;",
 		
 		"techniques_css_title": "CSS",
+		
+		"techniques_css_title_before": ".",
+		"techniques_css_title_after": "#isgood",
+		
+		"techniques_css_content_before": "#css.is_awesome {",
+		"techniques_css_content_after": "}",
+		
 		"techniques_css_paragraph_1": "As CSS is one of the most important techniques in HTML5, it's necessary to be able to build a complicated website with it, both from scratch or with any popular frameworks.",
 		"techniques_css_paragraph_2": "When I was just graduated, I just learnt some of basic syntax and I didn't even know how to use the \"position\" attribute. ",
 		"techniques_css_paragraph_3": "To be inspired by the others is the most important thing for a passionate programmer. I am very lucky to have some people to inspire me, so I can use different Front-end techniques now.",
@@ -67,7 +88,17 @@
 		
 		"techniques_css_example_title": "Example for transition / animation",
 		
+		"technique_css_example_before": "point your mouse or",
+		"technique_css_example_after": "touch and hold here",
+		
 		"techniques_js_title": "JS",
+		
+		"techniques_js_title_before": "$(\"#",
+		"techniques_js_title_after": "\").show();",
+		
+		"techniques_js_content_before": "javaScript = (isTheFuture) => {",
+		"techniques_js_content_after": "}; // end javaScript()",
+		
 		"techniques_js_title_full": "JavaScript",
 		"techniques_js_paragraph_1": "Except CSS, sometimes we need JavaScript as well for our web developing. I learnt all the JavaScript techniques by myself but it was not too hard because I have very good Java technqiue as well.",
 		"techniques_js_paragraph_2": "Web developer nowadays should learn different library as well besides HTML DOM, and should use smartly with CSS and HTML id / class attributes.",

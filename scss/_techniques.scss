@@ -141,13 +141,11 @@
 			}
 			
 			&:before {
-				content: '<?';
 				top: 0;
 				right: 100%;
 			}
 			
 			&:after {
-				content: '    echo("hello, world");';
 				top: 100%;
 				left: 0;
 			}
@@ -160,9 +158,6 @@
 	}
 	
 	.techniques-display-area-php {
-		
-		&:before { content: '<?php'; }
-		&:after { content: '?>'; }
 		
 		.techniques-php-baby-background {
 			background-image: url(../img/baby.svg);
@@ -202,13 +197,11 @@
 			}
 			
 			&:before {
-				content: '<';
 				top: 0;
 				right: 100%;
 			}
 			
 			&:after {
-				content: '>';
 				top: 0;
 				left: 100%;
 			}
@@ -222,9 +215,6 @@
 	}
 	
 	.techniques-display-area-html {
-		
-		&:before { content: '<div class="lets-talk-html">'; }
-		&:after { content: '</div>'; }
 		
 		.techniques-html-switch-page {
 			width: 100%;
@@ -248,13 +238,11 @@
 			}
 			
 			&:before {
-				content: '.';
 				top: 0;
 				right: 100%;
 			}
 			
 			&:after {
-				content: '#isgood';
 				top: 0;
 				left: 100%;
 			}
@@ -395,12 +383,10 @@
 				}
 				
 				&:before {
-					content: 'point your mouse or';
 					bottom: 50%;
 				}
 				
 				&:after {
-					content: 'touch and hold here';
 					top: 50%;
 				}
 				
@@ -412,8 +398,6 @@
 			
 		}
 		
-		&:before { content: '#css.is_awesome {'; }
-		&:after { content: '}'; }
 		
 	}
 	
@@ -487,13 +471,11 @@
 			}
 			
 			&:before {
-				content: '$("#';
 				top: 0;
 				right: 100%;
 			}
 			
 			&:after {
-				content: '").show();';
 				top: 0;
 				left: 100%;
 			}
@@ -506,9 +488,6 @@
 	
 	
 	.techniques-display-area-js {
-		
-		&:before { content: 'javaScript = (isFuture) => {'; }
-		&:after { content: '}; // end javaScript()'; }
 		
 		.techniques-js-code-background {
 			background-image: url(../img/code.svg);
