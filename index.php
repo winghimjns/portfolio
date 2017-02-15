@@ -111,6 +111,11 @@ function text($name) {
 		<!-- loading cover -->
 		<div id="loading-cover"></div>
 		
+		<!-- hows your mood -->
+		<div id="hows-your-mood">
+		
+		</div>
+		
 		<!-- particles-js backgrougnd -->
 		<div id="particles-js"></div>
 		
