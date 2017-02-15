@@ -270,3 +270,11 @@ a.link-unstyled:hover {
 #cookie_statement {
 	padding: 1rem;
 }
+
+
+// ================================================================================
+//    BEFORE & AFTER ELEMENTS' CONTENT
+// ================================================================================
+
+[wg-text-before-content]:before { content: attr(wg-text-before-content); }
+[wg-text-after-content]:after { content: attr(wg-text-after-content); }

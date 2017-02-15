@@ -250,14 +250,14 @@ function text($name) {
 									</video>
 									<div class="techniques-name-wrap">
 										<div class="techniques-name pointer-cursor bg-color-b-4">
-											<h1 wg-text="techniques_php_title"><?php text("techniques_php_title"); ?></h1>
+											<h1 wg-text="techniques_php_title" wg-text-before="techniques_php_title_before" wg-text-before-content="<?php text("techniques_php_title_before"); ?>" wg-text-after="techniques_php_title_after" wg-text-after-content="<?php text("techniques_php_title_after"); ?>"><?php text("techniques_php_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="visible-xs">
 								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2 bg-color-3">
-									<div class="techniques-display-area-php color-b-4 color-a-4 techniques-display-area-technique">
+									<div class="techniques-display-area-php color-b-4 color-a-4 techniques-display-area-technique" wg-text-before="techniques_php_content_before" wg-text-before-content="<?php text("techniques_php_content_before"); ?>" wg-text-after="techniques_php_content_after" wg-text-after-content="<?php text("techniques_php_content_after"); ?>">
 										<div class="container">
 											<h1 wg-text="techniques_php_title"><?php text("techniques_php_title"); ?></h1>
 											
@@ -323,14 +323,14 @@ function text($name) {
 									</video>
 									<div class="techniques-name-wrap">
 										<div class="techniques-name pointer-cursor bg-color-b-4">
-											<h1 wg-text="techniques_html_title"><?php text("techniques_html_title"); ?></h1>
+											<h1 wg-text="techniques_html_title" wg-text-before="techniques_html_title_before" wg-text-before-content="<?php text("techniques_html_title_before"); ?>" wg-text-after="techniques_html_title_after" wg-text-after-content="<?php text("techniques_html_title_after"); ?>"><?php text("techniques_html_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="visible-xs">
 								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2 bg-color-3">
-									<div class="techniques-display-area-html color-b-4 color-a-4 techniques-display-area-technique">
+									<div class="techniques-display-area-html color-b-4 color-a-4 techniques-display-area-technique" wg-text-before="techniques_html_content_before" wg-text-before-content="<?php text("techniques_html_content_before"); ?>" wg-text-after="techniques_html_content_after" wg-text-after-content="<?php text("techniques_html_content_after"); ?>">
 										<div class="container">
 											<h1 wg-text="techniques_html_title"><?php text("techniques_html_title"); ?></h1>
 											<div class="row">
@@ -402,14 +402,14 @@ function text($name) {
 									</style>
 									<div class="techniques-name-wrap">
 										<div class="techniques-name pointer-cursor bg-color-b-4">
-											<h1 wg-text="techniques_css_title"><?php text("techniques_css_title"); ?></h1>
+											<h1 wg-text="techniques_css_title" wg-text-before="techniques_css_title_before" wg-text-before-content="<?php text("techniques_css_title_before"); ?>" wg-text-after="techniques_css_title_after" wg-text-after-content="<?php text("techniques_css_title_after"); ?>"><?php text("techniques_css_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="visible-xs">
 								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2 bg-color-3">
-									<div class="techniques-display-area-css color-b-4 color-a-4 techniques-display-area-technique">
+									<div class="techniques-display-area-css color-b-4 color-a-4 techniques-display-area-technique" wg-text-before="techniques_css_content_before" wg-text-before-content="<?php text("techniques_css_content_before"); ?>" wg-text-after="techniques_css_content_after" wg-text-after-content="<?php text("techniques_css_content_after"); ?>">
 										<div class="container">
 											<h1 wg-text="techniques_css_title"><?php text("techniques_css_title"); ?></h1>
 											
@@ -454,7 +454,7 @@ function text($name) {
 																<div class="middle-wrap">
 																	<div class="middle text-center">
 																		<div class="techniques-css-transition-wrap">
-																			<div class="techniques-css-transition">
+																			<div class="techniques-css-transition" wg-text-before="technique_css_example_before" wg-text-before-content="<?php text("technique_css_example_before"); ?>" wg-text-after="technique_css_example_after" wg-text-after-content="<?php text("technique_css_example_after"); ?>">
 																				<div class="techniques-css-transition-img transition-img-1"></div>
 																				<div class="techniques-css-transition-img transition-img-2"></div>
 																				<div class="techniques-css-transition-img transition-img-3"></div>
@@ -493,14 +493,14 @@ function text($name) {
 									</div>
 									<div class="techniques-name-wrap">
 										<div class="techniques-name pointer-cursor bg-color-b-4">
-											<h1 wg-text="techniques_js_title"><?php text("techniques_js_title"); ?></h1>
+											<h1 wg-text="techniques_js_title" wg-text-before="techniques_js_title_before" wg-text-before-content="<?php text("techniques_js_title_before"); ?>" wg-text-after="techniques_js_title_after" wg-text-after-content="<?php text("techniques_js_title_after"); ?>"><?php text("techniques_js_title"); ?></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="visible-xs">
 								<div class="techniques-details techniques-display-area-xs techniques-display-area color-2 bg-color-3">
-									<div class="techniques-display-area-js color-b-4 color-a-4 techniques-display-area-technique">
+									<div class="techniques-display-area-js color-b-4 color-a-4 techniques-display-area-technique" wg-text-before="techniques_js_content_before" wg-text-before-content="<?php text("techniques_js_content_before"); ?>" wg-text-after="techniques_js_content_after" wg-text-after-content="<?php text("techniques_js_content_after"); ?>">
 										<div class="container">
 											<h1 wg-text="techniques_js_title_full"><?php text("techniques_js_title_full"); ?></h1>
 											<div class="row">
