@@ -1,6 +1,6 @@
 <?php
 
-define("VERSION", "1.0.2");
+define("VERSION", "1.0.3");
 
 //$debug = !isset($_GET["nodebug"]);
 $debug = isset($_GET["debug"]);
@@ -24,9 +24,7 @@ if($debug) {
 
 function decache_param() {
 	global $debug, $time;
-	if($debug) {
-		echo("?_=".$time);
-	} // end if
+	echo($debug ? "?_=".$time : "?v=".VERSION);
 } // end decache_param()
 
 function v() {
