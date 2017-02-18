@@ -111,7 +111,13 @@ function text($name) {
 		
 		<!-- hows your mood -->
 		<div id="hows-your-mood">
-		
+			<div>
+				<div class="middle-wrap">
+					<div class="middle text-center">
+						<i class="demo-icon icon-emo-happy"></i>
+					</div>
+				</div>
+			</div>
 		</div>
 		
 		<!-- particles-js backgrougnd -->
