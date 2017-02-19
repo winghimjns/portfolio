@@ -1,6 +1,6 @@
 <?php
 
-define("VERSION", "1.0.3");
+define("VERSION", "1.1.1");
 
 //$debug = !isset($_GET["nodebug"]);
 $debug = isset($_GET["debug"]);
