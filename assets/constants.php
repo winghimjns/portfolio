@@ -10,7 +10,7 @@ return array(
 		"emo-sunglasses" => "Cool",
 		//"emo-displeased",
 		//"emo-beer",
-		"emo-grin" => "Ha Ha",
+		"emo-grin" => "Good",
 		"emo-angry" => "Angry",
 		//"emo-saint",
 		"emo-cry" => "Sad",

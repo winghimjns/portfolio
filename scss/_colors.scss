@@ -63,6 +63,16 @@ $color-set-normal: (
 	"5": $color-5  // #FFFFFF
 );
 
+// 2
+$color-set-emo-wink: (
+	"1": #444466,
+	"2": #EEEE99,
+	"3": #222233,
+	"4": #BBBB99,
+	"5": #DDDDFF
+);
+
+// 4
 $color-set-emo-sunglasses: (
 	"1": #BBBBBB,
 	"2": #111111,
@@ -71,7 +81,28 @@ $color-set-emo-sunglasses: (
 	"5": #000000
 );
 
+// 6
+$color-set-emo-angry: (
+	"1": #68B2E8,
+	"2": #3C729B,
+	"3": #CED9FF,
+	"4": #F73639,
+	"5": #E04156
+);
+
+// 7
+$color-set-emo-cry: (
+	"1": #425D60,
+	"2": #4B696D,
+	"3": #2B3D3F * .4,
+	"4": #354C4F,
+	"5": #5A7B7F
+);
+
 @include make-default-color-set($color-set-normal);
 @include make-color-set($color-set-normal, "normal");
+@include make-color-set($color-set-emo-wink, "emo-wink");
 @include make-color-set($color-set-emo-sunglasses, "emo-sunglasses");
+@include make-color-set($color-set-emo-angry, "emo-angry");
+@include make-color-set($color-set-emo-cry, "emo-cry");
 

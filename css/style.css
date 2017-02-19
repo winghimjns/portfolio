@@ -622,6 +622,178 @@ a.link-unstyled:hover {
   stroke: #FFFFFF;
 }
 
+/** color set: emo-wink **/
+.color-set-emo-wink .color-1, [wg-color-set=color-set-emo-wink] .color-1 {
+  color: #444466;
+}
+.color-set-emo-wink .color-b-1:before, [wg-color-set=color-set-emo-wink] .color-b-1:before {
+  color: #444466;
+}
+.color-set-emo-wink .color-a-1:after, [wg-color-set=color-set-emo-wink] .color-a-1:after {
+  color: #444466;
+}
+.color-set-emo-wink .color-h-1:hover, [wg-color-set=color-set-emo-wink] .color-h-1:hover {
+  color: #444466;
+}
+.color-set-emo-wink .border-color-1, [wg-color-set=color-set-emo-wink] .border-color-1 {
+  border-color: #444466;
+}
+.color-set-emo-wink .border-color-b-1:before, [wg-color-set=color-set-emo-wink] .border-color-b-1:before {
+  border-color: #444466;
+}
+.color-set-emo-wink .border-color-a-1:after, [wg-color-set=color-set-emo-wink] .border-color-a-1:after {
+  border-color: #444466;
+}
+.color-set-emo-wink .bg-color-1, [wg-color-set=color-set-emo-wink] .bg-color-1 {
+  background-color: #444466;
+}
+.color-set-emo-wink .bg-color-b-1:before, [wg-color-set=color-set-emo-wink] .bg-color-b-1:before {
+  background-color: #444466;
+}
+.color-set-emo-wink .bg-color-a-1:after, [wg-color-set=color-set-emo-wink] .bg-color-a-1:after {
+  background-color: #444466;
+}
+.color-set-emo-wink .color-svg-1, [wg-color-set=color-set-emo-wink] .color-svg-1 {
+  fill: #444466;
+  stroke: #444466;
+}
+.color-set-emo-wink .color-2, [wg-color-set=color-set-emo-wink] .color-2 {
+  color: #EEEE99;
+}
+.color-set-emo-wink .color-b-2:before, [wg-color-set=color-set-emo-wink] .color-b-2:before {
+  color: #EEEE99;
+}
+.color-set-emo-wink .color-a-2:after, [wg-color-set=color-set-emo-wink] .color-a-2:after {
+  color: #EEEE99;
+}
+.color-set-emo-wink .color-h-2:hover, [wg-color-set=color-set-emo-wink] .color-h-2:hover {
+  color: #EEEE99;
+}
+.color-set-emo-wink .border-color-2, [wg-color-set=color-set-emo-wink] .border-color-2 {
+  border-color: #EEEE99;
+}
+.color-set-emo-wink .border-color-b-2:before, [wg-color-set=color-set-emo-wink] .border-color-b-2:before {
+  border-color: #EEEE99;
+}
+.color-set-emo-wink .border-color-a-2:after, [wg-color-set=color-set-emo-wink] .border-color-a-2:after {
+  border-color: #EEEE99;
+}
+.color-set-emo-wink .bg-color-2, [wg-color-set=color-set-emo-wink] .bg-color-2 {
+  background-color: #EEEE99;
+}
+.color-set-emo-wink .bg-color-b-2:before, [wg-color-set=color-set-emo-wink] .bg-color-b-2:before {
+  background-color: #EEEE99;
+}
+.color-set-emo-wink .bg-color-a-2:after, [wg-color-set=color-set-emo-wink] .bg-color-a-2:after {
+  background-color: #EEEE99;
+}
+.color-set-emo-wink .color-svg-2, [wg-color-set=color-set-emo-wink] .color-svg-2 {
+  fill: #EEEE99;
+  stroke: #EEEE99;
+}
+.color-set-emo-wink .color-3, [wg-color-set=color-set-emo-wink] .color-3 {
+  color: #222233;
+}
+.color-set-emo-wink .color-b-3:before, [wg-color-set=color-set-emo-wink] .color-b-3:before {
+  color: #222233;
+}
+.color-set-emo-wink .color-a-3:after, [wg-color-set=color-set-emo-wink] .color-a-3:after {
+  color: #222233;
+}
+.color-set-emo-wink .color-h-3:hover, [wg-color-set=color-set-emo-wink] .color-h-3:hover {
+  color: #222233;
+}
+.color-set-emo-wink .border-color-3, [wg-color-set=color-set-emo-wink] .border-color-3 {
+  border-color: #222233;
+}
+.color-set-emo-wink .border-color-b-3:before, [wg-color-set=color-set-emo-wink] .border-color-b-3:before {
+  border-color: #222233;
+}
+.color-set-emo-wink .border-color-a-3:after, [wg-color-set=color-set-emo-wink] .border-color-a-3:after {
+  border-color: #222233;
+}
+.color-set-emo-wink .bg-color-3, [wg-color-set=color-set-emo-wink] .bg-color-3 {
+  background-color: #222233;
+}
+.color-set-emo-wink .bg-color-b-3:before, [wg-color-set=color-set-emo-wink] .bg-color-b-3:before {
+  background-color: #222233;
+}
+.color-set-emo-wink .bg-color-a-3:after, [wg-color-set=color-set-emo-wink] .bg-color-a-3:after {
+  background-color: #222233;
+}
+.color-set-emo-wink .color-svg-3, [wg-color-set=color-set-emo-wink] .color-svg-3 {
+  fill: #222233;
+  stroke: #222233;
+}
+.color-set-emo-wink .color-4, [wg-color-set=color-set-emo-wink] .color-4 {
+  color: #BBBB99;
+}
+.color-set-emo-wink .color-b-4:before, [wg-color-set=color-set-emo-wink] .color-b-4:before {
+  color: #BBBB99;
+}
+.color-set-emo-wink .color-a-4:after, [wg-color-set=color-set-emo-wink] .color-a-4:after {
+  color: #BBBB99;
+}
+.color-set-emo-wink .color-h-4:hover, [wg-color-set=color-set-emo-wink] .color-h-4:hover {
+  color: #BBBB99;
+}
+.color-set-emo-wink .border-color-4, [wg-color-set=color-set-emo-wink] .border-color-4 {
+  border-color: #BBBB99;
+}
+.color-set-emo-wink .border-color-b-4:before, [wg-color-set=color-set-emo-wink] .border-color-b-4:before {
+  border-color: #BBBB99;
+}
+.color-set-emo-wink .border-color-a-4:after, [wg-color-set=color-set-emo-wink] .border-color-a-4:after {
+  border-color: #BBBB99;
+}
+.color-set-emo-wink .bg-color-4, [wg-color-set=color-set-emo-wink] .bg-color-4 {
+  background-color: #BBBB99;
+}
+.color-set-emo-wink .bg-color-b-4:before, [wg-color-set=color-set-emo-wink] .bg-color-b-4:before {
+  background-color: #BBBB99;
+}
+.color-set-emo-wink .bg-color-a-4:after, [wg-color-set=color-set-emo-wink] .bg-color-a-4:after {
+  background-color: #BBBB99;
+}
+.color-set-emo-wink .color-svg-4, [wg-color-set=color-set-emo-wink] .color-svg-4 {
+  fill: #BBBB99;
+  stroke: #BBBB99;
+}
+.color-set-emo-wink .color-5, [wg-color-set=color-set-emo-wink] .color-5 {
+  color: #DDDDFF;
+}
+.color-set-emo-wink .color-b-5:before, [wg-color-set=color-set-emo-wink] .color-b-5:before {
+  color: #DDDDFF;
+}
+.color-set-emo-wink .color-a-5:after, [wg-color-set=color-set-emo-wink] .color-a-5:after {
+  color: #DDDDFF;
+}
+.color-set-emo-wink .color-h-5:hover, [wg-color-set=color-set-emo-wink] .color-h-5:hover {
+  color: #DDDDFF;
+}
+.color-set-emo-wink .border-color-5, [wg-color-set=color-set-emo-wink] .border-color-5 {
+  border-color: #DDDDFF;
+}
+.color-set-emo-wink .border-color-b-5:before, [wg-color-set=color-set-emo-wink] .border-color-b-5:before {
+  border-color: #DDDDFF;
+}
+.color-set-emo-wink .border-color-a-5:after, [wg-color-set=color-set-emo-wink] .border-color-a-5:after {
+  border-color: #DDDDFF;
+}
+.color-set-emo-wink .bg-color-5, [wg-color-set=color-set-emo-wink] .bg-color-5 {
+  background-color: #DDDDFF;
+}
+.color-set-emo-wink .bg-color-b-5:before, [wg-color-set=color-set-emo-wink] .bg-color-b-5:before {
+  background-color: #DDDDFF;
+}
+.color-set-emo-wink .bg-color-a-5:after, [wg-color-set=color-set-emo-wink] .bg-color-a-5:after {
+  background-color: #DDDDFF;
+}
+.color-set-emo-wink .color-svg-5, [wg-color-set=color-set-emo-wink] .color-svg-5 {
+  fill: #DDDDFF;
+  stroke: #DDDDFF;
+}
+
 /** color set: emo-sunglasses **/
 .color-set-emo-sunglasses .color-1, [wg-color-set=color-set-emo-sunglasses] .color-1 {
   color: #BBBBBB;
@@ -792,6 +964,350 @@ a.link-unstyled:hover {
 .color-set-emo-sunglasses .color-svg-5, [wg-color-set=color-set-emo-sunglasses] .color-svg-5 {
   fill: #000000;
   stroke: #000000;
+}
+
+/** color set: emo-angry **/
+.color-set-emo-angry .color-1, [wg-color-set=color-set-emo-angry] .color-1 {
+  color: #68B2E8;
+}
+.color-set-emo-angry .color-b-1:before, [wg-color-set=color-set-emo-angry] .color-b-1:before {
+  color: #68B2E8;
+}
+.color-set-emo-angry .color-a-1:after, [wg-color-set=color-set-emo-angry] .color-a-1:after {
+  color: #68B2E8;
+}
+.color-set-emo-angry .color-h-1:hover, [wg-color-set=color-set-emo-angry] .color-h-1:hover {
+  color: #68B2E8;
+}
+.color-set-emo-angry .border-color-1, [wg-color-set=color-set-emo-angry] .border-color-1 {
+  border-color: #68B2E8;
+}
+.color-set-emo-angry .border-color-b-1:before, [wg-color-set=color-set-emo-angry] .border-color-b-1:before {
+  border-color: #68B2E8;
+}
+.color-set-emo-angry .border-color-a-1:after, [wg-color-set=color-set-emo-angry] .border-color-a-1:after {
+  border-color: #68B2E8;
+}
+.color-set-emo-angry .bg-color-1, [wg-color-set=color-set-emo-angry] .bg-color-1 {
+  background-color: #68B2E8;
+}
+.color-set-emo-angry .bg-color-b-1:before, [wg-color-set=color-set-emo-angry] .bg-color-b-1:before {
+  background-color: #68B2E8;
+}
+.color-set-emo-angry .bg-color-a-1:after, [wg-color-set=color-set-emo-angry] .bg-color-a-1:after {
+  background-color: #68B2E8;
+}
+.color-set-emo-angry .color-svg-1, [wg-color-set=color-set-emo-angry] .color-svg-1 {
+  fill: #68B2E8;
+  stroke: #68B2E8;
+}
+.color-set-emo-angry .color-2, [wg-color-set=color-set-emo-angry] .color-2 {
+  color: #3C729B;
+}
+.color-set-emo-angry .color-b-2:before, [wg-color-set=color-set-emo-angry] .color-b-2:before {
+  color: #3C729B;
+}
+.color-set-emo-angry .color-a-2:after, [wg-color-set=color-set-emo-angry] .color-a-2:after {
+  color: #3C729B;
+}
+.color-set-emo-angry .color-h-2:hover, [wg-color-set=color-set-emo-angry] .color-h-2:hover {
+  color: #3C729B;
+}
+.color-set-emo-angry .border-color-2, [wg-color-set=color-set-emo-angry] .border-color-2 {
+  border-color: #3C729B;
+}
+.color-set-emo-angry .border-color-b-2:before, [wg-color-set=color-set-emo-angry] .border-color-b-2:before {
+  border-color: #3C729B;
+}
+.color-set-emo-angry .border-color-a-2:after, [wg-color-set=color-set-emo-angry] .border-color-a-2:after {
+  border-color: #3C729B;
+}
+.color-set-emo-angry .bg-color-2, [wg-color-set=color-set-emo-angry] .bg-color-2 {
+  background-color: #3C729B;
+}
+.color-set-emo-angry .bg-color-b-2:before, [wg-color-set=color-set-emo-angry] .bg-color-b-2:before {
+  background-color: #3C729B;
+}
+.color-set-emo-angry .bg-color-a-2:after, [wg-color-set=color-set-emo-angry] .bg-color-a-2:after {
+  background-color: #3C729B;
+}
+.color-set-emo-angry .color-svg-2, [wg-color-set=color-set-emo-angry] .color-svg-2 {
+  fill: #3C729B;
+  stroke: #3C729B;
+}
+.color-set-emo-angry .color-3, [wg-color-set=color-set-emo-angry] .color-3 {
+  color: #CED9FF;
+}
+.color-set-emo-angry .color-b-3:before, [wg-color-set=color-set-emo-angry] .color-b-3:before {
+  color: #CED9FF;
+}
+.color-set-emo-angry .color-a-3:after, [wg-color-set=color-set-emo-angry] .color-a-3:after {
+  color: #CED9FF;
+}
+.color-set-emo-angry .color-h-3:hover, [wg-color-set=color-set-emo-angry] .color-h-3:hover {
+  color: #CED9FF;
+}
+.color-set-emo-angry .border-color-3, [wg-color-set=color-set-emo-angry] .border-color-3 {
+  border-color: #CED9FF;
+}
+.color-set-emo-angry .border-color-b-3:before, [wg-color-set=color-set-emo-angry] .border-color-b-3:before {
+  border-color: #CED9FF;
+}
+.color-set-emo-angry .border-color-a-3:after, [wg-color-set=color-set-emo-angry] .border-color-a-3:after {
+  border-color: #CED9FF;
+}
+.color-set-emo-angry .bg-color-3, [wg-color-set=color-set-emo-angry] .bg-color-3 {
+  background-color: #CED9FF;
+}
+.color-set-emo-angry .bg-color-b-3:before, [wg-color-set=color-set-emo-angry] .bg-color-b-3:before {
+  background-color: #CED9FF;
+}
+.color-set-emo-angry .bg-color-a-3:after, [wg-color-set=color-set-emo-angry] .bg-color-a-3:after {
+  background-color: #CED9FF;
+}
+.color-set-emo-angry .color-svg-3, [wg-color-set=color-set-emo-angry] .color-svg-3 {
+  fill: #CED9FF;
+  stroke: #CED9FF;
+}
+.color-set-emo-angry .color-4, [wg-color-set=color-set-emo-angry] .color-4 {
+  color: #F73639;
+}
+.color-set-emo-angry .color-b-4:before, [wg-color-set=color-set-emo-angry] .color-b-4:before {
+  color: #F73639;
+}
+.color-set-emo-angry .color-a-4:after, [wg-color-set=color-set-emo-angry] .color-a-4:after {
+  color: #F73639;
+}
+.color-set-emo-angry .color-h-4:hover, [wg-color-set=color-set-emo-angry] .color-h-4:hover {
+  color: #F73639;
+}
+.color-set-emo-angry .border-color-4, [wg-color-set=color-set-emo-angry] .border-color-4 {
+  border-color: #F73639;
+}
+.color-set-emo-angry .border-color-b-4:before, [wg-color-set=color-set-emo-angry] .border-color-b-4:before {
+  border-color: #F73639;
+}
+.color-set-emo-angry .border-color-a-4:after, [wg-color-set=color-set-emo-angry] .border-color-a-4:after {
+  border-color: #F73639;
+}
+.color-set-emo-angry .bg-color-4, [wg-color-set=color-set-emo-angry] .bg-color-4 {
+  background-color: #F73639;
+}
+.color-set-emo-angry .bg-color-b-4:before, [wg-color-set=color-set-emo-angry] .bg-color-b-4:before {
+  background-color: #F73639;
+}
+.color-set-emo-angry .bg-color-a-4:after, [wg-color-set=color-set-emo-angry] .bg-color-a-4:after {
+  background-color: #F73639;
+}
+.color-set-emo-angry .color-svg-4, [wg-color-set=color-set-emo-angry] .color-svg-4 {
+  fill: #F73639;
+  stroke: #F73639;
+}
+.color-set-emo-angry .color-5, [wg-color-set=color-set-emo-angry] .color-5 {
+  color: #E04156;
+}
+.color-set-emo-angry .color-b-5:before, [wg-color-set=color-set-emo-angry] .color-b-5:before {
+  color: #E04156;
+}
+.color-set-emo-angry .color-a-5:after, [wg-color-set=color-set-emo-angry] .color-a-5:after {
+  color: #E04156;
+}
+.color-set-emo-angry .color-h-5:hover, [wg-color-set=color-set-emo-angry] .color-h-5:hover {
+  color: #E04156;
+}
+.color-set-emo-angry .border-color-5, [wg-color-set=color-set-emo-angry] .border-color-5 {
+  border-color: #E04156;
+}
+.color-set-emo-angry .border-color-b-5:before, [wg-color-set=color-set-emo-angry] .border-color-b-5:before {
+  border-color: #E04156;
+}
+.color-set-emo-angry .border-color-a-5:after, [wg-color-set=color-set-emo-angry] .border-color-a-5:after {
+  border-color: #E04156;
+}
+.color-set-emo-angry .bg-color-5, [wg-color-set=color-set-emo-angry] .bg-color-5 {
+  background-color: #E04156;
+}
+.color-set-emo-angry .bg-color-b-5:before, [wg-color-set=color-set-emo-angry] .bg-color-b-5:before {
+  background-color: #E04156;
+}
+.color-set-emo-angry .bg-color-a-5:after, [wg-color-set=color-set-emo-angry] .bg-color-a-5:after {
+  background-color: #E04156;
+}
+.color-set-emo-angry .color-svg-5, [wg-color-set=color-set-emo-angry] .color-svg-5 {
+  fill: #E04156;
+  stroke: #E04156;
+}
+
+/** color set: emo-cry **/
+.color-set-emo-cry .color-1, [wg-color-set=color-set-emo-cry] .color-1 {
+  color: #425D60;
+}
+.color-set-emo-cry .color-b-1:before, [wg-color-set=color-set-emo-cry] .color-b-1:before {
+  color: #425D60;
+}
+.color-set-emo-cry .color-a-1:after, [wg-color-set=color-set-emo-cry] .color-a-1:after {
+  color: #425D60;
+}
+.color-set-emo-cry .color-h-1:hover, [wg-color-set=color-set-emo-cry] .color-h-1:hover {
+  color: #425D60;
+}
+.color-set-emo-cry .border-color-1, [wg-color-set=color-set-emo-cry] .border-color-1 {
+  border-color: #425D60;
+}
+.color-set-emo-cry .border-color-b-1:before, [wg-color-set=color-set-emo-cry] .border-color-b-1:before {
+  border-color: #425D60;
+}
+.color-set-emo-cry .border-color-a-1:after, [wg-color-set=color-set-emo-cry] .border-color-a-1:after {
+  border-color: #425D60;
+}
+.color-set-emo-cry .bg-color-1, [wg-color-set=color-set-emo-cry] .bg-color-1 {
+  background-color: #425D60;
+}
+.color-set-emo-cry .bg-color-b-1:before, [wg-color-set=color-set-emo-cry] .bg-color-b-1:before {
+  background-color: #425D60;
+}
+.color-set-emo-cry .bg-color-a-1:after, [wg-color-set=color-set-emo-cry] .bg-color-a-1:after {
+  background-color: #425D60;
+}
+.color-set-emo-cry .color-svg-1, [wg-color-set=color-set-emo-cry] .color-svg-1 {
+  fill: #425D60;
+  stroke: #425D60;
+}
+.color-set-emo-cry .color-2, [wg-color-set=color-set-emo-cry] .color-2 {
+  color: #4B696D;
+}
+.color-set-emo-cry .color-b-2:before, [wg-color-set=color-set-emo-cry] .color-b-2:before {
+  color: #4B696D;
+}
+.color-set-emo-cry .color-a-2:after, [wg-color-set=color-set-emo-cry] .color-a-2:after {
+  color: #4B696D;
+}
+.color-set-emo-cry .color-h-2:hover, [wg-color-set=color-set-emo-cry] .color-h-2:hover {
+  color: #4B696D;
+}
+.color-set-emo-cry .border-color-2, [wg-color-set=color-set-emo-cry] .border-color-2 {
+  border-color: #4B696D;
+}
+.color-set-emo-cry .border-color-b-2:before, [wg-color-set=color-set-emo-cry] .border-color-b-2:before {
+  border-color: #4B696D;
+}
+.color-set-emo-cry .border-color-a-2:after, [wg-color-set=color-set-emo-cry] .border-color-a-2:after {
+  border-color: #4B696D;
+}
+.color-set-emo-cry .bg-color-2, [wg-color-set=color-set-emo-cry] .bg-color-2 {
+  background-color: #4B696D;
+}
+.color-set-emo-cry .bg-color-b-2:before, [wg-color-set=color-set-emo-cry] .bg-color-b-2:before {
+  background-color: #4B696D;
+}
+.color-set-emo-cry .bg-color-a-2:after, [wg-color-set=color-set-emo-cry] .bg-color-a-2:after {
+  background-color: #4B696D;
+}
+.color-set-emo-cry .color-svg-2, [wg-color-set=color-set-emo-cry] .color-svg-2 {
+  fill: #4B696D;
+  stroke: #4B696D;
+}
+.color-set-emo-cry .color-3, [wg-color-set=color-set-emo-cry] .color-3 {
+  color: #111819;
+}
+.color-set-emo-cry .color-b-3:before, [wg-color-set=color-set-emo-cry] .color-b-3:before {
+  color: #111819;
+}
+.color-set-emo-cry .color-a-3:after, [wg-color-set=color-set-emo-cry] .color-a-3:after {
+  color: #111819;
+}
+.color-set-emo-cry .color-h-3:hover, [wg-color-set=color-set-emo-cry] .color-h-3:hover {
+  color: #111819;
+}
+.color-set-emo-cry .border-color-3, [wg-color-set=color-set-emo-cry] .border-color-3 {
+  border-color: #111819;
+}
+.color-set-emo-cry .border-color-b-3:before, [wg-color-set=color-set-emo-cry] .border-color-b-3:before {
+  border-color: #111819;
+}
+.color-set-emo-cry .border-color-a-3:after, [wg-color-set=color-set-emo-cry] .border-color-a-3:after {
+  border-color: #111819;
+}
+.color-set-emo-cry .bg-color-3, [wg-color-set=color-set-emo-cry] .bg-color-3 {
+  background-color: #111819;
+}
+.color-set-emo-cry .bg-color-b-3:before, [wg-color-set=color-set-emo-cry] .bg-color-b-3:before {
+  background-color: #111819;
+}
+.color-set-emo-cry .bg-color-a-3:after, [wg-color-set=color-set-emo-cry] .bg-color-a-3:after {
+  background-color: #111819;
+}
+.color-set-emo-cry .color-svg-3, [wg-color-set=color-set-emo-cry] .color-svg-3 {
+  fill: #111819;
+  stroke: #111819;
+}
+.color-set-emo-cry .color-4, [wg-color-set=color-set-emo-cry] .color-4 {
+  color: #354C4F;
+}
+.color-set-emo-cry .color-b-4:before, [wg-color-set=color-set-emo-cry] .color-b-4:before {
+  color: #354C4F;
+}
+.color-set-emo-cry .color-a-4:after, [wg-color-set=color-set-emo-cry] .color-a-4:after {
+  color: #354C4F;
+}
+.color-set-emo-cry .color-h-4:hover, [wg-color-set=color-set-emo-cry] .color-h-4:hover {
+  color: #354C4F;
+}
+.color-set-emo-cry .border-color-4, [wg-color-set=color-set-emo-cry] .border-color-4 {
+  border-color: #354C4F;
+}
+.color-set-emo-cry .border-color-b-4:before, [wg-color-set=color-set-emo-cry] .border-color-b-4:before {
+  border-color: #354C4F;
+}
+.color-set-emo-cry .border-color-a-4:after, [wg-color-set=color-set-emo-cry] .border-color-a-4:after {
+  border-color: #354C4F;
+}
+.color-set-emo-cry .bg-color-4, [wg-color-set=color-set-emo-cry] .bg-color-4 {
+  background-color: #354C4F;
+}
+.color-set-emo-cry .bg-color-b-4:before, [wg-color-set=color-set-emo-cry] .bg-color-b-4:before {
+  background-color: #354C4F;
+}
+.color-set-emo-cry .bg-color-a-4:after, [wg-color-set=color-set-emo-cry] .bg-color-a-4:after {
+  background-color: #354C4F;
+}
+.color-set-emo-cry .color-svg-4, [wg-color-set=color-set-emo-cry] .color-svg-4 {
+  fill: #354C4F;
+  stroke: #354C4F;
+}
+.color-set-emo-cry .color-5, [wg-color-set=color-set-emo-cry] .color-5 {
+  color: #5A7B7F;
+}
+.color-set-emo-cry .color-b-5:before, [wg-color-set=color-set-emo-cry] .color-b-5:before {
+  color: #5A7B7F;
+}
+.color-set-emo-cry .color-a-5:after, [wg-color-set=color-set-emo-cry] .color-a-5:after {
+  color: #5A7B7F;
+}
+.color-set-emo-cry .color-h-5:hover, [wg-color-set=color-set-emo-cry] .color-h-5:hover {
+  color: #5A7B7F;
+}
+.color-set-emo-cry .border-color-5, [wg-color-set=color-set-emo-cry] .border-color-5 {
+  border-color: #5A7B7F;
+}
+.color-set-emo-cry .border-color-b-5:before, [wg-color-set=color-set-emo-cry] .border-color-b-5:before {
+  border-color: #5A7B7F;
+}
+.color-set-emo-cry .border-color-a-5:after, [wg-color-set=color-set-emo-cry] .border-color-a-5:after {
+  border-color: #5A7B7F;
+}
+.color-set-emo-cry .bg-color-5, [wg-color-set=color-set-emo-cry] .bg-color-5 {
+  background-color: #5A7B7F;
+}
+.color-set-emo-cry .bg-color-b-5:before, [wg-color-set=color-set-emo-cry] .bg-color-b-5:before {
+  background-color: #5A7B7F;
+}
+.color-set-emo-cry .bg-color-a-5:after, [wg-color-set=color-set-emo-cry] .bg-color-a-5:after {
+  background-color: #5A7B7F;
+}
+.color-set-emo-cry .color-svg-5, [wg-color-set=color-set-emo-cry] .color-svg-5 {
+  fill: #5A7B7F;
+  stroke: #5A7B7F;
 }
 
 #home {
@@ -1739,7 +2255,7 @@ html.mobile-browser #techniques-html {
   top: 2px;
 }
 #hows-your-mood > div + div {
-  left: -100%;
+  left: -200%;
   opacity: 0;
   z-index: -999;
   -webkit-transform: rotate(-180deg);
