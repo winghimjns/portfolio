@@ -94,7 +94,7 @@
 		"techniques_js_title": "JS",
 		
 		"techniques_js_title_before": "$(\"#",
-		"techniques_js_title_after": "\").show();",
+		"techniques_js_title_after": "&quot;).show();",
 		
 		"techniques_js_content_before": "javaScript = (isTheFuture) => {",
 		"techniques_js_content_after": "}; // end javaScript()",

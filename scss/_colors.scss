@@ -14,7 +14,7 @@
 @mixin make-color-set($color-set, $name) {
 	
 	/** color set: #{$name} **/
-	.color-set-#{$name} {
+	.color-set-#{$name}, [wg-color-set=color-set-#{$name}] {
 		
 		@each $i, $color in $color-set {
 			
@@ -22,6 +22,9 @@
 			.color-b-#{$i}:before { color: $color; }
 			.color-a-#{$i}:after { color: $color; }
 			.color-h-#{$i}:hover { color: $color; }
+			.border-color-#{$i} { border-color: $color; }
+			.border-color-b-#{$i}:before { border-color: $color; }
+			.border-color-a-#{$i}:after { border-color: $color; }
 			.bg-color-#{$i} { background-color: $color; }
 			.bg-color-b-#{$i}:before { background-color: $color; }
 			.bg-color-a-#{$i}:after { background-color: $color; }
@@ -40,6 +43,9 @@
 		.color-b-#{$i}:before { color: $color; }
 		.color-a-#{$i}:after { color: $color; }
 		.color-h-#{$i}:hover { color: $color; }
+		.border-color-#{$i} { border-color: $color; }
+		.border-color-b-#{$i}:before { border-color: $color; }
+		.border-color-a-#{$i}:after { border-color: $color; }
 		.bg-color-#{$i} { background-color: $color; }
 		.bg-color-b-#{$i}:before { background-color: $color; }
 		.bg-color-a-#{$i}:after { background-color: $color; }
@@ -49,7 +55,7 @@
 }
 
 
-$color-set-1: (
+$color-set-normal: (
 	"1": $color-1, // #444444
 	"2": $color-2, // #EEEEEE
 	"3": $color-3, // #222222
@@ -57,6 +63,15 @@ $color-set-1: (
 	"5": $color-5  // #FFFFFF
 );
 
-@include make-default-color-set($color-set-1);
-@include make-color-set($color-set-1, "1");
+$color-set-emo-sunglasses: (
+	"1": #BBBBBB,
+	"2": #111111,
+	"3": #DDDDDD,
+	"4": #444444,
+	"5": #000000
+);
+
+@include make-default-color-set($color-set-normal);
+@include make-color-set($color-set-normal, "normal");
+@include make-color-set($color-set-emo-sunglasses, "emo-sunglasses");
 

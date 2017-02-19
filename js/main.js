@@ -78,7 +78,15 @@ $(document).ready(function() {
 		
 	});
 	
+	// register close display area
 	$("#techniques .techniques-display-area").on("click", ".techniques-display-area-close", closeDisplayArea);
+	
+	// mood
+	$("[wg-mood]").click(function() {
+		
+		$("html").attr("wg-color-set", "color-set-" + $(this).attr("wg-mood"));
+		
+	});
 	
 	// particle background
 	particlesJS.load('particles-js', './assets/particles.json', function() {

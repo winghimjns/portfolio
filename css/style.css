@@ -241,6 +241,18 @@ a.link-unstyled:hover {
   color: #444444;
 }
 
+.border-color-1 {
+  border-color: #444444;
+}
+
+.border-color-b-1:before {
+  border-color: #444444;
+}
+
+.border-color-a-1:after {
+  border-color: #444444;
+}
+
 .bg-color-1 {
   background-color: #444444;
 }
@@ -272,6 +284,18 @@ a.link-unstyled:hover {
 
 .color-h-2:hover {
   color: #EEEEEE;
+}
+
+.border-color-2 {
+  border-color: #EEEEEE;
+}
+
+.border-color-b-2:before {
+  border-color: #EEEEEE;
+}
+
+.border-color-a-2:after {
+  border-color: #EEEEEE;
 }
 
 .bg-color-2 {
@@ -307,6 +331,18 @@ a.link-unstyled:hover {
   color: #222222;
 }
 
+.border-color-3 {
+  border-color: #222222;
+}
+
+.border-color-b-3:before {
+  border-color: #222222;
+}
+
+.border-color-a-3:after {
+  border-color: #222222;
+}
+
 .bg-color-3 {
   background-color: #222222;
 }
@@ -338,6 +374,18 @@ a.link-unstyled:hover {
 
 .color-h-4:hover {
   color: #BBBBBB;
+}
+
+.border-color-4 {
+  border-color: #BBBBBB;
+}
+
+.border-color-b-4:before {
+  border-color: #BBBBBB;
+}
+
+.border-color-a-4:after {
+  border-color: #BBBBBB;
 }
 
 .bg-color-4 {
@@ -373,6 +421,18 @@ a.link-unstyled:hover {
   color: #FFFFFF;
 }
 
+.border-color-5 {
+  border-color: #FFFFFF;
+}
+
+.border-color-b-5:before {
+  border-color: #FFFFFF;
+}
+
+.border-color-a-5:after {
+  border-color: #FFFFFF;
+}
+
 .bg-color-5 {
   background-color: #FFFFFF;
 }
@@ -390,131 +450,348 @@ a.link-unstyled:hover {
   stroke: #FFFFFF;
 }
 
-/** color set: 1 **/
-.color-set-1 .color-1 {
+/** color set: normal **/
+.color-set-normal .color-1, [wg-color-set=color-set-normal] .color-1 {
   color: #444444;
 }
-.color-set-1 .color-b-1:before {
+.color-set-normal .color-b-1:before, [wg-color-set=color-set-normal] .color-b-1:before {
   color: #444444;
 }
-.color-set-1 .color-a-1:after {
+.color-set-normal .color-a-1:after, [wg-color-set=color-set-normal] .color-a-1:after {
   color: #444444;
 }
-.color-set-1 .color-h-1:hover {
+.color-set-normal .color-h-1:hover, [wg-color-set=color-set-normal] .color-h-1:hover {
   color: #444444;
 }
-.color-set-1 .bg-color-1 {
+.color-set-normal .border-color-1, [wg-color-set=color-set-normal] .border-color-1 {
+  border-color: #444444;
+}
+.color-set-normal .border-color-b-1:before, [wg-color-set=color-set-normal] .border-color-b-1:before {
+  border-color: #444444;
+}
+.color-set-normal .border-color-a-1:after, [wg-color-set=color-set-normal] .border-color-a-1:after {
+  border-color: #444444;
+}
+.color-set-normal .bg-color-1, [wg-color-set=color-set-normal] .bg-color-1 {
   background-color: #444444;
 }
-.color-set-1 .bg-color-b-1:before {
+.color-set-normal .bg-color-b-1:before, [wg-color-set=color-set-normal] .bg-color-b-1:before {
   background-color: #444444;
 }
-.color-set-1 .bg-color-a-1:after {
+.color-set-normal .bg-color-a-1:after, [wg-color-set=color-set-normal] .bg-color-a-1:after {
   background-color: #444444;
 }
-.color-set-1 .color-svg-1 {
+.color-set-normal .color-svg-1, [wg-color-set=color-set-normal] .color-svg-1 {
   fill: #444444;
   stroke: #444444;
 }
-.color-set-1 .color-2 {
+.color-set-normal .color-2, [wg-color-set=color-set-normal] .color-2 {
   color: #EEEEEE;
 }
-.color-set-1 .color-b-2:before {
+.color-set-normal .color-b-2:before, [wg-color-set=color-set-normal] .color-b-2:before {
   color: #EEEEEE;
 }
-.color-set-1 .color-a-2:after {
+.color-set-normal .color-a-2:after, [wg-color-set=color-set-normal] .color-a-2:after {
   color: #EEEEEE;
 }
-.color-set-1 .color-h-2:hover {
+.color-set-normal .color-h-2:hover, [wg-color-set=color-set-normal] .color-h-2:hover {
   color: #EEEEEE;
 }
-.color-set-1 .bg-color-2 {
+.color-set-normal .border-color-2, [wg-color-set=color-set-normal] .border-color-2 {
+  border-color: #EEEEEE;
+}
+.color-set-normal .border-color-b-2:before, [wg-color-set=color-set-normal] .border-color-b-2:before {
+  border-color: #EEEEEE;
+}
+.color-set-normal .border-color-a-2:after, [wg-color-set=color-set-normal] .border-color-a-2:after {
+  border-color: #EEEEEE;
+}
+.color-set-normal .bg-color-2, [wg-color-set=color-set-normal] .bg-color-2 {
   background-color: #EEEEEE;
 }
-.color-set-1 .bg-color-b-2:before {
+.color-set-normal .bg-color-b-2:before, [wg-color-set=color-set-normal] .bg-color-b-2:before {
   background-color: #EEEEEE;
 }
-.color-set-1 .bg-color-a-2:after {
+.color-set-normal .bg-color-a-2:after, [wg-color-set=color-set-normal] .bg-color-a-2:after {
   background-color: #EEEEEE;
 }
-.color-set-1 .color-svg-2 {
+.color-set-normal .color-svg-2, [wg-color-set=color-set-normal] .color-svg-2 {
   fill: #EEEEEE;
   stroke: #EEEEEE;
 }
-.color-set-1 .color-3 {
+.color-set-normal .color-3, [wg-color-set=color-set-normal] .color-3 {
   color: #222222;
 }
-.color-set-1 .color-b-3:before {
+.color-set-normal .color-b-3:before, [wg-color-set=color-set-normal] .color-b-3:before {
   color: #222222;
 }
-.color-set-1 .color-a-3:after {
+.color-set-normal .color-a-3:after, [wg-color-set=color-set-normal] .color-a-3:after {
   color: #222222;
 }
-.color-set-1 .color-h-3:hover {
+.color-set-normal .color-h-3:hover, [wg-color-set=color-set-normal] .color-h-3:hover {
   color: #222222;
 }
-.color-set-1 .bg-color-3 {
+.color-set-normal .border-color-3, [wg-color-set=color-set-normal] .border-color-3 {
+  border-color: #222222;
+}
+.color-set-normal .border-color-b-3:before, [wg-color-set=color-set-normal] .border-color-b-3:before {
+  border-color: #222222;
+}
+.color-set-normal .border-color-a-3:after, [wg-color-set=color-set-normal] .border-color-a-3:after {
+  border-color: #222222;
+}
+.color-set-normal .bg-color-3, [wg-color-set=color-set-normal] .bg-color-3 {
   background-color: #222222;
 }
-.color-set-1 .bg-color-b-3:before {
+.color-set-normal .bg-color-b-3:before, [wg-color-set=color-set-normal] .bg-color-b-3:before {
   background-color: #222222;
 }
-.color-set-1 .bg-color-a-3:after {
+.color-set-normal .bg-color-a-3:after, [wg-color-set=color-set-normal] .bg-color-a-3:after {
   background-color: #222222;
 }
-.color-set-1 .color-svg-3 {
+.color-set-normal .color-svg-3, [wg-color-set=color-set-normal] .color-svg-3 {
   fill: #222222;
   stroke: #222222;
 }
-.color-set-1 .color-4 {
+.color-set-normal .color-4, [wg-color-set=color-set-normal] .color-4 {
   color: #BBBBBB;
 }
-.color-set-1 .color-b-4:before {
+.color-set-normal .color-b-4:before, [wg-color-set=color-set-normal] .color-b-4:before {
   color: #BBBBBB;
 }
-.color-set-1 .color-a-4:after {
+.color-set-normal .color-a-4:after, [wg-color-set=color-set-normal] .color-a-4:after {
   color: #BBBBBB;
 }
-.color-set-1 .color-h-4:hover {
+.color-set-normal .color-h-4:hover, [wg-color-set=color-set-normal] .color-h-4:hover {
   color: #BBBBBB;
 }
-.color-set-1 .bg-color-4 {
+.color-set-normal .border-color-4, [wg-color-set=color-set-normal] .border-color-4 {
+  border-color: #BBBBBB;
+}
+.color-set-normal .border-color-b-4:before, [wg-color-set=color-set-normal] .border-color-b-4:before {
+  border-color: #BBBBBB;
+}
+.color-set-normal .border-color-a-4:after, [wg-color-set=color-set-normal] .border-color-a-4:after {
+  border-color: #BBBBBB;
+}
+.color-set-normal .bg-color-4, [wg-color-set=color-set-normal] .bg-color-4 {
   background-color: #BBBBBB;
 }
-.color-set-1 .bg-color-b-4:before {
+.color-set-normal .bg-color-b-4:before, [wg-color-set=color-set-normal] .bg-color-b-4:before {
   background-color: #BBBBBB;
 }
-.color-set-1 .bg-color-a-4:after {
+.color-set-normal .bg-color-a-4:after, [wg-color-set=color-set-normal] .bg-color-a-4:after {
   background-color: #BBBBBB;
 }
-.color-set-1 .color-svg-4 {
+.color-set-normal .color-svg-4, [wg-color-set=color-set-normal] .color-svg-4 {
   fill: #BBBBBB;
   stroke: #BBBBBB;
 }
-.color-set-1 .color-5 {
+.color-set-normal .color-5, [wg-color-set=color-set-normal] .color-5 {
   color: #FFFFFF;
 }
-.color-set-1 .color-b-5:before {
+.color-set-normal .color-b-5:before, [wg-color-set=color-set-normal] .color-b-5:before {
   color: #FFFFFF;
 }
-.color-set-1 .color-a-5:after {
+.color-set-normal .color-a-5:after, [wg-color-set=color-set-normal] .color-a-5:after {
   color: #FFFFFF;
 }
-.color-set-1 .color-h-5:hover {
+.color-set-normal .color-h-5:hover, [wg-color-set=color-set-normal] .color-h-5:hover {
   color: #FFFFFF;
 }
-.color-set-1 .bg-color-5 {
+.color-set-normal .border-color-5, [wg-color-set=color-set-normal] .border-color-5 {
+  border-color: #FFFFFF;
+}
+.color-set-normal .border-color-b-5:before, [wg-color-set=color-set-normal] .border-color-b-5:before {
+  border-color: #FFFFFF;
+}
+.color-set-normal .border-color-a-5:after, [wg-color-set=color-set-normal] .border-color-a-5:after {
+  border-color: #FFFFFF;
+}
+.color-set-normal .bg-color-5, [wg-color-set=color-set-normal] .bg-color-5 {
   background-color: #FFFFFF;
 }
-.color-set-1 .bg-color-b-5:before {
+.color-set-normal .bg-color-b-5:before, [wg-color-set=color-set-normal] .bg-color-b-5:before {
   background-color: #FFFFFF;
 }
-.color-set-1 .bg-color-a-5:after {
+.color-set-normal .bg-color-a-5:after, [wg-color-set=color-set-normal] .bg-color-a-5:after {
   background-color: #FFFFFF;
 }
-.color-set-1 .color-svg-5 {
+.color-set-normal .color-svg-5, [wg-color-set=color-set-normal] .color-svg-5 {
   fill: #FFFFFF;
   stroke: #FFFFFF;
+}
+
+/** color set: emo-sunglasses **/
+.color-set-emo-sunglasses .color-1, [wg-color-set=color-set-emo-sunglasses] .color-1 {
+  color: #BBBBBB;
+}
+.color-set-emo-sunglasses .color-b-1:before, [wg-color-set=color-set-emo-sunglasses] .color-b-1:before {
+  color: #BBBBBB;
+}
+.color-set-emo-sunglasses .color-a-1:after, [wg-color-set=color-set-emo-sunglasses] .color-a-1:after {
+  color: #BBBBBB;
+}
+.color-set-emo-sunglasses .color-h-1:hover, [wg-color-set=color-set-emo-sunglasses] .color-h-1:hover {
+  color: #BBBBBB;
+}
+.color-set-emo-sunglasses .border-color-1, [wg-color-set=color-set-emo-sunglasses] .border-color-1 {
+  border-color: #BBBBBB;
+}
+.color-set-emo-sunglasses .border-color-b-1:before, [wg-color-set=color-set-emo-sunglasses] .border-color-b-1:before {
+  border-color: #BBBBBB;
+}
+.color-set-emo-sunglasses .border-color-a-1:after, [wg-color-set=color-set-emo-sunglasses] .border-color-a-1:after {
+  border-color: #BBBBBB;
+}
+.color-set-emo-sunglasses .bg-color-1, [wg-color-set=color-set-emo-sunglasses] .bg-color-1 {
+  background-color: #BBBBBB;
+}
+.color-set-emo-sunglasses .bg-color-b-1:before, [wg-color-set=color-set-emo-sunglasses] .bg-color-b-1:before {
+  background-color: #BBBBBB;
+}
+.color-set-emo-sunglasses .bg-color-a-1:after, [wg-color-set=color-set-emo-sunglasses] .bg-color-a-1:after {
+  background-color: #BBBBBB;
+}
+.color-set-emo-sunglasses .color-svg-1, [wg-color-set=color-set-emo-sunglasses] .color-svg-1 {
+  fill: #BBBBBB;
+  stroke: #BBBBBB;
+}
+.color-set-emo-sunglasses .color-2, [wg-color-set=color-set-emo-sunglasses] .color-2 {
+  color: #111111;
+}
+.color-set-emo-sunglasses .color-b-2:before, [wg-color-set=color-set-emo-sunglasses] .color-b-2:before {
+  color: #111111;
+}
+.color-set-emo-sunglasses .color-a-2:after, [wg-color-set=color-set-emo-sunglasses] .color-a-2:after {
+  color: #111111;
+}
+.color-set-emo-sunglasses .color-h-2:hover, [wg-color-set=color-set-emo-sunglasses] .color-h-2:hover {
+  color: #111111;
+}
+.color-set-emo-sunglasses .border-color-2, [wg-color-set=color-set-emo-sunglasses] .border-color-2 {
+  border-color: #111111;
+}
+.color-set-emo-sunglasses .border-color-b-2:before, [wg-color-set=color-set-emo-sunglasses] .border-color-b-2:before {
+  border-color: #111111;
+}
+.color-set-emo-sunglasses .border-color-a-2:after, [wg-color-set=color-set-emo-sunglasses] .border-color-a-2:after {
+  border-color: #111111;
+}
+.color-set-emo-sunglasses .bg-color-2, [wg-color-set=color-set-emo-sunglasses] .bg-color-2 {
+  background-color: #111111;
+}
+.color-set-emo-sunglasses .bg-color-b-2:before, [wg-color-set=color-set-emo-sunglasses] .bg-color-b-2:before {
+  background-color: #111111;
+}
+.color-set-emo-sunglasses .bg-color-a-2:after, [wg-color-set=color-set-emo-sunglasses] .bg-color-a-2:after {
+  background-color: #111111;
+}
+.color-set-emo-sunglasses .color-svg-2, [wg-color-set=color-set-emo-sunglasses] .color-svg-2 {
+  fill: #111111;
+  stroke: #111111;
+}
+.color-set-emo-sunglasses .color-3, [wg-color-set=color-set-emo-sunglasses] .color-3 {
+  color: #DDDDDD;
+}
+.color-set-emo-sunglasses .color-b-3:before, [wg-color-set=color-set-emo-sunglasses] .color-b-3:before {
+  color: #DDDDDD;
+}
+.color-set-emo-sunglasses .color-a-3:after, [wg-color-set=color-set-emo-sunglasses] .color-a-3:after {
+  color: #DDDDDD;
+}
+.color-set-emo-sunglasses .color-h-3:hover, [wg-color-set=color-set-emo-sunglasses] .color-h-3:hover {
+  color: #DDDDDD;
+}
+.color-set-emo-sunglasses .border-color-3, [wg-color-set=color-set-emo-sunglasses] .border-color-3 {
+  border-color: #DDDDDD;
+}
+.color-set-emo-sunglasses .border-color-b-3:before, [wg-color-set=color-set-emo-sunglasses] .border-color-b-3:before {
+  border-color: #DDDDDD;
+}
+.color-set-emo-sunglasses .border-color-a-3:after, [wg-color-set=color-set-emo-sunglasses] .border-color-a-3:after {
+  border-color: #DDDDDD;
+}
+.color-set-emo-sunglasses .bg-color-3, [wg-color-set=color-set-emo-sunglasses] .bg-color-3 {
+  background-color: #DDDDDD;
+}
+.color-set-emo-sunglasses .bg-color-b-3:before, [wg-color-set=color-set-emo-sunglasses] .bg-color-b-3:before {
+  background-color: #DDDDDD;
+}
+.color-set-emo-sunglasses .bg-color-a-3:after, [wg-color-set=color-set-emo-sunglasses] .bg-color-a-3:after {
+  background-color: #DDDDDD;
+}
+.color-set-emo-sunglasses .color-svg-3, [wg-color-set=color-set-emo-sunglasses] .color-svg-3 {
+  fill: #DDDDDD;
+  stroke: #DDDDDD;
+}
+.color-set-emo-sunglasses .color-4, [wg-color-set=color-set-emo-sunglasses] .color-4 {
+  color: #444444;
+}
+.color-set-emo-sunglasses .color-b-4:before, [wg-color-set=color-set-emo-sunglasses] .color-b-4:before {
+  color: #444444;
+}
+.color-set-emo-sunglasses .color-a-4:after, [wg-color-set=color-set-emo-sunglasses] .color-a-4:after {
+  color: #444444;
+}
+.color-set-emo-sunglasses .color-h-4:hover, [wg-color-set=color-set-emo-sunglasses] .color-h-4:hover {
+  color: #444444;
+}
+.color-set-emo-sunglasses .border-color-4, [wg-color-set=color-set-emo-sunglasses] .border-color-4 {
+  border-color: #444444;
+}
+.color-set-emo-sunglasses .border-color-b-4:before, [wg-color-set=color-set-emo-sunglasses] .border-color-b-4:before {
+  border-color: #444444;
+}
+.color-set-emo-sunglasses .border-color-a-4:after, [wg-color-set=color-set-emo-sunglasses] .border-color-a-4:after {
+  border-color: #444444;
+}
+.color-set-emo-sunglasses .bg-color-4, [wg-color-set=color-set-emo-sunglasses] .bg-color-4 {
+  background-color: #444444;
+}
+.color-set-emo-sunglasses .bg-color-b-4:before, [wg-color-set=color-set-emo-sunglasses] .bg-color-b-4:before {
+  background-color: #444444;
+}
+.color-set-emo-sunglasses .bg-color-a-4:after, [wg-color-set=color-set-emo-sunglasses] .bg-color-a-4:after {
+  background-color: #444444;
+}
+.color-set-emo-sunglasses .color-svg-4, [wg-color-set=color-set-emo-sunglasses] .color-svg-4 {
+  fill: #444444;
+  stroke: #444444;
+}
+.color-set-emo-sunglasses .color-5, [wg-color-set=color-set-emo-sunglasses] .color-5 {
+  color: #000000;
+}
+.color-set-emo-sunglasses .color-b-5:before, [wg-color-set=color-set-emo-sunglasses] .color-b-5:before {
+  color: #000000;
+}
+.color-set-emo-sunglasses .color-a-5:after, [wg-color-set=color-set-emo-sunglasses] .color-a-5:after {
+  color: #000000;
+}
+.color-set-emo-sunglasses .color-h-5:hover, [wg-color-set=color-set-emo-sunglasses] .color-h-5:hover {
+  color: #000000;
+}
+.color-set-emo-sunglasses .border-color-5, [wg-color-set=color-set-emo-sunglasses] .border-color-5 {
+  border-color: #000000;
+}
+.color-set-emo-sunglasses .border-color-b-5:before, [wg-color-set=color-set-emo-sunglasses] .border-color-b-5:before {
+  border-color: #000000;
+}
+.color-set-emo-sunglasses .border-color-a-5:after, [wg-color-set=color-set-emo-sunglasses] .border-color-a-5:after {
+  border-color: #000000;
+}
+.color-set-emo-sunglasses .bg-color-5, [wg-color-set=color-set-emo-sunglasses] .bg-color-5 {
+  background-color: #000000;
+}
+.color-set-emo-sunglasses .bg-color-b-5:before, [wg-color-set=color-set-emo-sunglasses] .bg-color-b-5:before {
+  background-color: #000000;
+}
+.color-set-emo-sunglasses .bg-color-a-5:after, [wg-color-set=color-set-emo-sunglasses] .bg-color-a-5:after {
+  background-color: #000000;
+}
+.color-set-emo-sunglasses .color-svg-5, [wg-color-set=color-set-emo-sunglasses] .color-svg-5 {
+  fill: #000000;
+  stroke: #000000;
 }
 
 #home {
@@ -1436,19 +1713,80 @@ html.mobile-browser #techniques-html {
 }
 #hows-your-mood {
   position: fixed;
-  left: 3px;
-  bottom: 2rem;
+  left: .5rem;
+  top: .5rem;
+  height: 0;
+  z-index: 1;
 }
 #hows-your-mood > div {
+  position: relative;
   width: 3rem;
   height: 3rem;
-  border: 2px solid #000;
+  left: 0;
+  margin-bottom: .33rem;
+  border-width: 2px;
+  border-style: solid;
   border-radius: 1.5rem;
-  background-color: red;
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: left 0.5s 2s, opacity 0.5s 2s, -webkit-transform 0.5s 2s, -moz-transform 0.5s 2s, -o-transform 0.5s 2s, transform 0.5s 2s;
+  -moz-transition: left 0.5s 2s, opacity 0.5s 2s, -webkit-transform 0.5s 2s, -moz-transform 0.5s 2s, -o-transform 0.5s 2s, transform 0.5s 2s;
+  -o-transition: left 0.5s 2s, opacity 0.5s 2s, -webkit-transform 0.5s 2s, -moz-transform 0.5s 2s, -o-transform 0.5s 2s, transform 0.5s 2s;
+  transition: left 0.5s 2s, opacity 0.5s 2s, -webkit-transform 0.5s 2s, -moz-transform 0.5s 2s, -o-transform 0.5s 2s, transform 0.5s 2s;
 }
 #hows-your-mood > div i {
   position: relative;
   top: 2px;
+}
+#hows-your-mood > div + div {
+  left: -100%;
+  opacity: 0;
+  z-index: -999;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+#hows-your-mood > div:before, #hows-your-mood > div:after {
+  position: absolute;
+  display: none;
+}
+#hows-your-mood > div:hover:before, #hows-your-mood > div:hover:after {
+  display: block;
+}
+#hows-your-mood > div:after {
+  font-family: monospace;
+  white-space: nowrap;
+  padding: .25rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  left: 3.7rem;
+  top: .3rem;
+}
+#hows-your-mood > div:before {
+  content: '';
+  width: .5rem;
+  height: .5rem;
+  top: 1.1rem;
+  z-index: 1;
+  left: 3.4rem;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#hows-your-mood:hover > div {
+  left: 0;
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: left 0.5s 0s, opacity 0.5s 0s, -webkit-transform 0.5s 0s, -moz-transform 0.5s 0s, -o-transform 0.5s 0s, transform 0.5s 0s;
+  -moz-transition: left 0.5s 0s, opacity 0.5s 0s, -webkit-transform 0.5s 0s, -moz-transform 0.5s 0s, -o-transform 0.5s 0s, transform 0.5s 0s;
+  -o-transition: left 0.5s 0s, opacity 0.5s 0s, -webkit-transform 0.5s 0s, -moz-transform 0.5s 0s, -o-transform 0.5s 0s, transform 0.5s 0s;
+  transition: left 0.5s 0s, opacity 0.5s 0s, -webkit-transform 0.5s 0s, -moz-transform 0.5s 0s, -o-transform 0.5s 0s, transform 0.5s 0s;
 }
 
 /*# sourceMappingURL=style.css.map */
