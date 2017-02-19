@@ -173,7 +173,7 @@ $moods = $constants["moods"];
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-3 col-sm-offset-1 col-lg-offset-1 hidden-xs">
+						<div class="col-sm-3 col-sm-offset-1 col-lg-offset-2 col-lg-2 hidden-xs">
 							<div id="programmer-svg-wrap" ee class="color-svg-3">
 								<div id="programmer-svg">
 									<svg viewBox="0 0 207.60913 226.90083" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +229,7 @@ $moods = $constants["moods"];
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-7 col-md-7 col-lg-7 text-justify">
+						<div class="col-sm-7 col-md-7 col-lg-6 text-justify">
 							<p wg-text="about_paragraph_1"><?php text("about_paragraph_1"); ?></p>
 							<p wg-text="about_paragraph_2"><?php text("about_paragraph_2"); ?></p>
 							<p wg-text="about_paragraph_3"><?php text("about_paragraph_3"); ?></p>
