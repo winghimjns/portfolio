@@ -119,6 +119,7 @@ $moods = $constants["moods"];
 		<!-- hows your mood -->
 		<div id="hows-your-mood" class="color-3">
 <?php
+		if(!1) {
 		foreach($moods as $key => $mood) {
 ?>
 			<div class="border-color-3 bg-color-5 bg-color-b-1 bg-color-a-1 color-a-5" wg-text-after-content="<?php echo($mood); ?>" wg-mood="<?php echo($key); ?>"><div class="middle-wrap"><div class="middle text-center">
@@ -126,6 +127,7 @@ $moods = $constants["moods"];
 			</div></div></div>
 <?php
 		} // end foreach
+		} // end if
 ?>
 		</div>
 		
