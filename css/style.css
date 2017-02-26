@@ -171,7 +171,7 @@ a.link-unstyled:hover {
   position: fixed;
   font-size: 1rem;
   left: 0;
-  bottom: -1.4rem;
+  bottom: -2rem;
   width: 100%;
   z-index: 8888;
   padding: .2rem 0;
@@ -214,6 +214,19 @@ a.link-unstyled:hover {
 }
 #cookie_statement {
   padding: 1rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .7;
+  z-index: 8;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+}
+#cookie_statement:hover {
+  opacity: 1;
 }
 
 [wg-text-before-content]:before {
