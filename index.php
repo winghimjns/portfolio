@@ -7,9 +7,9 @@ $debug = isset($_GET["debug"]);
 
 $script_dir = str_replace([realpath($_SERVER["DOCUMENT_ROOT"]), "\\"], ["","/"],realpath(__DIR__));
 $base = "//{$_SERVER["SERVER_NAME"]}{$script_dir}/";
-$_POST['test'] = time();
-$texts = json_decode(file_get_contents(__DIR__."/assets/text/text-en.json"), true);
-$text_json = json_encode(json_encode($texts));
+$time = time();
+$_POST["texts"] = json_decode(file_get_contents(__DIR__."/assets/text/text-en.json"), true);
+$text_json = json_encode(json_encode($_POST["texts"]));
 
 if($debug) {
 	header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
@@ -23,8 +23,8 @@ if($debug) {
 // ================================================================================
 
 function decache_param() {
-	global $debug, $_POST['test'];
-	echo($debug ? "?_=".$_POST['test'] : "?v=".VERSION);
+	global $debug, $time;
+	echo($debug ? "?_=".$time : "?v=".VERSION);
 } // end decache_param()
 
 function v() {
@@ -32,8 +32,7 @@ function v() {
 } // end v()
 
 function text($name) {
-	global $texts;
-	echo(@$texts["texts"][$name]);
+	echo(@$_POST["texts"]["texts"][$name]);
 } // end text($)
 
 // ================================================================================
