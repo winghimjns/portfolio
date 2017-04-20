@@ -7,7 +7,7 @@ $debug = isset($_GET["debug"]);
 
 $script_dir = str_replace([realpath($_SERVER["DOCUMENT_ROOT"]), "\\"], ["","/"],realpath(__DIR__));
 $base = "//{$_SERVER["SERVER_NAME"]}{$script_dir}/";
-$time = time();
+$_POST['test'] = time();
 $texts = json_decode(file_get_contents(__DIR__."/assets/text/text-en.json"), true);
 $text_json = json_encode(json_encode($texts));
 
@@ -23,8 +23,8 @@ if($debug) {
 // ================================================================================
 
 function decache_param() {
-	global $debug, $time;
-	echo($debug ? "?_=".$time : "?v=".VERSION);
+	global $debug, $_POST['test'];
+	echo($debug ? "?_=".$_POST['test'] : "?v=".VERSION);
 } // end decache_param()
 
 function v() {
